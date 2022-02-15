@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerName : MonoBehaviour
 {
     //Text looks like "localVariable.fieldName"
-    public string playerName = "Timemore";
+    public static string playerName = "Timemore";
     
+    void FixedUpdate(){
+        playerName = PlayerPrefs.GetString("Player Name");
+    }
 }
