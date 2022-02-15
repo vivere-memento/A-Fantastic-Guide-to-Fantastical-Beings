@@ -20,7 +20,7 @@ MonoBehaviour:
     - id: 0
   m_TableData:
   - m_Id: 64454205440
-    m_Localized: 'Konnichiwa '
+    m_Localized: Konnichiwa  {name.playerName}
     m_Metadata:
       m_Items:
       - id: 0
