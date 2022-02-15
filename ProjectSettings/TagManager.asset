@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Map
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
   - name: Midground
     uniqueID: 636092161
     locked: 0
-  - name: Foreground
+  - name: Button
     uniqueID: 4261859347
+    locked: 0
+  - name: Foreground
+    uniqueID: 4094192699
     locked: 0
