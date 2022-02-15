@@ -12,11 +12,12 @@ public class CollectionBookScript : MonoBehaviour
     {
         GameObject.Find("CollectionBookButton").GetComponent<Button>().onClick.AddListener(OnCollectionBookClose);
         // Collection book initial state
-        collectionBookOpen = true;
+        collectionBookOpen = false;
         collectionBook.SetActive(collectionBookOpen);
     }
     void OnCollectionBookClose()
     {
+        // change into opposite value
         collectionBookOpen ^= true;
         collectionBook.SetActive(collectionBookOpen);
     }
