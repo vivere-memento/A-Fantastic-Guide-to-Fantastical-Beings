@@ -47,6 +47,7 @@ public class AudioManager : MonoBehaviour {
 			masterVolumePercent = PlayerPrefs.GetFloat ("master vol", masterVolumePercent);
 			sfxVolumePercent = PlayerPrefs.GetFloat ("sfx vol", sfxVolumePercent);
 			musicVolumePercent = PlayerPrefs.GetFloat ("music vol", musicVolumePercent);
+			Debug.Log("Audio Manager started");
 		}
 	}
 

@@ -31,26 +31,26 @@ public class QuestManager : MonoBehaviour
     }
     public void NextText(){
         textMarker++;
-        Debug.Log("Marker is at " + textMarker.ToString()+ " Adding 1");
+        //Debug.Log("Marker is at " + textMarker.ToString()+ " Adding 1");
         CheckOutOfRange();
-        Debug.Log("Marker is at " + textMarker.ToString());
+        //Debug.Log("Marker is at " + textMarker.ToString());
         updateText();
     }
     
     public void PrevText(){
         textMarker--;
-        Debug.Log("Marker is at " + textMarker.ToString()+ " Reducing 1");
+        //Debug.Log("Marker is at " + textMarker.ToString()+ " Reducing 1");
         CheckOutOfRange();
-        Debug.Log("Marker is at"  + textMarker.ToString());
+        //Debug.Log("Marker is at"  + textMarker.ToString());
         updateText();
     }
     private void CheckOutOfRange(){
         if(textMarker> (currentQuest.questText.Count-1)){
-            Debug.Log("Max Marker is at "+currentQuest.questText.Count.ToString());
+            //Debug.Log("Max Marker is at "+currentQuest.questText.Count.ToString());
             textMarker = 0;
         }
         if(textMarker <0){
-            Debug.Log("Max Marker is at "+ currentQuest.questText.Count.ToString());
+            //Debug.Log("Max Marker is at "+ currentQuest.questText.Count.ToString());
             textMarker = currentQuest.questText.Count - 1;
         }
     }
@@ -60,7 +60,8 @@ public class QuestManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SetCurrentQuest(questMarker);
+        PlayManager.Instance.UpdateCurrentQuests();
+        SetCurrentQuest(PlayManager.Instance.GetCurrentQuest());
         updateText();
     }
 
