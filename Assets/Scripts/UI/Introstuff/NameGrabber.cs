@@ -15,14 +15,14 @@ public class NameGrabber : MonoBehaviour
 
     string GetPlayerName(){
         playerName = gameObject.GetComponentInChildren<TMPro.TMP_InputField>().text;
-        Debug.Log(playerName);
+        Debug.Log(playerName.ToString());
         return playerName;
     }
 
     public void UpdatePlayerName(){
         GetPlayerName();
         PlayerPrefs.SetString("Player Name", playerName);
-        Debug.Log(playerName + " Saved to Disk!");
+        Debug.Log(playerName.ToString() + " Saved to Disk!");
     }
     // Update is called once per frame
     void Update()
