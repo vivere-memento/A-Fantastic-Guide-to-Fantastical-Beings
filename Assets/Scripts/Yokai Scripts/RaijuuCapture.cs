@@ -13,7 +13,7 @@ public class RaijuuCapture : MonoBehaviour
         }
     }
     private void OnMouseUp(){
-        Destroy(gameObject.GetComponentInParent<GameObject>());
+        this.gameObject.GetComponentInParent<GameObject>().SetActive(false);
     }
     // Start is called before the first frame update
     void Start()
