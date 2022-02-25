@@ -19,10 +19,12 @@ public class NotificationSystem : MonoBehaviour
         NotifCanvas.enabled=true;
         NotifText.text = text + " ran away!";
         StartCoroutine("WaitAWhile");
-        NotifCanvas.enabled=false;
     }
-    private IEnumerable WaitAWhile(){
-        yield return new WaitForSeconds(2);
+    private IEnumerator WaitAWhile(){
+        Debug.Log("GoingOffNow");
+        yield return new WaitForSecondsRealtime(2f);
+        
+        NotifCanvas.enabled=false;
     }
     // Start is called before the first frame update
     void Start()
