@@ -6,19 +6,17 @@ using UnityEngine.UI;
 public class CollectionBookScript : MonoBehaviour
 {
     [SerializeField] GameObject collectionBook;
-    // Is the collection Book Open?
-    bool collectionBookOpen;
     void Start()
     {
-        GameObject.Find("CollectionBookButton").GetComponent<Button>().onClick.AddListener(OnCollectionBookClose);
+        GameObject.Find("CollectionBookButton").GetComponent<Button>().onClick.AddListener(OnOpenCollectionBook);
         // Collection book initial state
-        collectionBookOpen = false;
-        collectionBook.SetActive(collectionBookOpen);
+        collectionBook.SetActive(false);
     }
-    void OnCollectionBookClose()
+    void OnOpenCollectionBook()
     {
-        // change into opposite value
-        collectionBookOpen ^= true;
-        collectionBook.SetActive(collectionBookOpen);
+        // open collection book
+        if (!collectionBook.activeSelf) {
+            collectionBook.SetActive(true);
+        }
     }
 }
