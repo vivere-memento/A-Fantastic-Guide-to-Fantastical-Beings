@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Yokai
+  - Yokai Behind
   layers:
   - Default
   - TransparentFX
@@ -43,6 +45,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3608115855
+    locked: 0
+  - name: Yokai
+    uniqueID: 2615985363
     locked: 0
   - name: Midground
     uniqueID: 636092161
