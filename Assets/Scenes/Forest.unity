@@ -235,6 +235,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1644344120}
+  - {fileID: 1048057531}
   m_Father: {fileID: 1917582268}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -614,6 +615,7 @@ MonoBehaviour:
   descBox: {fileID: 32548187}
   yokai: {fileID: 236553626}
   yokaiText: {fileID: 1644344121}
+  propBlock: {fileID: 1395193692}
 --- !u!65 &236553630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -836,6 +838,7 @@ MonoBehaviour:
   descBox: {fileID: 32548187}
   yokai: {fileID: 280702983}
   yokaiText: {fileID: 1644344121}
+  propBlock: {fileID: 462629822}
 --- !u!65 &280702987
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1258,14 +1261,14 @@ RectTransform:
   m_GameObject: {fileID: 1048057530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.49999997, y: 0.49999997, z: 1}
+  m_LocalScale: {x: 0.49999994, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 1644344120}
-  m_RootOrder: 0
+  m_Father: {fileID: 32548190}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: -467}
+  m_AnchoredPosition: {x: -0.000030517578, y: -275}
   m_SizeDelta: {x: 263, y: 232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048057532
@@ -2268,8 +2271,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1048057531}
+  m_Children: []
   m_Father: {fileID: 32548190}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2300,7 +2302,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2419,6 +2421,7 @@ MonoBehaviour:
   descBox: {fileID: 32548187}
   yokai: {fileID: 1671794849}
   yokaiText: {fileID: 1644344121}
+  propBlock: {fileID: 256769727}
 --- !u!65 &1671794853
 BoxCollider:
   m_ObjectHideFlags: 0

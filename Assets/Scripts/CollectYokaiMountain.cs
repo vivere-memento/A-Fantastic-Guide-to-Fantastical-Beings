@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CollectYokaiForest : MonoBehaviour
+public class CollectYokaiMountain : MonoBehaviour
 {
     private Camera cam;
     public GameObject descBox;
@@ -39,20 +39,20 @@ public class CollectYokaiForest : MonoBehaviour
 
             //when the yokais are found, remove the props that are blocking them
             //set description text depending on which yokai is clicked
-            if (yokai.name == "yokai1")
+            if (yokai.name == "yokai4")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 1";
+                yokaiText.text = "Description for yokai 4";
             }
-            else if (yokai.name == "yokai2")
+            else if (yokai.name == "yokai5")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 2";
+                yokaiText.text = "Description for yokai 5";
             }
-            else if (yokai.name == "yokai3")
+            else if (yokai.name == "yokai6")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 3";
+                yokaiText.text = "Description for yokai 6";
             }
         }
     }
@@ -62,3 +62,4 @@ public class CollectYokaiForest : MonoBehaviour
         //method to check if all yokais are found
     }
 }
+
