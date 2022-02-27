@@ -9,6 +9,8 @@ public class NotificationSystem : MonoBehaviour
     private TMP_Text NotifText;
     private void OnEnable(){
         AmbientYokai.yokaiSpotted += ShowNotifcation;
+        //Onibii.onibiiCaptured += ShowNotifcation;
+        Onibii.onibiiDespawned += ShowNotifcation;
         //DestructableProp.propBroke += ShowNotifcation;
     }
     private void OnDisable(){

@@ -6,6 +6,7 @@ using System;
 public class AmbientYokai : MonoBehaviour
 {
     public static event Action<string> yokaiSpotted;
+    //public static event Action yokaiFleed;
     public string yokaiName = "Generic Yokai";
     void OnTriggerEnter2D(Collider2D other){
         Debug.Log("Trigger On");
@@ -19,6 +20,7 @@ public class AmbientYokai : MonoBehaviour
         ByeBye();
     }
     public void ByeBye(){
+        
         Destroy(gameObject, 2);
     }
     private void OnDisable(){

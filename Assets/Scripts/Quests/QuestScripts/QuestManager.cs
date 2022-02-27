@@ -58,14 +58,16 @@ public class QuestManager : MonoBehaviour
         questText.text = currentQuest.questText[textMarker];
     }
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         PlayManager.Instance.UpdateCurrentQuests();
         SetCurrentQuest(PlayManager.Instance.GetCurrentQuest());
         updateText();
     }
 
+    void Start(){
 
+    }
     // Update is called once per frame
     void Update()
     {

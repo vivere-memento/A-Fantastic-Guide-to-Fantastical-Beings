@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e286d4c2f0d25e488560245921a412f, type: 3}
-  m_Name: KappaQuest
+  m_Name: TenguDaoshiQuest
   m_EditorClassIdentifier: 
-  questName: Find the Kappa!
-  id: 1
+  questName: Find the Tengu Daoshi!
+  id: 4
   questText:
-  - A Kappa is a thing
-  - Kappa hint 1
-  - Kappan hint 2
+  - Theres a tengu daoshi!
+  - Hint about where the yokai is found
+  - Hint about its behavior
