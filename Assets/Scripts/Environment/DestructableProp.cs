@@ -13,6 +13,7 @@ public class DestructableProp : MonoBehaviour
     Vector3 origPos;
     void OnMouseDown(){
         if(Health<1){
+            StartCoroutine("ShakeMe");
             Destroy(gameObject,2);
         }
         else{

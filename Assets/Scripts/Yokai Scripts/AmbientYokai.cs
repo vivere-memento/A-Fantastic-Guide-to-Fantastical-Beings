@@ -10,6 +10,9 @@ public class AmbientYokai : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         Debug.Log("Trigger On");
     }
+     void OnTriggerStay2D(Collider2D other){
+        Debug.Log("Trigger On");
+    }
     void OnTriggerExit2D(Collider2D other){
         if(yokaiSpotted != null) yokaiSpotted(this.yokaiName);
         Debug.Log("Trigger Off");
