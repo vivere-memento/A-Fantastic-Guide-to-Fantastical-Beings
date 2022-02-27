@@ -20,8 +20,7 @@ public class DragObject : MonoBehaviour
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
             //position of object is set to center of object minus the difference in position
-            gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX,
-                mousePos.y - startPosY);
+            gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);
         }
     }
 
