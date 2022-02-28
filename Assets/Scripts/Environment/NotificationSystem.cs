@@ -11,6 +11,7 @@ public class NotificationSystem : MonoBehaviour
         AmbientYokai.yokaiSpotted += ShowNotifcation;
         //Onibii.onibiiCaptured += ShowNotifcation;
         Onibii.onibiiDespawned += ShowNotifcation;
+        TenguOneoff.tenguCaptured += ShowNotifcation;
         //DestructableProp.propBroke += ShowNotifcation;
     }
     private void OnDisable(){

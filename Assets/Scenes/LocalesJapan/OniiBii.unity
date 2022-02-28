@@ -681,8 +681,8 @@ GameObject:
   m_Component:
   - component: {fileID: 623428253}
   - component: {fileID: 623428254}
-  - component: {fileID: 623428256}
   - component: {fileID: 623428255}
+  - component: {fileID: 623428256}
   m_Layer: 0
   m_Name: Bush (4)
   m_TagString: Untagged
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 0
-  yokai: {fileID: 0}
---- !u!61 &623428256
-BoxCollider2D:
+  yokai: {fileID: 2018774402}
+--- !u!58 &623428256
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -783,18 +783,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.48, y: 4.48}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.48, y: 4.48}
-  m_EdgeRadius: 0
+  m_Radius: 2.24
 --- !u!1 &732715598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,6 +1280,10 @@ PrefabInstance:
       propertyPath: prefab
       value: 
       objectReference: {fileID: 8813278817485773018, guid: f38e08f276cc9904ab7e235b9f95e683, type: 3}
+    - target: {fileID: 6057557279998079788, guid: 7c7cc462d28d9fa4f84e6ec24cb4dfb6, type: 3}
+      propertyPath: maxCount
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c7cc462d28d9fa4f84e6ec24cb4dfb6, type: 3}
 --- !u!1 &970852640
@@ -1775,7 +1769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3b19560ff822544f8014a569e8e8356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yokaiName: Generic Yokai
+  yokaiName: Dai Yokai
 --- !u!61 &1133315461
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2836,8 +2830,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1576545236}
   - component: {fileID: 1576545235}
-  - component: {fileID: 1576545238}
   - component: {fileID: 1576545237}
+  - component: {fileID: 1576545238}
   m_Layer: 0
   m_Name: Bush
   m_TagString: Untagged
@@ -2904,7 +2898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576545234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.8296585, y: -8.327105, z: 0.5729082}
+  m_LocalPosition: {x: -15.96, y: -8.28, z: 0.5729082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1058386986}
@@ -2922,10 +2916,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 135291b0aed4de14a857cdebb83ca89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 1
-  yokai: {fileID: 2018774402}
---- !u!61 &1576545238
-BoxCollider2D:
+  Health: 2
+  yokai: {fileID: 0}
+--- !u!58 &1576545238
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2938,18 +2932,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.48, y: 4.48}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.48, y: 4.48}
-  m_EdgeRadius: 0
+  m_Radius: 2.24
 --- !u!1 &1614374904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3937,8 +3921,8 @@ GameObject:
   - component: {fileID: 2018774404}
   - component: {fileID: 2018774403}
   - component: {fileID: 2018774402}
-  - component: {fileID: 2018774401}
   - component: {fileID: 2018774400}
+  - component: {fileID: 2018774401}
   m_Layer: 0
   m_Name: AmbientYokai (2)
   m_TagString: Untagged
@@ -3967,8 +3951,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2018774401
-BoxCollider2D:
+--- !u!58 &2018774401
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3977,22 +3961,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28}
-  m_EdgeRadius: 0
+  m_Radius: 0.64000005
 --- !u!114 &2018774402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4065,7 +4039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018774399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.8961, y: -7.4064, z: 0}
+  m_LocalPosition: {x: -3.36, y: -11.45, z: 0}
   m_LocalScale: {x: 3.6244917, y: 3.6550503, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

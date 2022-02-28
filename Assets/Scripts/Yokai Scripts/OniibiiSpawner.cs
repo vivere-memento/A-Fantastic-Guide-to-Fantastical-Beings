@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class OniibiiSpawner : MonoBehaviour
 {
+    [SerializeField]
+    private int maxCount = 5;
+    [SerializeField]
+    private int minX=-10, maxX=15, minY=-10, maxY=10;
+    
     public Onibii prefab;
     private int counter = 0;
     private bool notSpawned= true;
@@ -11,12 +16,14 @@ public class OniibiiSpawner : MonoBehaviour
         AmbientYokai.yokaiSpotted += countYokai;
         Onibii.onibiiCaptured += stopSpawning;
         Onibii.onibiiDespawned += spawnAgain;
+        TenguOneoff.tenguCaptured += countYokai;
         //DestructableProp.propBroke += ShowNotifcation;
     }
     private void OnDisable(){
         AmbientYokai.yokaiSpotted -= countYokai;
         Onibii.onibiiCaptured -= stopSpawning;
         Onibii.onibiiDespawned -= spawnAgain;
+        TenguOneoff.tenguCaptured += countYokai;
         //DestructableProp.propBroke += ShowNotifcation;
     }
     private void stopSpawning(string v){
@@ -35,13 +42,13 @@ public class OniibiiSpawner : MonoBehaviour
         
     }
     private IEnumerator SpawnOnibii(){
-        yield return new WaitForSeconds(Random.Range(5,10));
-        Instantiate(prefab, new Vector3(Random.Range(-10,15),Random.Range(-10,10),0), Quaternion.identity);
+        yield return new WaitForSeconds(Random.Range(5,7));
+        Instantiate(prefab, new Vector3(Random.Range(minX,maxX),Random.Range(minY,maxY),0), Quaternion.identity);
     }
     // Update is called once per frame
     void Update()
     {
-        if(counter >= 5 && notSpawned){
+        if(counter >= maxCount && notSpawned){
             notSpawned = false;
             
             StartCoroutine(SpawnOnibii());
