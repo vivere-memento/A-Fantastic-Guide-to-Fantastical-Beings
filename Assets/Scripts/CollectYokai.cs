@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CollectYokaiMountain : MonoBehaviour
+public class CollectYokai : MonoBehaviour
 {
     private Camera cam;
     public GameObject descBox;
@@ -21,7 +21,6 @@ public class CollectYokaiMountain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckAllYokaisFound();
     }
 
     void OnMouseDown()
@@ -39,27 +38,26 @@ public class CollectYokaiMountain : MonoBehaviour
 
             //when the yokais are found, remove the props that are blocking them
             //set description text depending on which yokai is clicked
-            if (yokai.name == "yokai4")
+            if (yokai.name == "Yogen No Tori")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 4";
+                yokaiText.text = "Description for Yogen No Tori";
             }
-            else if (yokai.name == "yokai5")
+            else if (yokai.name == "Kitsune")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 5";
+                yokaiText.text = "Description for Kitsune";
             }
-            else if (yokai.name == "yokai6")
+            else if (yokai.name == "Tengu Daoshi")
             {
                 propBlock.SetActive(false);
-                yokaiText.text = "Description for yokai 6";
+                yokaiText.text = "Description for Tengu Daoshi";
+            }
+            else if (yokai.name == "Daidarabotchi")
+            {
+                propBlock.SetActive(false);
+                yokaiText.text = "Description for Daidarabotchi";
             }
         }
     }
-
-    void CheckAllYokaisFound()
-    {
-        //method to check if all yokais are found
-    }
 }
-

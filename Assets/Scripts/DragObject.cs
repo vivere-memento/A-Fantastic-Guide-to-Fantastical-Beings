@@ -8,7 +8,6 @@ public class DragObject : MonoBehaviour
     private float startPosY;
     private bool isBeingHeld = false;
     Vector2 oldPos;
-    public GameObject gameObj;
 
     // Update is called once per frame
     void Update()
