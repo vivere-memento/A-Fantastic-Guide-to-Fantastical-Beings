@@ -25,6 +25,7 @@ public class DestructableProp : MonoBehaviour
         if(yokai){
             yokai.ByeBye();
         }
+        propBroke?.Invoke();
     }
     IEnumerator ShakeMe(){
         

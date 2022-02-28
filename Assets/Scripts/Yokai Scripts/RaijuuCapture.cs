@@ -6,14 +6,17 @@ public class RaijuuCapture : MonoBehaviour
 {
     [SerializeField]
     private bool canCapture;
+    public void SetCapturable(){
+        canCapture = true;
+    }
     private void OnMouseDown(){
         if(canCapture){
         Debug.Log("Caught a Raijuu!");
-        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
+        //PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
         }
     }
     private void OnMouseUp(){
-        this.gameObject.GetComponentInParent<GameObject>().SetActive(false);
+        this.gameObject.SetActive(false);
     }
     // Start is called before the first frame update
     void Start()

@@ -22,10 +22,12 @@ public class NotificationSystem : MonoBehaviour
         NotifText.text = text + " ran away!";
         StartCoroutine("WaitAWhile");
     }
+    private void LootNotification(){
+        
+    }
     private IEnumerator WaitAWhile(){
         Debug.Log("GoingOffNow");
         yield return new WaitForSecondsRealtime(2f);
-        
         NotifCanvas.enabled=false;
     }
     // Start is called before the first frame update
