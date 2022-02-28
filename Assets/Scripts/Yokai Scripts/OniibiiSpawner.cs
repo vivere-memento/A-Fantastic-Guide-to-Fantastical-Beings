@@ -41,7 +41,7 @@ public class OniibiiSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(counter >= 3 && notSpawned){
+        if(counter >= 5 && notSpawned){
             notSpawned = false;
             
             StartCoroutine(SpawnOnibii());

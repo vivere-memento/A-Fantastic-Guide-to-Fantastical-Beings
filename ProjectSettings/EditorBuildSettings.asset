@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TEST/NichTest.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LocalesJapan/OniiBii.unity
+    guid: 4dbe93296483c7543babdc90841af407
+  - enabled: 1
+    path: Assets/Scenes/LocalesJapan/Yogen No Tori.unity
+    guid: 390bfc0052ae9754180d421fa5bfbdb1
+  - enabled: 1
+    path: Assets/Scenes/LocalesJapan/Daidarabotchi.unity
+    guid: bf3f8c1b9f7abd0409d8894f48318317
+  - enabled: 1
+    path: Assets/Scenes/JapanMap.unity
+    guid: e2b810cf77d25b04391ef01211500da7
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e96e67521bf9a664aad2823f3f6e8d4b, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 849cbfcdfccb47047832a861e4fb4149, type: 2}
