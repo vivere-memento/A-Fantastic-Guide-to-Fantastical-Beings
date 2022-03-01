@@ -12,7 +12,7 @@ public class OniibiiCaught : MonoBehaviour
     }
 
     public void StartUp(string v){
-        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
+//        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
         SceneManager.LoadScene("JapanMap");
     }
     public void Stop(string v){

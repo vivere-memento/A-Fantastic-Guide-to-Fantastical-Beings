@@ -26,6 +26,7 @@ public class OneOffRaijuu : MonoBehaviour
     public void RaiseAnger(){
         Debug.Log("Angery" + anger.ToString());
         anger++;
+        if(trail)
         trail.Play(true);
     }
 
