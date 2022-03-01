@@ -42,21 +42,24 @@ public class CollectYokai : MonoBehaviour
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Yogen No Tori";
+                PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.YogenNoTori);
             }
-            else if (yokai.name == "Kitsune")
+            /*else if (yokai.name == "Kitsune")
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Kitsune";
-            }
+            }*/
             else if (yokai.name == "Tengu Daoshi")
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Tengu Daoshi";
+                PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu);
             }
             else if (yokai.name == "Daidarabotchi")
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Daidarabotchi";
+                PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi);
             }
         }
     }
