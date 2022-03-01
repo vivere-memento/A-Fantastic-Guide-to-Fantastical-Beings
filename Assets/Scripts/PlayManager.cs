@@ -7,7 +7,7 @@ public class PlayManager : MonoBehaviour
     #region Fields
     public enum QuestName{
         Tutorial,
-        Kappa,
+        Tengu,
         Onibi,
         Raijuu,
         Daidarabotchi,
@@ -17,7 +17,7 @@ public class PlayManager : MonoBehaviour
     private static PlayManager i;
     private static string message= "Hey there!";
     public static PlayManager Instance{get; private set;}
-    private bool TutorialDone, KappaCaught, OnibiCaught, RaijuuCaught, DaidarabotchiCaught, YogenNoToriCaught,KitsuneCaught;
+    private bool TutorialDone=false, TenguCaught=false, OnibiCaught=false, RaijuuCaught=false, DaidarabotchiCaught=false, YogenNoToriCaught=false,KitsuneCaught=false;
 
     //private int currentQuestId = 0;
     //private QuestName currentQuestName = QuestName.Tutorial;
@@ -30,8 +30,8 @@ public class PlayManager : MonoBehaviour
         switch(yokai){
             case QuestName.Tutorial:
             return TutorialDone;     
-            case QuestName.Kappa:
-            return KappaCaught;
+            case QuestName.Tengu:
+            return TenguCaught;
 
             case QuestName.Onibi:
             return OnibiCaught;
@@ -58,8 +58,8 @@ public class PlayManager : MonoBehaviour
                 TutorialDone= true;
                 UpdateCurrentQuests();
             break;
-            case QuestName.Kappa:
-                KappaCaught = true;
+            case QuestName.Tengu:
+                TenguCaught = true;
                 UpdateCurrentQuests();
             break;
             case QuestName.Onibi:
@@ -103,9 +103,9 @@ public class PlayManager : MonoBehaviour
     #region Dont Look at my shame
     public void UpdateCurrentQuests(){
         if(TutorialDone){
-            SetCurrentQuestByName(QuestName.Kappa);
+            SetCurrentQuestByName(QuestName.Tengu);
         }
-        else if(KappaCaught){
+        else if(TenguCaught){
             SetCurrentQuestByName(QuestName.Onibi);
 
         }

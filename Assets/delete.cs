@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class delete : MonoBehaviour
 {
     public void clickclick(){
-        if(PlayManager.Instance.GetCaughtYokai(PlayManager.QuestName.Tutorial)){
+        bool caught = PlayManager.Instance.GetCaughtYokai(PlayManager.QuestName.Onibi); 
+        if(caught){
             gameObject.GetComponentInChildren<Text>().text = "Yes";
         }
         else{
-            gameObject.GetComponentInChildren<Text>().text = "Yes";
+            gameObject.GetComponentInChildren<Text>().text = "No";
         }
     }
     // Start is called before the first frame update
