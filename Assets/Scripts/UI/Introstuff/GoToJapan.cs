@@ -20,7 +20,7 @@ public class GoToJapan : MonoBehaviour
         gameObject.GetComponentInChildren<TMP_Text>().color = Color.black;
     }
     public void GoToNext(){
-        SceneManager.LoadScene("NichTest");
+        SceneManager.LoadScene("JapanMap");
     }
 
     // Update is called once per frame
