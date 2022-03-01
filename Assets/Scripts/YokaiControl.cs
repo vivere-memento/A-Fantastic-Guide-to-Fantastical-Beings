@@ -49,7 +49,7 @@ public class YokaiControl : MonoBehaviour
 
     void Start() {
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Kappa", "Description2", "yokai1", "yokai story"));
+        yokaiList.Add(new Yokai("Tengu", "Description2", "yokai1", "yokai story"));
         yokaiList.Add(new Yokai("Onibi", "Description3", "pic", "yokai story"));
         yokaiList.Add(new Yokai("Raijuu", "Description4", "pic", "yokai story"));
         yokaiList.Add(new Yokai("Daidarabotchi", "Description5", "pic", "yokai story"));
