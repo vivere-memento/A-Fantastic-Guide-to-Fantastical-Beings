@@ -8,8 +8,8 @@ public class OKButton : MonoBehaviour
 {
     public GameObject descBox;
     private Camera cam;
-    //[SerializeField]
-    //private PlayManager.QuestName yokaiName = PlayManager.QuestName.Tutorial;
+    [SerializeField]
+    private PlayManager.QuestName yokaiName = PlayManager.QuestName.Tutorial;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +31,7 @@ public class OKButton : MonoBehaviour
         //zoom out to normal
         cam.transform.position = new Vector3(transform.position.x, transform.position.y, cam.transform.position.z);
         cam.orthographicSize = 5;*/
-        //PlayManager.Instance.CaughtAYokai(yokaiName);
+        PlayManager.Instance.CaughtAYokai(yokaiName);
         SceneManager.LoadScene("JapanMap");
     }
 }

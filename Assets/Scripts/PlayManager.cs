@@ -106,30 +106,30 @@ public class PlayManager : MonoBehaviour
             SetCurrentQuestByName(QuestName.YogenNoTori);
             currentQuest = 1;
         }
-        else if(YogenNoToriCaught){
+        if(YogenNoToriCaught){
             SetCurrentQuestByName(QuestName.Daidarabotchi);
             currentQuest = 2;
         }
-        else if(DaidarabotchiCaught){
+        if(DaidarabotchiCaught){
             SetCurrentQuestByName(QuestName.Onibi);
             currentQuest = 3;
         }
-        else if(OnibiCaught){
+        if(OnibiCaught){
             SetCurrentQuestByName(QuestName.Tengu);
             currentQuest = 4;
         }
-        else if(TenguCaught){
+        if(TenguCaught){
             SetCurrentQuestByName(QuestName.Raijuu);
             currentQuest = 5;
         }
-        else if(RaijuuCaught){
+        if(RaijuuCaught){
             SetCurrentQuestByName(QuestName.Kitsune);
             currentQuest = 6;
         }
-        else if(KitsuneCaught){
+        if(KitsuneCaught){
             Debug.Log("Caught them all!");
         }
-        else{
+        if(!(TutorialDone||YogenNoToriCaught||DaidarabotchiCaught||OnibiCaught||TenguCaught||RaijuuCaught||KitsuneCaught)){
             Debug.Log("Set the current quest to Tutorial Quest");
             SetCurrentQuestByName(QuestName.Tutorial);
         }

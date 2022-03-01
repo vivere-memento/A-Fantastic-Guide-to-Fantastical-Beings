@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   descBox: {fileID: 32548187}
+  yokaiName: 5
 --- !u!4 &9071103
 Transform:
   m_ObjectHideFlags: 0
