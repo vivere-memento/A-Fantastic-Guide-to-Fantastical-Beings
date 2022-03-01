@@ -13,7 +13,7 @@ public class TenguOneoff : MonoBehaviour
 
     void OnMouseDown(){
         tenguCaptured?.Invoke("Tengu Daoshi");
-        gameObject.SetActive(false);
+        this.gameObject.SetActive(false);
     }
     // Update is called once per frame
     void Update()

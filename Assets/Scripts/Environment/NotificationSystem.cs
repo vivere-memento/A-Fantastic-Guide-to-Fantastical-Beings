@@ -16,6 +16,8 @@ public class NotificationSystem : MonoBehaviour
     }
     private void OnDisable(){
         AmbientYokai.yokaiSpotted -= ShowNotifcation;
+        Onibii.onibiiDespawned -= ShowNotifcation;
+        TenguOneoff.tenguCaptured -= ShowNotifcation;
         //DestructableProp.propBroke -= ShowNotifcation;
     }
     public void ShowNotifcation(string text){
@@ -35,8 +37,8 @@ public class NotificationSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NotifCanvas = this.gameObject.GetComponentInChildren<Canvas>();
-        NotifText= this.gameObject.GetComponentInChildren<TMP_Text>();
+        NotifCanvas = this.GetComponentInChildren<Canvas>();
+        NotifText= this.GetComponentInChildren<TMP_Text>();
         NotifCanvas.enabled=false;
     }
 

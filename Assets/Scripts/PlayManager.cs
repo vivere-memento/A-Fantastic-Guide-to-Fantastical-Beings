@@ -127,7 +127,7 @@ public class PlayManager : MonoBehaviour
             currentQuest = 6;
         }
         if(KitsuneCaught){
-            Debug.Log("Caught them all!");
+            currentQuest = 7;
         }
         if(!(TutorialDone||YogenNoToriCaught||DaidarabotchiCaught||OnibiCaught||TenguCaught||RaijuuCaught||KitsuneCaught)){
             Debug.Log("Set the current quest to Tutorial Quest");

@@ -6017,7 +6017,7 @@ PrefabInstance:
       objectReference: {fileID: 2780555553412766078}
     - target: {fileID: 2571355992857247376, guid: c3345691ac0ca5447a78a49e609bf780, type: 3}
       propertyPath: allQuests.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2571355992857247376, guid: c3345691ac0ca5447a78a49e609bf780, type: 3}
       propertyPath: allQuests.Array.data[2]
@@ -6039,6 +6039,10 @@ PrefabInstance:
       propertyPath: allQuests.Array.data[6]
       value: 
       objectReference: {fileID: 11400000, guid: a4d139d607fa7b3489c97f66f5bf2c65, type: 2}
+    - target: {fileID: 2571355992857247376, guid: c3345691ac0ca5447a78a49e609bf780, type: 3}
+      propertyPath: allQuests.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b312a432a1553845b999ca727faaac9, type: 2}
     - target: {fileID: 2571355992857247377, guid: c3345691ac0ca5447a78a49e609bf780, type: 3}
       propertyPath: m_RootOrder
       value: 7
