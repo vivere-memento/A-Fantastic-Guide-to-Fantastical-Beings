@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuestManager : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class QuestManager : MonoBehaviour
         questMarker++;
         SetCurrentQuest(questMarker);
         updateText();
+        //SceneManager.LoadScene("OniiBii");
     }
     public void NextText(){
         textMarker++;

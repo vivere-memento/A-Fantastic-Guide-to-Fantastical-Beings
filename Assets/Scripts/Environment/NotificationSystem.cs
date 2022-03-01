@@ -18,7 +18,8 @@ public class NotificationSystem : MonoBehaviour
         AmbientYokai.yokaiSpotted -= ShowNotifcation;
         //DestructableProp.propBroke -= ShowNotifcation;
     }
-    private void ShowNotifcation(string text){
+    public void ShowNotifcation(string text){
+        Debug.Log("Showing Notification");
         NotifCanvas.enabled=true;
         NotifText.text = text + " ran away!";
         StartCoroutine("WaitAWhile");

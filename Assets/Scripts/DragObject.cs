@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class DragObject : MonoBehaviour
 {
+    public static Action propFiddled;
     private float startPosX;
     private float startPosY;
     private bool isBeingHeld = false;
@@ -58,7 +60,7 @@ public class DragObject : MonoBehaviour
     private void OnMouseUp()
     {
         isBeingHeld = false;
-
+        propFiddled?.Invoke();
         //if there are no yokais behind the props, snap them back to their original position
         if (gameObject.tag != "Yokai Behind")
         {

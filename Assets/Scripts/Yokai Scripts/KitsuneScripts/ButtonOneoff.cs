@@ -14,11 +14,22 @@ public class ButtonOneoff : MonoBehaviour
     private TMP_Text text;
     [SerializeField]
     private Camera cam;
+
+    private bool raijuu,onibii;
     void OnEnable(){
-        Onibii.onibiiCaptured += DoEverything;
+        Onibii.onibiiCaptured += Oni;
+        RaijuuCapture.raijuuCaught += Rai;
     }
     void OnDisable(){
-        Onibii.onibiiCaptured -= DoEverything;
+        Onibii.onibiiCaptured -= Oni;
+        RaijuuCapture.raijuuCaught -= Rai;
+    }
+
+    private void Rai(){
+        raijuu = true;
+    }
+    private void Oni(string v){
+        onibii = true;
     }
     // Start is called before the first frame update
     void Start()
@@ -45,6 +56,8 @@ public class ButtonOneoff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(onibii && raijuu){
+            DoEverything("");
+        }
     }
 }
