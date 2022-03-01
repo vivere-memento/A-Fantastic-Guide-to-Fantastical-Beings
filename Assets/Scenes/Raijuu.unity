@@ -2024,11 +2024,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888052684256401755, guid: 4722a4b9f6c11894eb6e505b3d0793e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 2888052684256401755, guid: 4722a4b9f6c11894eb6e505b3d0793e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.88
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2888052684256401755, guid: 4722a4b9f6c11894eb6e505b3d0793e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2068,7 +2068,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888052684756513342, guid: 4722a4b9f6c11894eb6e505b3d0793e3, type: 3}
       propertyPath: simulationSpeed
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2888052684756513342, guid: 4722a4b9f6c11894eb6e505b3d0793e3, type: 3}
       propertyPath: InitialModule.maxNumParticles

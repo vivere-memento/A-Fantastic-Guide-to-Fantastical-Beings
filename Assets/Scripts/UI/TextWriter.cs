@@ -17,6 +17,7 @@ public class TextWriter : MonoBehaviour
         textDisplay.text = "";
         StartCoroutine(TypeText(ScrollSpeed));
     }
+
     IEnumerator TypeText(float speed){
         foreach(char c in text.ToCharArray())
         {

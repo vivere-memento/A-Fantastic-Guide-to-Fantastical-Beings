@@ -103,27 +103,28 @@ public class PlayManager : MonoBehaviour
     #region Dont Look at my shame
     public void UpdateCurrentQuests(){
         if(TutorialDone){
-            SetCurrentQuestByName(QuestName.Tengu);
-        }
-        else if(TenguCaught){
-            SetCurrentQuestByName(QuestName.Onibi);
-
-        }
-        else if(OnibiCaught){
-            SetCurrentQuestByName(QuestName.Daidarabotchi);
-
-        }
-        else if(DaidarabotchiCaught){
             SetCurrentQuestByName(QuestName.YogenNoTori);
-
+            currentQuest = 1;
         }
         else if(YogenNoToriCaught){
+            SetCurrentQuestByName(QuestName.Daidarabotchi);
+            currentQuest = 2;
+        }
+        else if(DaidarabotchiCaught){
+            SetCurrentQuestByName(QuestName.Onibi);
+            currentQuest = 3;
+        }
+        else if(OnibiCaught){
+            SetCurrentQuestByName(QuestName.Tengu);
+            currentQuest = 4;
+        }
+        else if(TenguCaught){
             SetCurrentQuestByName(QuestName.Raijuu);
-            
+            currentQuest = 5;
         }
         else if(RaijuuCaught){
             SetCurrentQuestByName(QuestName.Kitsune);
-            
+            currentQuest = 6;
         }
         else if(KitsuneCaught){
             Debug.Log("Caught them all!");

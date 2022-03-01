@@ -15,6 +15,7 @@ public class RaijuuCaught : MonoBehaviour
     }
 
     public void StartUp(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
         SceneManager.LoadScene("JapanMap");
     }
     public void Stop(){

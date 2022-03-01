@@ -15,7 +15,7 @@ MonoBehaviour:
   questName: TutorialQuest
   id: 0
   questText:
-  - Hey click me!
-  - Click on the right arrow
-  - Click on the left arrow
-  - Click me again if you need help!
+  - Hey I'm the quest helper you can click on my arrows to see more!
+  - Click on the right arrow and you get the next text!
+  - Click on the left arrow and you'll get the previous text!
+  - Click on the ! for your first quest

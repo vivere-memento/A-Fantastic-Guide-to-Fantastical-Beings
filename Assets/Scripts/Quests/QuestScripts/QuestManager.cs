@@ -26,10 +26,12 @@ public class QuestManager : MonoBehaviour
         currentQuest=  ChangeQuest;
     }
     public void ForceNextQuest(){
-        questMarker++;
-        SetCurrentQuest(questMarker);
-        updateText();
-        //SceneManager.LoadScene("OniiBii");
+        //questMarker++;
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        SceneManager.LoadScene("JapanMap");
+        //SetCurrentQuest(questMarker);
+        /*textMarker = 0;
+        updateText();*/
     }
     public void NextText(){
         textMarker++;
@@ -62,13 +64,13 @@ public class QuestManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        PlayManager.Instance.UpdateCurrentQuests();
-        SetCurrentQuest(PlayManager.Instance.GetCurrentQuest());
-        updateText();
+
     }
 
     void Start(){
-
+        PlayManager.Instance.UpdateCurrentQuests();
+        SetCurrentQuest(PlayManager.Instance.GetCurrentQuest());
+        updateText();
     }
     // Update is called once per frame
     void Update()
