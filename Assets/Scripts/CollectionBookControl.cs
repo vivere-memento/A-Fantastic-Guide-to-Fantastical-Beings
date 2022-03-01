@@ -7,8 +7,9 @@ public class CollectionBookControl : MonoBehaviour
 {
     [SerializeField]
     public GameObject descriptionText;
-    private MonsterData[] monsterDataList;
-    // Start is called before the first frame update
+    [SerializeField]
+    public GameObject picContainer;
+
     void Start()
     {
     }
@@ -26,15 +27,17 @@ public class CollectionBookControl : MonoBehaviour
             //If something was hit, the RaycastHit2D.collider will not be null.
             if (hit.collider != null && hit.collider.name.Contains("Monster"))
             {
-                string description = MonsterData.Instance.getMonsterDescription(hit.collider.name);
+                string yokaiName = hit.collider.name;
+                string description = YokaiControl.Instance.getYokaiDescription(yokaiName);
+                string picUrl = YokaiControl.Instance.getYokaiPic(yokaiName);
+                Debug.Log(picUrl);
+                var yokaiPicSprite = Resources.Load<Sprite>(picUrl);
+                Debug.Log(yokaiPicSprite);
                 if (!description.Equals("Default")) {
                     descriptionText.GetComponent<Text>().text = description;
+                    picContainer.GetComponent<SpriteRenderer>().sprite = yokaiPicSprite;
                 }
             }
         }
-    }
-
-    private string searchMonsterData(string monsterName) {
-        return "test";
     }
 }
