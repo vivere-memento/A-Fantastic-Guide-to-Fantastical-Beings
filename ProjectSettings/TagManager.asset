@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Yokai
   - Yokai Behind
+  - Destroy
   layers:
   - Default
   - TransparentFX

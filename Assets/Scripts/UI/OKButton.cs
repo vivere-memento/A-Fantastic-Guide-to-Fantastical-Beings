@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class OKButton : MonoBehaviour
 {
@@ -23,12 +24,14 @@ public class OKButton : MonoBehaviour
     //when click on 'ok' button
     public void CloseDescriptionBox()
     {
-        //disable description box
+        /*//disable description box
         descBox.SetActive(false);
 
         //zoom out to normal
         cam.transform.position = new Vector3(transform.position.x, transform.position.y, cam.transform.position.z);
-        cam.orthographicSize = 5;
+        cam.orthographicSize = 5;*/
+
+        SceneManager.LoadScene("JapanMap");
     }
 
 
