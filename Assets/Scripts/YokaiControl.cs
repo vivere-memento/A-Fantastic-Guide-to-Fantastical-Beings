@@ -49,13 +49,23 @@ public class YokaiControl : MonoBehaviour
 
     void Start() {
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Monster1", "Description1", "yokai1", "yokai story"));
-        yokaiList.Add(new Yokai("Monster2", "Description2", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Monster3", "Description3", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Monster4", "Description4", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Monster5", "Description5", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Monster6", "Description6", "pic", "yokai story"));
+        yokaiList.Add(new Yokai("Kappa", "Description2", "yokai1", "yokai story"));
+        yokaiList.Add(new Yokai("Onibi", "Description3", "pic", "yokai story"));
+        yokaiList.Add(new Yokai("Raijuu", "Description4", "pic", "yokai story"));
+        yokaiList.Add(new Yokai("Daidarabotchi", "Description5", "pic", "yokai story"));
+        yokaiList.Add(new Yokai("YogenNoTori", "Description1", "yokai1", "yokai story"));
+        yokaiList.Add(new Yokai("Kitsune", "Description6", "pic", "yokai story"));
     }
+
+    public List<string> getFullYokaiList()
+    {
+        List<string> yokaiNameList = new List<string>();
+        foreach (Yokai aYokai in yokaiList)
+        {
+            yokaiNameList.Add(aYokai.getYokaiName());
+        }
+        return yokaiNameList;
+    } 
 
     // get description by yokaiName
     public string getYokaiDescription(string yokaiName)
