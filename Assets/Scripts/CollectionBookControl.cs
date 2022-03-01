@@ -9,9 +9,12 @@ public class CollectionBookControl : MonoBehaviour
     [SerializeField] GameObject descriptionText;
     [SerializeField] GameObject picContainer;
     [SerializeField] GameObject yokaiNameContainer;
+    [SerializeField] GameObject locales;
 
     private string yokaiNotFoundPic = "yokai_notFound";
-
+    void OnDisable(){
+        locales.SetActive(true);
+    }
     void Start()
     {
     }

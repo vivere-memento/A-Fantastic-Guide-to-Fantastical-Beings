@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectionBook: {fileID: 1717566996}
+  locales: {fileID: 1255761130}
 --- !u!114 &45444110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5695,6 +5696,7 @@ MonoBehaviour:
   descriptionText: {fileID: 1384307463}
   picContainer: {fileID: 2039410784}
   yokaiNameContainer: {fileID: 174930167}
+  locales: {fileID: 1255761130}
 --- !u!1 &1726931396
 GameObject:
   m_ObjectHideFlags: 0

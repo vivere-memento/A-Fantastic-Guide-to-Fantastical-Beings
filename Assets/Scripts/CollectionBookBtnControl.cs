@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CollectionBookBtnControl : MonoBehaviour
 {
     [SerializeField] GameObject collectionBook;
+    [SerializeField] GameObject locales;
     private string yokaiNotFoundPic = "yokai_notFound";
 
     void Start()
@@ -21,6 +22,7 @@ public class CollectionBookBtnControl : MonoBehaviour
             // update yokai isCatched status
             updateYokaiStatus();
             collectionBook.SetActive(true);
+            locales.SetActive(false);
         }
     }
 
