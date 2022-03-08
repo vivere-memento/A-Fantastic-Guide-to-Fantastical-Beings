@@ -9,7 +9,7 @@ public class DragObject : MonoBehaviour
     private float startPosX;
     private float startPosY;
     private bool isBeingHeld = false;
-    Vector2 oldPos;
+    Vector2 oldPos, lowSens = new Vector2(.5f,.5f);
 
     // Update is called once per frame
     void Update()
