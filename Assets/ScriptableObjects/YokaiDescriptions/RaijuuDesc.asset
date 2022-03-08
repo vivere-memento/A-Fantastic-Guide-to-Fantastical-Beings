@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5191a16e42ed74488cb7da3053cd76f, type: 3}
+  m_Name: RaijuuDesc
+  m_EditorClassIdentifier: 
+  YokaiName: Raijuu
+  habitat: In the skies, clouds.
+  loreLine1: Raijuu are the manifestations of thunder and lightning.
+  loreLine2: They commonly appear as wolves but can take the form of other creatures,
+    such as cats, insects or dragons.
+  loreLine3: When the Raijuu move, lightning strikes and can cause damage to the
+    world around them.
+  loreLine4: These yokai were seen as divine beasts, and people believed that when
+    lightning struck the gods were punishing them.
+  loreLine5: A common superstition in Japan is to cover your belly button when lightning
+    strikes.
+  loreLine6: 'Small Raijuu were said to like hiding in the belly buttons of people,
+    thus resulting in the above practice. '
+  loreLine7: 
+  hintText1: Look for signs of lightning strikes
+  hintText2: Try to catch the yokai as it moves!
+  hintText3: 

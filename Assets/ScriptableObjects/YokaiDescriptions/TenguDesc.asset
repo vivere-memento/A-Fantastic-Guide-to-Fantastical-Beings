@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5191a16e42ed74488cb7da3053cd76f, type: 3}
+  m_Name: TenguDesc
+  m_EditorClassIdentifier: 
+  YokaiName: Daitengu
+  habitat: High, remote mountaintops.
+  loreLine1: Daitengu are a type of Tengu, Tengu meaning "Heavenly Dog".
+  loreLine2: The Daitengu look closer to humans than the Tengu, but still have bird-like
+    features.
+  loreLine3: 'Historically, the Daitengu were viewed as dangerous and violent beings. '
+  loreLine4: However, over time, the people of Japan started to see them as wise
+    sages and would sometimes seek their help.
+  loreLine5: Daitengu live alone, in places away from others, practicing meditation
+    to perfect themselves.
+  loreLine6: The long and big noses of a Daitengu show their power. The longer the
+    nose, the more powerful the Daitengu.
+  loreLine7: 
+  hintText1: 
+  hintText2: 
+  hintText3: 

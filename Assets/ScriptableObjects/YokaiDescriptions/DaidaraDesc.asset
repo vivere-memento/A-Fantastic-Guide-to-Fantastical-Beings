@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5191a16e42ed74488cb7da3053cd76f, type: 3}
+  m_Name: DaidaraDesc
+  m_EditorClassIdentifier: 
+  YokaiName: Daidarabotchi
+  habitat: Mountain ranges all over Japan.
+  loreLine1: 'Daidarabotchi are giants that look like bald priests. '
+  loreLine2: They have black skin, long snaky tongues and big rolling eyes.
+  loreLine3: The Daidarabotchi are so large that their very movements shaped the
+    landscape of Japan.
+  loreLine4: As such, many towns are named after the yokai which supposedly created
+    them.
+  loreLine5: ' In legends, Mount Fuji was said to have been created by a Daidarabotchi. '
+  loreLine6: The yokai dug up all the dirt around the Kai province to build the mountain,
+    which is why Mount Fuji is in a large basin.
+  loreLine7: 
+  hintText1: 
+  hintText2: 
+  hintText3: 
