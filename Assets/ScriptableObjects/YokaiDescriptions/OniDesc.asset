@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5191a16e42ed74488cb7da3053cd76f, type: 3}
+  m_Name: OniDesc
+  m_EditorClassIdentifier: 
+  YokaiName: Onibi
+  habitat: Near nature, watersides, graveyards.
+  loreLine1: Onibi are a kind of ghost, that appear as floating balls of fire.
+  loreLine2: The name Onibi, literally means "Demon Fire".
+  loreLine3: Onibi are most commonly seen during periods of rain, yet their mystical
+    fire is not put out by water.
+  loreLine4: Some of these fires are said to produce no heat, but the Onibi instead
+    consume the souls of approaching creatures.
+  loreLine5: These yokai mostly appear in large groups, but can sometimes be seen
+    in groups of one or two.
+  loreLine6: Onibi are said to be formed from the negative spirit energy from human
+    or animal bodies.
+  loreLine7: 
+  hintText1: 
+  hintText2: 
+  hintText3: 
