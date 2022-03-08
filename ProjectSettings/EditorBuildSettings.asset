@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LocalesJapan/Tengu Daoshi.unity
     guid: 08be2d3b6954a234f817e931bf0b57f3
   - enabled: 1
-    path: Assets/Scenes/Raijuu.unity
+    path: Assets/Scenes/LocalesJapan/Raijuu.unity
     guid: 969ddccca8195344da0894e50e271b7d
   - enabled: 1
     path: Assets/Scenes/LocalesJapan/Kitsune.unity
