@@ -7,6 +7,7 @@ public class NotificationSystem : MonoBehaviour
 {
     private Canvas NotifCanvas;
     private TMP_Text NotifText;
+    Queue<string> notifcations = new Queue<string>();
     private void OnEnable(){
         AmbientYokai.yokaiSpotted += ShowNotifcation;
         //Onibii.onibiiCaptured += ShowNotifcation;
@@ -19,6 +20,13 @@ public class NotificationSystem : MonoBehaviour
         Onibii.onibiiDespawned -= ShowNotifcation;
         TenguOneoff.tenguCaptured -= ShowNotifcation;
         //DestructableProp.propBroke -= ShowNotifcation;
+    }
+
+    public void QueueNotification(){
+        notifcations.Enqueue("");
+    }
+    public void SendNotification(){
+        notifcations.Dequeue();
     }
     public void ShowNotifcation(string text){
         Debug.Log("Showing Notification");
@@ -45,6 +53,10 @@ public class NotificationSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(notifcations.Count != 0){
+            if(!NotifCanvas.enabled){
+                SendNotification();
+            }
+        }
     }
 }
