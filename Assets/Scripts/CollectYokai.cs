@@ -23,7 +23,7 @@ public class CollectYokai : MonoBehaviour
     {
     }
 
-    void OnMouseDown()
+   void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -31,6 +31,7 @@ public class CollectYokai : MonoBehaviour
 
             //zoom in to yokai
             cam.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, cam.transform.position.z);
+            //cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1, Time.deltaTime * 5);
             cam.orthographicSize = 1;
 
             //enable description box
