@@ -1,0 +1,3252 @@
+fileFormatVersion: 2
+guid: d208b55a26b96de46a0d342f9f226ecb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2118657025701523795
+    second: Onibii_sprite_0
+  - first:
+      213: 8492246533312777725
+    second: Onibii_sprite_1
+  - first:
+      213: -177240889552505404
+    second: Onibii_sprite_2
+  - first:
+      213: 9104346795742225211
+    second: Onibii_sprite_3
+  - first:
+      213: 6082583193073727829
+    second: Onibii_sprite_4
+  - first:
+      213: -3044560249058609997
+    second: Onibii_sprite_5
+  - first:
+      213: 7787823514417366969
+    second: Onibii_sprite_6
+  - first:
+      213: -4756378268109968288
+    second: Onibii_sprite_7
+  - first:
+      213: 8936604165858072217
+    second: Onibii_sprite_8
+  - first:
+      213: 3751051512240189785
+    second: Onibii_sprite_9
+  - first:
+      213: 4746942478854052575
+    second: Onibii_sprite_10
+  - first:
+      213: 1322041278085888041
+    second: Onibii_sprite_11
+  - first:
+      213: -9101443617334612929
+    second: Onibii_sprite_12
+  - first:
+      213: 2208914933517640035
+    second: Onibii_sprite_13
+  - first:
+      213: -2222321700673619008
+    second: Onibii_sprite_14
+  - first:
+      213: -1620463566922316775
+    second: Onibii_sprite_15
+  - first:
+      213: -2909872866756996448
+    second: Onibii_sprite_16
+  - first:
+      213: -4053092295229580410
+    second: Onibii_sprite_17
+  - first:
+      213: -8478575018389799784
+    second: Onibii_sprite_18
+  - first:
+      213: -3799368776481509918
+    second: Onibii_sprite_19
+  - first:
+      213: 259197294216278036
+    second: Onibii_sprite_20
+  - first:
+      213: -6713556923519769890
+    second: Onibii_sprite_21
+  - first:
+      213: 5376662146564793477
+    second: Onibii_sprite_22
+  - first:
+      213: -1476247243459301252
+    second: Onibii_sprite_23
+  - first:
+      213: -3132136980104594109
+    second: Onibii_sprite_24
+  - first:
+      213: 1663937191566095510
+    second: Onibii_sprite_25
+  - first:
+      213: 2285785310756168314
+    second: Onibii_sprite_26
+  - first:
+      213: -2707948741456827078
+    second: Onibii_sprite_27
+  - first:
+      213: -7259541967813434644
+    second: Onibii_sprite_28
+  - first:
+      213: 4473224484381344826
+    second: Onibii_sprite_29
+  - first:
+      213: 6532592661158102339
+    second: Onibii_sprite_30
+  - first:
+      213: -4348311072949903656
+    second: Onibii_sprite_31
+  - first:
+      213: 6942962865982268354
+    second: Onibii_sprite_32
+  - first:
+      213: -8179675868127190355
+    second: Onibii_sprite_33
+  - first:
+      213: -4899026514858129515
+    second: Onibii_sprite_34
+  - first:
+      213: 7976218840576607982
+    second: Onibii_sprite_35
+  - first:
+      213: 5007421559470256810
+    second: Onibii_sprite_36
+  - first:
+      213: -6152521081615769149
+    second: Onibii_sprite_37
+  - first:
+      213: 4394313195800185754
+    second: Onibii_sprite_38
+  - first:
+      213: 8054643390225287931
+    second: Onibii_sprite_39
+  - first:
+      213: -872417905296113687
+    second: Onibii_sprite_40
+  - first:
+      213: -2953203361976749156
+    second: Onibii_sprite_41
+  - first:
+      213: 9107038248404852399
+    second: Onibii_sprite_42
+  - first:
+      213: -6502237175049745135
+    second: Onibii_sprite_43
+  - first:
+      213: -4971297787203785790
+    second: Onibii_sprite_44
+  - first:
+      213: 1941409403452893440
+    second: Onibii_sprite_45
+  - first:
+      213: -4055358253711058044
+    second: Onibii_sprite_46
+  - first:
+      213: 6947625960192407075
+    second: Onibii_sprite_47
+  - first:
+      213: -7825716984991558092
+    second: Onibii_sprite_48
+  - first:
+      213: -637694863768592214
+    second: Onibii_sprite_49
+  - first:
+      213: 5954501539554335320
+    second: Onibii_sprite_50
+  - first:
+      213: -484715533559905263
+    second: Onibii_sprite_51
+  - first:
+      213: 3639656813251429356
+    second: Onibii_sprite_52
+  - first:
+      213: 5291797641659462042
+    second: Onibii_sprite_53
+  - first:
+      213: 2312714060061600138
+    second: Onibii_sprite_54
+  - first:
+      213: -6349929455246985888
+    second: Onibii_sprite_55
+  - first:
+      213: 9062619505540306216
+    second: Onibii_sprite_56
+  - first:
+      213: -5396499211161416653
+    second: Onibii_sprite_57
+  - first:
+      213: 4919757927375080790
+    second: Onibii_sprite_58
+  - first:
+      213: -7914784819873901149
+    second: Onibii_sprite_59
+  - first:
+      213: -5039369449845666682
+    second: Onibii_sprite_60
+  - first:
+      213: 8408395329013947117
+    second: Onibii_sprite_61
+  - first:
+      213: -7268044152422812048
+    second: Onibii_sprite_62
+  - first:
+      213: -4185425483481996415
+    second: Onibii_sprite_63
+  - first:
+      213: -7460169908743650911
+    second: Onibii_sprite_64
+  - first:
+      213: 504572443794770498
+    second: Onibii_sprite_65
+  - first:
+      213: 3123403566295522061
+    second: Onibii_sprite_66
+  - first:
+      213: 9051538549848158286
+    second: Onibii_sprite_67
+  - first:
+      213: -554673856222047347
+    second: Onibii_sprite_68
+  - first:
+      213: 544101958056001730
+    second: Onibii_sprite_69
+  - first:
+      213: -8852608550709639884
+    second: Onibii_sprite_70
+  - first:
+      213: -8010571805667180744
+    second: Onibii_sprite_71
+  - first:
+      213: -6253327976349134774
+    second: Onibii_sprite_72
+  - first:
+      213: -5197677194638138382
+    second: Onibii_sprite_73
+  - first:
+      213: 1591481866772376023
+    second: Onibii_sprite_74
+  - first:
+      213: -1786777161850057473
+    second: Onibii_sprite_75
+  - first:
+      213: -5277773973452022352
+    second: Onibii_sprite_76
+  - first:
+      213: 8684502520909784195
+    second: Onibii_sprite_77
+  - first:
+      213: -4953402067278081931
+    second: Onibii_sprite_78
+  - first:
+      213: 3793011036478474660
+    second: Onibii_sprite_79
+  - first:
+      213: -9216151822627581378
+    second: Onibii_sprite_80
+  - first:
+      213: 3798088552803156629
+    second: Onibii_sprite_81
+  - first:
+      213: 4835833021272019440
+    second: Onibii_sprite_82
+  - first:
+      213: 2857648115315944331
+    second: Onibii_sprite_83
+  - first:
+      213: -8628895024332932579
+    second: Onibii_sprite_84
+  - first:
+      213: -5863835804214752403
+    second: Onibii_sprite_85
+  - first:
+      213: 2179694558902076840
+    second: Onibii_sprite_86
+  - first:
+      213: -3694247189883744344
+    second: Onibii_sprite_87
+  - first:
+      213: -5870605755012514783
+    second: Onibii_sprite_88
+  - first:
+      213: 1082258221979201984
+    second: Onibii_sprite_89
+  - first:
+      213: 5811783791598995000
+    second: Onibii_sprite_90
+  - first:
+      213: -7089909179447516604
+    second: Onibii_sprite_91
+  - first:
+      213: -9099918920672700949
+    second: Onibii_sprite_92
+  - first:
+      213: 8412543634714059867
+    second: Onibii_sprite_93
+  - first:
+      213: -1981742889883817500
+    second: Onibii_sprite_94
+  - first:
+      213: -6000553856436756759
+    second: Onibii_sprite_95
+  - first:
+      213: 5160466646078349305
+    second: Onibii_sprite_96
+  - first:
+      213: -8347198605008685964
+    second: Onibii_sprite_97
+  - first:
+      213: -7334836145218883787
+    second: Onibii_sprite_98
+  - first:
+      213: 8394933905323472634
+    second: Onibii_sprite_99
+  - first:
+      213: 5760296324615964395
+    second: Onibii_sprite_100
+  - first:
+      213: -5560413269244537798
+    second: Onibii_sprite_101
+  - first:
+      213: -6964651476354064552
+    second: Onibii_sprite_102
+  - first:
+      213: 5290149047971128289
+    second: Onibii_sprite_103
+  - first:
+      213: -5661562116639334736
+    second: Onibii_sprite_104
+  - first:
+      213: 4868204734822327576
+    second: Onibii_sprite_105
+  - first:
+      213: -1357952803685799300
+    second: Onibii_sprite_106
+  - first:
+      213: -2783976558352112845
+    second: Onibii_sprite_107
+  - first:
+      213: 4334052262438105656
+    second: Onibii_sprite_108
+  - first:
+      213: 3708789251340075314
+    second: Onibii_sprite_109
+  - first:
+      213: -1852166881603381106
+    second: Onibii_sprite_110
+  - first:
+      213: 4806037681535189653
+    second: Onibii_sprite_111
+  - first:
+      213: -5763874167247687198
+    second: Onibii_sprite_112
+  - first:
+      213: -4408357930683680191
+    second: Onibii_sprite_113
+  - first:
+      213: 2918998146302398838
+    second: Onibii_sprite_114
+  - first:
+      213: -6397577691465722576
+    second: Onibii_sprite_115
+  - first:
+      213: 9148432865469055951
+    second: Onibii_sprite_116
+  - first:
+      213: -4142474057614049163
+    second: Onibii_sprite_117
+  - first:
+      213: -2330333120388100865
+    second: Onibii_sprite_118
+  - first:
+      213: -4384095730592505929
+    second: Onibii_sprite_119
+  - first:
+      213: 3178338298459708821
+    second: Onibii_sprite_120
+  - first:
+      213: 4831277978627701740
+    second: Onibii_sprite_121
+  - first:
+      213: 6188880065533940938
+    second: Onibii_sprite_122
+  - first:
+      213: -6293197099161163608
+    second: Onibii_sprite_123
+  - first:
+      213: -557638240413346050
+    second: Onibii_sprite_124
+  - first:
+      213: 7226684812431951824
+    second: Onibii_sprite_125
+  - first:
+      213: 5886371393697608054
+    second: Onibii_sprite_126
+  - first:
+      213: 3703424436689864241
+    second: Onibii_sprite_127
+  - first:
+      213: 5975832691917465831
+    second: Onibii_sprite_128
+  - first:
+      213: -8764194037287568174
+    second: Onibii_sprite_129
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Onibii_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 7980
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35133d9f65bf66d10800000000000000
+      internalID: 2118657025701523795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 7981
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd862b6a358ad570800000000000000
+      internalID: 8492246533312777725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 7981
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c57c8a99505a8df0800000000000000
+      internalID: -177240889552505404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 7983
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336e208c23295e70800000000000000
+      internalID: 9104346795742225211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 7984
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559bbebef2da96450800000000000000
+      internalID: 6082583193073727829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 7985
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b43691959c8fb5d0800000000000000
+      internalID: -3044560249058609997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 7985
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b708468938e31c60800000000000000
+      internalID: 7787823514417366969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 7987
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ceaef5a23fdfdb0800000000000000
+      internalID: -4756378268109968288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 7987
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9961f340422350c70800000000000000
+      internalID: 8936604165858072217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7989
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b449f9796e0430800000000000000
+      internalID: 3751051512240189785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 7213
+        width: 320
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdade4db80780e140800000000000000
+      internalID: 4746942478854052575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 7213
+        width: 324
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92876b6b985d85210800000000000000
+      internalID: 1322041278085888041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 7213
+        width: 327
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c2685604d21b180800000000000000
+      internalID: -9101443617334612929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 7213
+        width: 328
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ef5fbd64a7ae10800000000000000
+      internalID: 2208914933517640035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 7213
+        width: 328
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf4b6003ab821e0800000000000000
+      internalID: -2222321700673619008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 7217
+        width: 328
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9140222b8f4f289e0800000000000000
+      internalID: -1620463566922316775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 7217
+        width: 324
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d66b7b0e0e97d0800000000000000
+      internalID: -2909872866756996448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 7217
+        width: 328
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bd7fc180680c7c0800000000000000
+      internalID: -4053092295229580410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 7218
+        width: 325
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cff5331fc065a80800000000000000
+      internalID: -8478575018389799784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 7221
+        width: 326
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edeb1b4a3ee54bc0800000000000000
+      internalID: -3799368776481509918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 7190
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410f088d09ad89300800000000000000
+      internalID: 259197294216278036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 7191
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed26d3a4c87a4d2a0800000000000000
+      internalID: -6713556923519769890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 7192
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584a84b4cbdbd9a40800000000000000
+      internalID: 5376662146564793477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 7194
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7075fc14f0538be0800000000000000
+      internalID: -1476247243459301252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 7194
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d3009e20a6884d0800000000000000
+      internalID: -3132136980104594109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 7196
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694bbdf4f0e771710800000000000000
+      internalID: 1663937191566095510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 6420
+        width: 324
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a726d6821adb8bf10800000000000000
+      internalID: 2285785310756168314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 6420
+        width: 327
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3def7b87fe6b6ad0800000000000000
+      internalID: -2707948741456827078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 6424
+        width: 324
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2a0700b0de04b90800000000000000
+      internalID: -7259541967813434644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 6424
+        width: 324
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a344128e7f5141e30800000000000000
+      internalID: 4473224484381344826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 6428
+        width: 324
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34507a60a6e68aa50800000000000000
+      internalID: 6532592661158102339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 6428
+        width: 324
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de5ce31e12b7a3c0800000000000000
+      internalID: -4348311072949903656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 6428
+        width: 324
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3e993f0fb5a5060800000000000000
+      internalID: 6942962865982268354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 6428
+        width: 328
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a17eb224fb7e80800000000000000
+      internalID: -8179675868127190355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 6432
+        width: 330
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59749a44759230cb0800000000000000
+      internalID: -4899026514858129515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 6432
+        width: 328
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6c85396c831be60800000000000000
+      internalID: 7976218840576607982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 5631
+        width: 331
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa27bdcb06fed7540800000000000000
+      internalID: 5007421559470256810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 5635
+        width: 330
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a0397caadd9aa0800000000000000
+      internalID: -6152521081615769149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 5635
+        width: 328
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b4b7bc19cbbfc30800000000000000
+      internalID: 4394313195800185754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 5635
+        width: 328
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa83d2fc77d7cf60800000000000000
+      internalID: 8054643390225287931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 5635
+        width: 324
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef7223998c84e3f0800000000000000
+      internalID: -872417905296113687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 5639
+        width: 327
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93f2e3603d1407d0800000000000000
+      internalID: -2953203361976749156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 5639
+        width: 326
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae11182903b26e70800000000000000
+      internalID: 9107038248404852399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 5639
+        width: 324
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d02d75db963c5a0800000000000000
+      internalID: -6502237175049745135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 5643
+        width: 324
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb68096007620bb0800000000000000
+      internalID: -4971297787203785790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 5643
+        width: 320
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009a960019541fa10800000000000000
+      internalID: 1941409403452893440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4842
+        width: 325
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b9a9a872978b7c0800000000000000
+      internalID: -4055358253711058044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4846
+        width: 320
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326fc8d200dea6060800000000000000
+      internalID: 6947625960192407075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 4846
+        width: 324
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43656d45dd7756390800000000000000
+      internalID: -7825716984991558092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 4850
+        width: 324
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa06bf966e37627f0800000000000000
+      internalID: -637694863768592214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 4850
+        width: 326
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a17a71a93a2a250800000000000000
+      internalID: 5954501539554335320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 4850
+        width: 324
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1144c055ac1f549f0800000000000000
+      internalID: -484715533559905263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 4850
+        width: 324
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce38e228698a28230800000000000000
+      internalID: 3639656813251429356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 4854
+        width: 328
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91bc5efaed307940800000000000000
+      internalID: 5291797641659462042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 4854
+        width: 325
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89e5013f29681020800000000000000
+      internalID: 2312714060061600138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 4854
+        width: 324
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b637cdc480e7a0800000000000000
+      internalID: -6349929455246985888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4057
+        width: 324
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825914aac64e4cd70800000000000000
+      internalID: 9062619505540306216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 4057
+        width: 321
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4c003f88cb15b0800000000000000
+      internalID: -5396499211161416653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 4057
+        width: 324
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8a1ad4cd764440800000000000000
+      internalID: 4919757927375080790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 4057
+        width: 321
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a513c10429092290800000000000000
+      internalID: -7914784819873901149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 4061
+        width: 320
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c4ef16f20901ab0800000000000000
+      internalID: -5039369449845666682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 4061
+        width: 320
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea1eec800f90b470800000000000000
+      internalID: 8408395329013947117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 4061
+        width: 321
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076bbf2e958b22b90800000000000000
+      internalID: -7268044152422812048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 4057
+        width: 320
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832037b2b16ae5c0800000000000000
+      internalID: -4185425483481996415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 4057
+        width: 321
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c6416ef6287890800000000000000
+      internalID: -7460169908743650911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 4057
+        width: 324
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a86dbd6f9900700800000000000000
+      internalID: 504572443794770498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3256
+        width: 320
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b9b3bbefe885b20800000000000000
+      internalID: 3123403566295522061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3256
+        width: 324
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40347e9a568d9d70800000000000000
+      internalID: 9051538549848158286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3252
+        width: 324
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8350b901176d48f0800000000000000
+      internalID: -554673856222047347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 3252
+        width: 325
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0c58b19d90d8700800000000000000
+      internalID: 544101958056001730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 3252
+        width: 328
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435cd5f1d67352580800000000000000
+      internalID: -8852608550709639884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 3249
+        width: 326
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fb273726bb4d090800000000000000
+      internalID: -8010571805667180744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 3248
+        width: 325
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4092b94657b739a0800000000000000
+      internalID: -6253327976349134774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 3248
+        width: 323
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3e17441242ed7b0800000000000000
+      internalID: -5197677194638138382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3245
+        width: 321
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d961776354161610800000000000000
+      internalID: 1591481866772376023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 3244
+        width: 324
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc852753a71437e0800000000000000
+      internalID: -1786777161850057473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2443
+        width: 322
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd1793b88491c6b0800000000000000
+      internalID: -5277773973452022352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2443
+        width: 324
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384efc1c70d858870800000000000000
+      internalID: 8684502520909784195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2443
+        width: 320
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705436601bf14bb0800000000000000
+      internalID: -4953402067278081931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 2443
+        width: 320
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a98f62017b73a430800000000000000
+      internalID: 3793011036478474660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2440
+        width: 320
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32d6302fb6a91080800000000000000
+      internalID: -9216151822627581378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 2439
+        width: 320
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5924f476a6585b430800000000000000
+      internalID: 3798088552803156629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 2439
+        width: 324
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d502f2845c1340800000000000000
+      internalID: 4835833021272019440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 2399
+        width: 324
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba87602d768a720800000000000000
+      internalID: 2857648115315944331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 2436
+        width: 324
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aff7671b1004880800000000000000
+      internalID: -8628895024332932579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 2436
+        width: 324
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b009c67687f9ea0800000000000000
+      internalID: -5863835804214752403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 2395
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5c53e17a4df3e10800000000000000
+      internalID: 2179694558902076840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2395
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af8e76f0c56bbcc0800000000000000
+      internalID: -3694247189883744344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1635
+        width: 327
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7d1c6b2b678ea0800000000000000
+      internalID: -5870605755012514783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1635
+        width: 328
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f05c6e14f40f00800000000000000
+      internalID: 1082258221979201984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1631
+        width: 324
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83681a9f09a97a050800000000000000
+      internalID: 5811783791598995000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1631
+        width: 321
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ef3d4a259b9d90800000000000000
+      internalID: -7089909179447516604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1631
+        width: 324
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5927084f796b180800000000000000
+      internalID: -9099918920672700949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1631
+        width: 323
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54ea9c3ddb5fb470800000000000000
+      internalID: 8412543634714059867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1631
+        width: 327
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9a154675f6f74e0800000000000000
+      internalID: -1981742889883817500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1627
+        width: 324
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee9c735f00c9bca0800000000000000
+      internalID: -6000553856436756759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1627
+        width: 324
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff50c2c219ad9740800000000000000
+      internalID: 5160466646078349305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 1627
+        width: 324
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47432d6181bc82c80800000000000000
+      internalID: -8347198605008685964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1594
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f6886336d653a90800000000000000
+      internalID: -7334836145218883787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1593
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af630bb98ebc08470800000000000000
+      internalID: 8394933905323472634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1593
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be609b5ecfea0ff40800000000000000
+      internalID: 5760296324615964395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1590
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a349f4a879175d2b0800000000000000
+      internalID: -5560413269244537798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1590
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f148fe166985f90800000000000000
+      internalID: -6964651476354064552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1589
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a03dd7826a6940800000000000000
+      internalID: 5290149047971128289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1589
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be57eb40471e61b0800000000000000
+      internalID: -5661562116639334736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 1586
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a5f8d9665f8340800000000000000
+      internalID: 4868204734822327576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 1585
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aef8aae15972de0800000000000000
+      internalID: -1357952803685799300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1585
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333686002145d59d0800000000000000
+      internalID: -2783976558352112845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 823
+        width: 324
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832f994e195a52c30800000000000000
+      internalID: 4334052262438105656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 822
+        width: 324
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23189e09c24487330800000000000000
+      internalID: 3708789251340075314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 822
+        width: 328
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88994dc808cb46e0800000000000000
+      internalID: -1852166881603381106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 822
+        width: 331
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920c01dec972b240800000000000000
+      internalID: 4806037681535189653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 822
+        width: 332
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1b623bbfa9200b0800000000000000
+      internalID: -5763874167247687198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 818
+        width: 328
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ab2da81dd52d2c0800000000000000
+      internalID: -4408357930683680191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 818
+        width: 328
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d06a395d528820800000000000000
+      internalID: 2918998146302398838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 818
+        width: 328
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035d8354cfc3737a0800000000000000
+      internalID: -6397577691465722576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 818
+        width: 327
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3cacd7833c5fe70800000000000000
+      internalID: 9148432865469055951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 818
+        width: 324
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570c4a8dac9f286c0800000000000000
+      internalID: -4142474057614049163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 784
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc80f6af5ef8afd0800000000000000
+      internalID: -2330333120388100865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 784
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf1ab439209823c0800000000000000
+      internalID: -4384095730592505929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 781
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd5b7c7d9bb1c20800000000000000
+      internalID: 3178338298459708821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 781
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb754f69b52c0340800000000000000
+      internalID: 4831277978627701740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 780
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac495a721a153e550800000000000000
+      internalID: 6188880065533940938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 780
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8eaf2c4921aa8a0800000000000000
+      internalID: -6293197099161163608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 14
+        width: 325
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61dfe89fed248f0800000000000000
+      internalID: -557638240413346050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 14
+        width: 324
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d787bc5c875a4460800000000000000
+      internalID: 7226684812431951824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 14
+        width: 328
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671fd51689790b150800000000000000
+      internalID: 5886371393697608054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 14
+        width: 322
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136866157e4356330800000000000000
+      internalID: 3703424436689864241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 14
+        width: 324
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e828e60c2c6ee250800000000000000
+      internalID: 5975832691917465831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onibii_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 10
+        width: 327
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb0e035f35f5680800000000000000
+      internalID: -8764194037287568174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
