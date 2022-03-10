@@ -7,9 +7,12 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 {
     public string content;
     public string header;
+    public bool isActive;
     public void OnPointerEnter(PointerEventData eventData){
+        if(isActive){
         TooltipSystem.Show(content,header);
         StartCoroutine("WaitABit");
+        }
     }
     private IEnumerator WaitABit(){
         yield return new WaitForSecondsRealtime(5);
@@ -21,8 +24,10 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     }
 
     private void OnMouseEnter(){
+        if(isActive){
         TooltipSystem.Show(content,header);
          StartCoroutine("WaitABit");
+        }
     }
     private void OnMouseExit(){
         TooltipSystem.Hide();
