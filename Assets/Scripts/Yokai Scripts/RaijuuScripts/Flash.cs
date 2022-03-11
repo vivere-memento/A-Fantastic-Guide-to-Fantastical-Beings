@@ -11,6 +11,17 @@ using UnityEngine.Experimental.Rendering.Universal;
      public Light2D myLight;        // Your light
     
     void Start(){
+        
+    }
+
+    void OnEnable(){
+        HelpController.allCluesFound +=FlashLight;
+    }
+    void OnDisable(){
+        HelpController.allCluesFound -=FlashLight;
+    }
+
+    void FlashLight(){
         StartCoroutine("flashNow");
     }
 

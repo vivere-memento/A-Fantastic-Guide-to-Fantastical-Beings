@@ -11,7 +11,8 @@ public class PropClicked : MonoBehaviour
     void OnMouseDown(){
         Debug.Log("done.ToString()");
         if(done){
-        propClicked?.Invoke("propName");
+        Debug.Log(propName);
+        propClicked?.Invoke(propName);
         this.GetComponent<TooltipTrigger>().isActive = false;
         done = false;
         Debug.Log(done.ToString());

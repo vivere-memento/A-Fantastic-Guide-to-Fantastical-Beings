@@ -12,6 +12,8 @@ public class HelpButtonSystem : MonoBehaviour, IPointerEnterHandler, IPointerExi
     private GameObject panel;
     [SerializeField]
     private TMP_Text text;
+    [SerializeField]
+    private TMP_Text score;
 
     private string displayText;
     public void OnPointerEnter(PointerEventData pointerEventData)
@@ -27,14 +29,20 @@ public class HelpButtonSystem : MonoBehaviour, IPointerEnterHandler, IPointerExi
         //Output the following message with the GameObject's name
         Debug.Log("Cursor Exiting " + name + " GameObject");
         mAni.SetBool("isActive",false);
-        StartCoroutine("StayAWhile");
+        //StartCoroutine("StayAWhile");
     }
     private IEnumerator StayAWhile(){
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         panel.SetActive(false);
     }
     public void ClickMe(){
+        if(GetComponentInParent<HelpController>().score >= 2){
+            text.text = "Look for the Raijuu in the sky!";
+            score.text= "";
+        }
         panel.SetActive(true);
+        StartCoroutine("StayAWhile");
+
     }
     // Start is called before the first frame update
     void Start()
