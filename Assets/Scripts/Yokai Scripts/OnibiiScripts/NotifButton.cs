@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System;
 
 public class NotifButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    public static Action buttonClicked;
     private Animator mAni;
+
+    private void UpdateText(){
+        buttonClicked?.Invoke();
+    }
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
         //Output to console the GameObject's name and the following message
