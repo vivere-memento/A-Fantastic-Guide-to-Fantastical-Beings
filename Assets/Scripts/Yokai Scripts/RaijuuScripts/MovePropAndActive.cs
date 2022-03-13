@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MovePropAndActive : MonoBehaviour
 {
+    public GameObject footprint;
     private float startPosX;
     private float startPosY;
     public TooltipTrigger ts;
@@ -15,7 +16,7 @@ public class MovePropAndActive : MonoBehaviour
         {
             Debug.Log("Props dragged");
 
-    
+            footprint.SetActive(true);
             //create variable
             Vector2 mousePos;
 
@@ -44,13 +45,12 @@ public class MovePropAndActive : MonoBehaviour
         isBeingHeld = false;
         ts.isActive = true;
         gameObject.SetActive(false);
-
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        footprint.SetActive(false);
     }
 
     // Update is called once per frame
