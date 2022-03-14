@@ -17,7 +17,7 @@ public class Onibii : MonoBehaviour
     }
 
     IEnumerator DespawnOnibii(){
-        yield return new WaitForSeconds(UnityEngine.Random.Range(2,6));
+        yield return new WaitForSeconds(UnityEngine.Random.Range(4,7));
         despawned = true;
         Destroy(this.gameObject);
     }

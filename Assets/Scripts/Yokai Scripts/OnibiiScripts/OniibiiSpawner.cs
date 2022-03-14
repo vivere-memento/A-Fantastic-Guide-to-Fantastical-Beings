@@ -10,7 +10,7 @@ public class OniibiiSpawner : MonoBehaviour
     private int minX=-10, maxX=15, minY=-10, maxY=10;
     
     public Onibii prefab;
-    private int counter = 0;
+    public int counter = 0;
     private bool notSpawned= true;
     private void OnEnable(){
         AmbientYokai.yokaiSpotted += countYokai;
@@ -27,6 +27,7 @@ public class OniibiiSpawner : MonoBehaviour
         //DestructableProp.propBroke += ShowNotifcation;
     }
     private void stopSpawning(string v){
+        Debug.Log("OnibiCaught!");
         counter = 0;
     }
     private void countYokai(string v){
@@ -42,7 +43,7 @@ public class OniibiiSpawner : MonoBehaviour
         
     }
     private IEnumerator SpawnOnibii(){
-        yield return new WaitForSeconds(Random.Range(5,7));
+        yield return new WaitForSeconds(Random.Range(6,8));
         Instantiate(prefab, new Vector3(Random.Range(minX,maxX),Random.Range(minY,maxY),0), Quaternion.identity);
     }
     // Update is called once per frame

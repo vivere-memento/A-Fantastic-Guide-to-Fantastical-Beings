@@ -31,9 +31,11 @@ public class NotifiSystem : MonoBehaviour
         panel.SetActive(true);
         StartCoroutine("StayAndGo");
     }
-    void UpdateCurrentText(string s){
-        if(CurrentTextIndex < NotifTextList.Count) CurrentTextIndex++;
+    public void UpdateCurrentText(string s){
+        if(CurrentTextIndex < NotifTextList.Count){CurrentTextIndex++;}
+        else if(CurrentTextIndex >= NotifTextList.Count || CurrentTextIndex < 0){CurrentTextIndex= NotifTextList.Count;}
         helpText.text = NotifTextList[CurrentTextIndex];
+        Debug.Log("Current index is" + CurrentTextIndex.ToString());
         ShowNotif();
     }
 
