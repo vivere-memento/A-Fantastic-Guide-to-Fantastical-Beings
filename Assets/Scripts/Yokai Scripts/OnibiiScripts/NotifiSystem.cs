@@ -10,7 +10,7 @@ public class NotifiSystem : MonoBehaviour
     private TMP_Text helpText,scoreText;
     [SerializeField]
     private GameObject panel;
-    public List<string> NotifText;
+    public List<string> NotifTextList;
     public int CurrentTextIndex = 0;
     void OnEnable(){
         NotifButton.buttonClicked += UpdateCurrentText;
@@ -18,7 +18,8 @@ public class NotifiSystem : MonoBehaviour
     }
 
     void OnDisable(){
-
+        NotifButton.buttonClicked -= UpdateCurrentText;
+        PropClicked.propClicked -= UpdateCurrentText;
     }
 
     private IEnumerator StayAndGo(){
@@ -28,15 +29,17 @@ public class NotifiSystem : MonoBehaviour
 
     public void ShowNotif(){
         panel.SetActive(true);
-        UpdateCurrentText();
         StartCoroutine("StayAndGo");
     }
     void UpdateCurrentText(string s){
-
+        if(CurrentTextIndex < NotifTextList.Count) CurrentTextIndex++;
+        helpText.text = NotifTextList[CurrentTextIndex];
+        ShowNotif();
     }
 
     public void UpdateCurrentText(){
-        helpText.text = NotifText[CurrentTextIndex];
+        helpText.text = NotifTextList[CurrentTextIndex];
+        ShowNotif();
     }
 
     public void ChangeTextByIndex(int index){
