@@ -145,111 +145,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bush Assets_0
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 2342
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4deeae7dc51b05b0800000000000000
-      internalID: -5401199355762905781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bush Assets_1
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 1669
-        width: 1516
-        height: 968
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b404893ef737eee20800000000000000
-      internalID: 3381767363318267979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bush Assets_2
-      rect:
-        serializedVersion: 2
-        x: 2047
-        y: 1725
-        width: 1411
-        height: 948
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35f57e2db80c0e600800000000000000
-      internalID: 495607665782120275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bush Assets_3
-      rect:
-        serializedVersion: 2
-        x: 3815
-        y: 1650
-        width: 1271
-        height: 950
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfb74b24b524b0280800000000000000
-      internalID: -9076087664306521092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bush Assets_4
-      rect:
-        serializedVersion: 2
-        x: 1298
-        y: 561
-        width: 1495
-        height: 788
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41f28887f2dd77350800000000000000
-      internalID: 6014519023331979028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Bush Assets_5
       rect:
         serializedVersion: 2
@@ -258,7 +153,7 @@ TextureImporter:
         width: 1229
         height: 846
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
