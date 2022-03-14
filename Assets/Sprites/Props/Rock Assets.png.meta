@@ -145,12 +145,12 @@ TextureImporter:
       name: Rock Assets_0
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 1965
-        width: 1237
-        height: 835
+        x: 1002
+        y: 1948
+        width: 1439
+        height: 952
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,90 +158,6 @@ TextureImporter:
       bones: []
       spriteID: e7461dbd2a8cb9eb0800000000000000
       internalID: -4711951983314901890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock Assets_1
-      rect:
-        serializedVersion: 2
-        x: 2828
-        y: 2018
-        width: 1181
-        height: 667
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae603702631ef7370800000000000000
-      internalID: 8322618258992858858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock Assets_2
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 513
-        width: 1384
-        height: 1204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6853de5da6d4ee030800000000000000
-      internalID: 3525840679528641926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock Assets_3
-      rect:
-        serializedVersion: 2
-        x: 2280
-        y: 443
-        width: 1279
-        height: 1299
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05d5b864fe053c4a0800000000000000
-      internalID: -6574322042419847856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock Assets_4
-      rect:
-        serializedVersion: 2
-        x: 3992
-        y: 1090
-        width: 1235
-        height: 883
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aef235966ab2f340800000000000000
-      internalID: 4896180694657728160
       vertices: []
       indices: 
       edges: []
