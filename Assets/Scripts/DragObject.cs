@@ -6,17 +6,23 @@ using System;
 public class DragObject : MonoBehaviour
 {
     public static Action propFiddled;
-    private float startPosX;
-    private float startPosY;
-    private bool isBeingHeld = false;
+    private float startPosX, startPosY;
+    private bool isBeingHeld;
     Vector2 oldPos, lowSens = new Vector2(.5f,.5f);
+    Vector2 mousePos;
 
-    // Update is called once per frame
+    void Start()
+    {
+        isBeingHeld = false;
+    }
+
     void Update()
     {
         if (isBeingHeld == true)
         {
-            Vector2 mousePos;
+            // get the current position
+            Vector3 newPosition = transform.position;
+
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
@@ -25,22 +31,17 @@ public class DragObject : MonoBehaviour
         }
     }
 
+
     private void OnMouseDown()
     {
-        //if the left mouse is clicked
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Props dragged");
 
             oldPos = transform.position;
 
-            //create variable
-            Vector2 mousePos;
-
-            //set value to position of mouse in entire screen
+            //set value to position of mouse in entire screen, then in game screen
             mousePos = Input.mousePosition;
-
-            //set value to position of mouse in game screen
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
             //difference between the current mouse position on the object and the center of the object
