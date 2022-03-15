@@ -10,13 +10,16 @@ public class RaijuuCapture : MonoBehaviour
     public static Action raijuuCaught;
     private int timesCaught;
     public void SetCapturable(){
+        Debug.Log("Raijuu Active");
         canCapture = true;
         GetComponentInChildren<ParticleSystem>().Play(true);
     }
     private void OnMouseDown(){
+        Debug.Log("Raijuu Moused");
         if(canCapture){
         Debug.Log("Caught a Raijuu!");
         raijuuCaught?.Invoke();
+        timesCaught++;
         if(timesCaught>=2){
         this.gameObject.SetActive(false);
         }
@@ -27,11 +30,19 @@ public class RaijuuCapture : MonoBehaviour
         
     }
 
+    private void Uncapturable(){
+        canCapture = false;
+    }
+
     void OnEnable(){
         HelpController.allCluesFound += SetCapturable;
+        RaijuuInfoController.showingPane += Uncapturable;
+        RaijuuInfoController.paneClosed +=SetCapturable;
     }
     void OnDisable(){
         HelpController.allCluesFound -= SetCapturable;
+        RaijuuInfoController.showingPane -= Uncapturable;
+        RaijuuInfoController.paneClosed -=SetCapturable;
     }
 
     // Start is called before the first frame update
