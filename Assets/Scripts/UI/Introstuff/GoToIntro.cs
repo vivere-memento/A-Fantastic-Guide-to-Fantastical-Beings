@@ -16,6 +16,7 @@ public class GoToIntro : MonoBehaviour
     StartCoroutine(StartIntro());
   }
   private IEnumerator StartIntro(){
+    AudioManager.instance.PlaySound2D("LongBookOpen");
     bookOpen.Play("BookOpen",-1);
     yield return new WaitForSeconds(1);
     g.SetActive(true);

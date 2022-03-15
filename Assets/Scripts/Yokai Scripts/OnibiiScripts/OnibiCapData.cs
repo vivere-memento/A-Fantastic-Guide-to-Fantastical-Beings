@@ -18,6 +18,7 @@ public class OnibiCapData : MonoBehaviour
         OniGroup.oniGroupCaptured -= ShowSecondPanel;
     }
     public void BackToJapan(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
         SceneManager.LoadScene("JapanMap");
     }
     void ShowSecondPanel(){

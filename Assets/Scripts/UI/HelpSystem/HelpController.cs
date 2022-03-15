@@ -52,7 +52,7 @@ public class HelpController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- 
+        AudioManager.instance.PlaySound2D("");
     }
 
     // Update is called once per frame

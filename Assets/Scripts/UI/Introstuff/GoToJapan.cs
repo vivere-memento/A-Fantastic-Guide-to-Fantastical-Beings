@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GoToJapan : MonoBehaviour
 {
+    public static Action MovingToMain;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class GoToJapan : MonoBehaviour
         gameObject.GetComponentInChildren<TMP_Text>().color = Color.black;
     }
     public void GoToNext(){
+        MovingToMain?.Invoke();
         SceneManager.LoadScene("JapanMap");
     }
 
