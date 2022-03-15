@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: d3e6915a283d87b4992b2af9a1eead11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4942660711506197081
+    second: Footprint Assets_0
+  - first:
+      213: -7552694353038211722
+    second: Footprint Assets_3
+  - first:
+      213: -9006751831990805698
+    second: Footprint Assets_6
+  - first:
+      213: 6410313457608997226
+    second: Footprint Assets_7
+  - first:
+      213: 1540740508764981568
+    second: Footprint Assets_10
+  - first:
+      213: 152782148177681008
+    second: Footprint Assets_12
+  - first:
+      213: -7743040681670975906
+    second: Footprint Assets_14
+  - first:
+      213: 3501007879761490153
+    second: Footprint Assets_18
+  - first:
+      213: 2150912093217402664
+    second: Footprint Assets_19
+  - first:
+      213: 4001180073944516106
+    second: Footprint Assets_24
+  - first:
+      213: 1222414742372806592
+    second: Footprint Assets 1_0
+  - first:
+      213: 2575578751821981246
+    second: Footprint Assets 1_3
+  - first:
+      213: 8006604339641463791
+    second: Footprint Assets 1_6
+  - first:
+      213: 5560541677882436595
+    second: Footprint Assets 1_7
+  - first:
+      213: -7924793263199224681
+    second: Footprint Assets 1_10
+  - first:
+      213: 1006163851285977942
+    second: Footprint Assets 1_12
+  - first:
+      213: 6060326329181609893
+    second: Footprint Assets 1_14
+  - first:
+      213: -1509876582044510205
+    second: Footprint Assets 1_18
+  - first:
+      213: 2228303524265526710
+    second: Footprint Assets 1_19
+  - first:
+      213: -5056636900055345816
+    second: Footprint Assets 1_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 94, y: 30, z: 700, w: 96}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Footprint Assets 1_0
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 441
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfe4574bb3e6f010800000000000000
+      internalID: 1222414742372806592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 365
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36a4619a3b4eb320800000000000000
+      internalID: 2575578751821981246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_6
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 372
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe33e61e93c2d1f60800000000000000
+      internalID: 8006604339641463791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_7
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 368
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbefece1330b2d40800000000000000
+      internalID: 5560541677882436595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 252
+        width: 79
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cf994b38a750290800000000000000
+      internalID: -7924793263199224681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_12
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 304
+        width: 81
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b5dbd11bc96fd00800000000000000
+      internalID: 1006163851285977942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 308
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af11d9ffaa9a1450800000000000000
+      internalID: 6060326329181609893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 233
+        width: 137
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3085e809f37db0be0800000000000000
+      internalID: -1509876582044510205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 87
+        width: 83
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5099fcf368cee10800000000000000
+      internalID: 2228303524265526710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint Assets 1_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 36
+        width: 101
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8659116d78733d9b0800000000000000
+      internalID: -5056636900055345816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape:
+    - - {x: 256.5, y: 29}
+      - {x: 348.5, y: 114}
+      - {x: 403.5, y: 216}
+      - {x: 467.5, y: 228}
+      - {x: 467.5, y: 30}
+    - - {x: -447.5, y: -197}
+      - {x: -447.5, y: 172}
+      - {x: -221.5, y: 170}
+      - {x: -263.5, y: 99}
+      - {x: -157.5, y: -94}
+      - {x: -155.5, y: -243}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
