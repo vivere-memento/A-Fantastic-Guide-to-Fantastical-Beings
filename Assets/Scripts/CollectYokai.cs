@@ -12,6 +12,7 @@ public class CollectYokai : MonoBehaviour
     [SerializeField] private GameObject yokai;
     [SerializeField] private Text yokaiText;
     [SerializeField] private GameObject propBlock;
+    [SerializeField] private float target;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +28,8 @@ public class CollectYokai : MonoBehaviour
         //zoom in to yokai when clicked
         if (isClicked)
         {
-            cam.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, cam.transform.position.z);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1, Time.deltaTime * 5);
+            cam.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, cam.transform.position.z);
         }
     }
 
