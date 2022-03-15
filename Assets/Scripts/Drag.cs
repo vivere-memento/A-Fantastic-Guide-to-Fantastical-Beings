@@ -17,7 +17,7 @@ public class Drag : MonoBehaviour
         minY = before_clamp.y;
         maxY = before_clamp.y + 0.25f;*/
 
-        transform.position = new Vector2(
+       transform.position = new Vector2(
             Mathf.Clamp(before_clamp.x, minX, maxX),
             Mathf.Clamp(before_clamp.y, minY, maxY));
     }
