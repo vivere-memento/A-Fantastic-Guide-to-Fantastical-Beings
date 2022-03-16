@@ -15,6 +15,5 @@ MonoBehaviour:
   questName: Find the Daidarabotchi!
   id: 2
   questText:
-  - Theres a Daidarabotchi
-  - Hint about where the yokai is found
+  - A Daidarabotchi was rumored to be in Aomori!
   - Hint about its behavior

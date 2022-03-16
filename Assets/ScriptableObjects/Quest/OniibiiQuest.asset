@@ -15,6 +15,5 @@ MonoBehaviour:
   questName: Find the Onibii!
   id: 3
   questText:
-  - Theres are Onibii!
-  - Hint about where the yokai is found
-  - Hint about its behavior
+  - Onibi were spotted in a forest near the coastline!
+  - Onibi are dangerous creatures, look for tracks of animals running from them!

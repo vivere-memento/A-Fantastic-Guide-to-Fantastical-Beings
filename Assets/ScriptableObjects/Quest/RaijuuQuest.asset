@@ -15,6 +15,5 @@ MonoBehaviour:
   questName: Find the Raijuu!
   id: 5
   questText:
-  - Raijuu incoming!
-  - Hint about where the yokai is found
-  - Hint about its behavior
+  - A Raijuu was seen in the mountains of Kansai!
+  - Lightning never strikes twice! This is a rare chance to view a Raijuu!

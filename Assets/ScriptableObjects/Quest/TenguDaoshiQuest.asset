@@ -15,6 +15,5 @@ MonoBehaviour:
   questName: Find the Tengu Daoshi!
   id: 4
   questText:
-  - Theres a tengu daoshi!
-  - Hint about where the yokai is found
-  - Hint about its behavior
+  - A Daitengu lives in the forests of Hokkaido.
+  - This being is enjoys surroudiing itself in nature.
