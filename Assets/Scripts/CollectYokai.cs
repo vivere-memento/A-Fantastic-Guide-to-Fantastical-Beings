@@ -12,7 +12,6 @@ public class CollectYokai : MonoBehaviour
     [SerializeField] private GameObject yokai;
     [SerializeField] private Text yokaiText;
     [SerializeField] private GameObject propBlock;
-    [SerializeField] private float target;
 
     // Start is called before the first frame update
     void Start()
@@ -66,7 +65,7 @@ public class CollectYokai : MonoBehaviour
                 yokaiText.text = "Description for Daidarabotchi";
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi);
             }
-            /*else if (yokai.name == "Kitsune")
+            else if (yokai.name == "Kitsune")
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Kitsune";

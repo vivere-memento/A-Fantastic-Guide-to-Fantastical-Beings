@@ -10,27 +10,27 @@ public class OKButton : MonoBehaviour
     private Camera cam;
     [SerializeField]
     private PlayManager.QuestName yokaiName = PlayManager.QuestName.Tutorial;
-    // Start is called before the first frame update
+
     void Start()
     {
         cam = Camera.main;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
     }
 
-    //when click on 'ok' button
     public void CloseDescriptionBox()
     {
-        /*//disable description box
+        /*
         descBox.SetActive(false);
 
         //zoom out to normal
         cam.transform.position = new Vector3(transform.position.x, transform.position.y, cam.transform.position.z);
-        cam.orthographicSize = 5;*/
+        cam.orthographicSize = 5;
+        */
+
         PlayManager.Instance.CaughtAYokai(yokaiName);
         SceneManager.LoadScene("JapanMap");
     }
