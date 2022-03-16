@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   descBox: {fileID: 32548187}
-  yokaiName: 5
 --- !u!4 &9071103
 Transform:
   m_ObjectHideFlags: 0
@@ -2115,7 +2114,6 @@ MonoBehaviour:
   yokai: {fileID: 1671794849}
   yokaiText: {fileID: 1644344121}
   propBlock: {fileID: 1478298924}
-  target: 1
 --- !u!65 &1671794853
 BoxCollider:
   m_ObjectHideFlags: 0
