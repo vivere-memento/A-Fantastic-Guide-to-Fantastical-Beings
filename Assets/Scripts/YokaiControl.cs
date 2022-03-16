@@ -49,12 +49,12 @@ public class YokaiControl : MonoBehaviour
 
     void Start() {
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Tengu", "Description2", "yokai1", "yokai story"));
-        yokaiList.Add(new Yokai("Onibi", "Description3", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Raijuu", "Description4", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("Daidarabotchi", "Description5", "pic", "yokai story"));
-        yokaiList.Add(new Yokai("YogenNoTori", "Description1", "yokai1", "yokai story"));
-        yokaiList.Add(new Yokai("Kitsune", "Description6", "pic", "yokai story"));
+        yokaiList.Add(new Yokai("Tengu", "Description2", "tengu fullbody alt", "yokai story"));
+        yokaiList.Add(new Yokai("Onibi", "Description3", "onibii 03", "yokai story"));
+        yokaiList.Add(new Yokai("Raijuu", "Description4", "raiju 01", "yokai story"));
+        yokaiList.Add(new Yokai("Daidarabotchi", "Description5", "giant copy", "yokai story"));
+        yokaiList.Add(new Yokai("YogenNoTori", "Description1", "two head crow  04", "yokai story"));
+        yokaiList.Add(new Yokai("Kitsune", "Description6", "kitsune full body 01", "yokai story"));
     }
 
     public List<string> getFullYokaiList()

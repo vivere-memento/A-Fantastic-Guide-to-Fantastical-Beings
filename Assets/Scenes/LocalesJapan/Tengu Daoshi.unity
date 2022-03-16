@@ -1344,7 +1344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1229968645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,6 +1777,7 @@ GameObject:
   - component: {fileID: 1478982647}
   - component: {fileID: 1478982648}
   - component: {fileID: 1478982649}
+  - component: {fileID: 1478982650}
   m_Layer: 0
   m_Name: Cloud Assets_3
   m_TagString: Yokai Behind
@@ -1888,6 +1889,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 19.57, y: 7.79}
   m_EdgeRadius: 0
+--- !u!114 &1478982650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478982645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd85b44c17ad9db4fbfa7a30d083dd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObj: {fileID: 0}
 --- !u!1 &1524921902
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +2055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652300251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.175, y: -2.137, z: 0}
+  m_LocalPosition: {x: 4.07, y: -2.197, z: 0}
   m_LocalScale: {x: 0.12189541, y: 0.12189541, z: 0.6094771}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2086,7 +2100,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 691a784114d7ada459fe2b7d54295d0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2113,8 +2127,7 @@ MonoBehaviour:
   descBox: {fileID: 1964785895}
   yokai: {fileID: 1652300251}
   yokaiText: {fileID: 496267539}
-  propBlock: {fileID: 1478982645}
-  target: 1
+  propBlock: {fileID: 938439370}
 --- !u!65 &1652300255
 BoxCollider:
   m_ObjectHideFlags: 0

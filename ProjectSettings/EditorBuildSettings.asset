@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JapanMap.unity
     guid: e2b810cf77d25b04391ef01211500da7
+  - enabled: 1
+    path: Assets/Scenes/LocalesJapan/Yogen No Tori.unity
+    guid: a58bc1ebfc56ee449b9c070cc4110324
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
