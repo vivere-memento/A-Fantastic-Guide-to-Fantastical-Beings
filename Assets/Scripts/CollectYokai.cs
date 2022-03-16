@@ -65,7 +65,7 @@ public class CollectYokai : MonoBehaviour
                 yokaiText.text = "Description for Daidarabotchi";
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi);
             }
-            else if (yokai.name == "Kitsune")
+            /*else if (yokai.name == "Kitsune")
             {
                 propBlock.SetActive(false);
                 yokaiText.text = "Description for Kitsune";
