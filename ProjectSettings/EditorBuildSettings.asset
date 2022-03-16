@@ -11,18 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JapanMap.unity
     guid: e2b810cf77d25b04391ef01211500da7
-  - enabled: 1
-    path: Assets/Scenes/LocalesJapan/Yogen No Tori.unity
-    guid: 390bfc0052ae9754180d421fa5bfbdb1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/LocalesJapan/Daidarabotchi.unity
     guid: bf3f8c1b9f7abd0409d8894f48318317
   - enabled: 1
     path: Assets/Scenes/LocalesJapan/OniiBii.unity
     guid: 4dbe93296483c7543babdc90841af407
-  - enabled: 1
-    path: Assets/Scenes/LocalesJapan/Tengu Daoshi.unity
-    guid: 08be2d3b6954a234f817e931bf0b57f3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/LocalesJapan/Raijuu.unity
     guid: 969ddccca8195344da0894e50e271b7d
