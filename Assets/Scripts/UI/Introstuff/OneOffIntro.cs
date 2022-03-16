@@ -9,7 +9,7 @@ public class OneOffIntro : MonoBehaviour
     {
         string playerName = PlayerPrefs.GetString("Player Name");
         TMP_Text text = gameObject.GetComponent<TMP_Text>();
-        text.text = "Hello " + playerName+ " this is the introduction text where we will set the scene and briefly familiarize the user with the lore and goals of the project.";
+        text.text = "Dear " + playerName+ ", we share our world with beings of myth and legend, creatures called Yokai.\nThey exist all around us, yet we know so little about them. \n Let this book guide you to uncover their mysteries!";
     }
 
     // Update is called once per frame

@@ -5374,11 +5374,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.52635133
+      value: 0.47886562
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.61621624
+      value: 0.6134393
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5390,11 +5390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50.594604
+      value: -40.578003
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 643.13513
+      value: 637.80347
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555503, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: wrapLimit
@@ -9658,8 +9658,8 @@ MonoBehaviour:
   - The animal that left these tracks must have been in a hurry.
   - These prints are wet, what was the animal running from?
   - Did you see that!? The Onibi must be deeper in the forest! Go after it!
-  - 
-  - 
+  - Try to spot an Onibi!
+  - Try to spot a group of Onibi!
   - 
   - 
   CurrentTextIndex: 0
@@ -15573,8 +15573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.3128, y: 1.8416}
-  m_SizeDelta: {x: 411.4991, y: 454.8859}
+  m_AnchoredPosition: {x: -11.3014, y: 0.8473}
+  m_SizeDelta: {x: 395.59, y: 444.9427}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597783293
 MonoBehaviour:
@@ -15596,11 +15596,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'These yokai mostly appear in large groups, but can sometimes be seen in
-    groups of one or two.
+  m_text: 'Onibi usually appear in groups of two to ten. Occasionally, they are seen
+    in the hundreds.
 
-    Onibi are said to be formed from the negative spirit
-    energy from human or animal bodies.'
+
+    Onibi are formed from negative spirit energy. This energy
+    comes from human or animal remains.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15627,7 +15628,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.65
+  m_fontSize: 38.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23561,8 +23562,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.4247, y: 0.8791}
-  m_SizeDelta: {x: 424.5312, y: 462.1384}
+  m_AnchoredPosition: {x: -8.3286, y: 1.783}
+  m_SizeDelta: {x: 411.8762, y: 438.6364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003410294
 MonoBehaviour:
@@ -23584,11 +23585,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Onibi are most commonly seen during periods of rain, yet their mystical
-    fire is not put out by water.
+  m_text: 'Onibi are seen mostly when it rains, yet their mystical fire is not put
+    out by water.
 
-    Some of these fires are said to produce no
-    heat, and the Onibi instead consume the souls of approaching creatures.'
+
+    Their fires are not hot, but the Onibi are still dangerous.
+    They eat the souls of nearby creatures'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23615,7 +23617,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.4
+  m_fontSize: 38.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

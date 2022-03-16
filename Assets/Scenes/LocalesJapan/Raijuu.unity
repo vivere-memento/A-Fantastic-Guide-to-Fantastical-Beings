@@ -6667,7 +6667,8 @@ MonoBehaviour:
   m_text: 'A common superstition in Japan is to cover your belly button when lightning
     strikes.
 
-    Children were told that small Raijuu would hide in their navels,
+
+    Children were told that  Raijuu would sleep in their belly buttons,
     thus starting the above practice. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6695,7 +6696,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.8
+  m_fontSize: 39.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15485,11 +15486,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.x
-      value: -0.24087836
+      value: 0.47886562
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.y
-      value: -0.015202707
+      value: 0.6134393
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -15501,11 +15502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1422.4865
+      value: -40.578003
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -569.1892
+      value: 637.80347
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471934596553, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Name
@@ -16468,11 +16469,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When the Raijuu move, they cause lightning strikes and can damage things
-    around them.
+  m_text: 'When a Raijuu moves, lightning strikes to follow in their path.
 
-    In the past, the Japanese thought lightning bolts were Raijuu,
-    sent by the gods to punish them. '
+
+    A
+    long time ago, the Japanese thought lightning bolts were Raijuu, sent by the
+    gods to punish them. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16499,7 +16501,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.65
+  m_fontSize: 39.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
