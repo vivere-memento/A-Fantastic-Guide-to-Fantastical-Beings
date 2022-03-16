@@ -1,7 +1,8 @@
 using System.Collections; 
 using System.Collections.Generic; 
 using UnityEngine; 
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using TMPro;
  
 public class CollectYokai : MonoBehaviour 
 { 
@@ -10,7 +11,7 @@ public class CollectYokai : MonoBehaviour
  
     [SerializeField] private GameObject descBox; 
     [SerializeField] private GameObject yokai; 
-    [SerializeField] private Text yokaiText; 
+    [SerializeField] private TMP_Text yokaiText; 
     [SerializeField] private GameObject propBlock;
 
     // Start is called before the first frame update 
@@ -50,25 +51,37 @@ public class CollectYokai : MonoBehaviour
             if (yokai.name == "Yogen No Tori") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Description for Yogen No Tori"; 
+                yokaiText.text = "Yogen no Tori are twin-headed birds that look like crows." +
+                                 "They can speak and the gods use them to deliver important messages.\n\n"+
+                                 "In 1858, near Mount Haku, a government official heard a prophecy from a Yogen no Tori.\n"+
+                                 "The yokai prophesied a great disaster, which could be averted if its message was spread to the people\n"+
+                                 "The official, wanting to save the citizens, spread the message across the country.\n This marked the first written record of an encounter with a Yogen no Tori."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.YogenNoTori); 
             } 
             else if (yokai.name == "Tengu Daoshi") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Description for Tengu Daoshi"; 
+                yokaiText.text = "Daitengu are a type of Tengu, Tengu meaning 'Heavenly Dog'."+
+                                 "The Daitengu look closer to humans than the Tengu, but still have bird-like features.\n\n"+
+                                 "Historically, the Daitengu were viewed as dangerous beings. However, over time, the Japanese began to see them as wise sages and would sometimes seek their help.\n"+
+                                 "Daitengu live alone, in places away from others, practicing meditation to perfect themselves. \nThe long and big noses of a Daitengu show their power. The longer the nose, the more powerful the Daitengu."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu); 
             } 
             else if (yokai.name == "Daidarabotchi") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Description for Daidarabotchi"; 
+                yokaiText.text = "Daidarabotchi are giants that look like bald priests.\n"+
+                                 "They have black skin, long snaky tongues and big rolling eyes.\n\n"+
+                                 "The Daidarabotchi are so large that their very movements shaped the landscape of Japan."+
+                                 "As such, many towns are named after the yokai which supposedly created them.\n"+
+                                 " In legends, Mount Fuji was said to have been created by a Daidarabotchi. The yokai dug up all the dirt around the Kai province to build the mountain, which is why Mount Fuji is in a large basin."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi); 
             } 
             else if (yokai.name == "Kitsune") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Description for Kitsune"; 
+                yokaiText.text = "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries.\n Kitsune are highly intelligent, mischevious animals. As servants of the gods, Kitsune also have magical powers.\n\n"+
+                                 "STORY TEXT PENDING..."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Kitsune); 
             } 
             /*else if (yokai.name == "Oniibii") 
