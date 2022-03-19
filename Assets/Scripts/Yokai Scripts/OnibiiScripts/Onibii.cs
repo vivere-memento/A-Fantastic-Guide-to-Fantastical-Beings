@@ -9,11 +9,15 @@ public class Onibii : MonoBehaviour
     public static Action<string> onibiiDespawned;
     private bool captured= false;
     private bool despawned = false;
+    Material mat;
+    float dis = 0f;
+    bool canDissolve =true;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(DespawnOnibii());
+        mat = GetComponent<SpriteRenderer>().material;
     }
 
     IEnumerator DespawnOnibii(){
@@ -38,6 +42,13 @@ public class Onibii : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(canDissolve){
+            dis += Time.deltaTime;
+            if(dis >= 2f){
+            dis = 0f;
+            canDissolve= false;
+            }
+            mat.SetFloat("_DissolveStrength",dis);
+        }
     }
 }
