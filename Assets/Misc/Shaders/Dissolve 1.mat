@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Electricity
-  m_Shader: {fileID: -6465566751694194690, guid: 9080c54d519334f4cad863614f235fd6, type: 3}
+  m_Name: Dissolve 1
+  m_Shader: {fileID: -6465566751694194690, guid: a10c30fd4dfb0024f9b13f6e222a312c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -32,11 +36,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_3243be2f5f0641719a9ab632e98ea39a: 2
-    - Vector1_3f9eda2897e14d81884ab0f36068bf77: 6.7
-    - Vector1_81ae106f6cbd48309b4795de95f0c3c3: -0.02
+    - DissolveStrength: 0
+    - _DissolveScale: 40
+    - _DissolveStrength: 0.323
     m_Colors:
-    - Color_d1aa498fc67f4c638e8cd68ddebb0bd2: {r: 1.7381209, g: 3.466067, b: 5.3403134, a: 1}
-    - Vector2_1e9b2965230c4b60bef98b7efa7bc628: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_9773b3c6bd5443a2920f828a12913889: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - Color_4f2fc745bdbd4cfc8b2f0c992afe900f: {r: 148.31967, g: 264.96793, b: 1367.1202, a: 1}
   m_BuildTextureStacks: []
