@@ -50,5 +50,13 @@ public class Onibii : MonoBehaviour
             }
             mat.SetFloat("_DissolveStrength",dis);
         }
+        if(!canDissolve){
+            dis -= Time.deltaTime;
+            if(dis <= 2f){
+            dis = 2f;
+            canDissolve= true;
+            }
+            mat.SetFloat("_DissolveStrength",dis);
+        }
     }
 }
