@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine; 
 using UnityEngine.UI;
 using TMPro;
- 
+using UnityEngine.SceneManagement;
+
 public class CollectYokai : MonoBehaviour 
 { 
     private Camera cam; 
@@ -19,7 +20,7 @@ public class CollectYokai : MonoBehaviour
     { 
         cam = Camera.main; 
         descBox.SetActive(false); 
-        isClicked = false; 
+        isClicked = false;
     } 
  
     // Update is called once per frame 
@@ -27,9 +28,25 @@ public class CollectYokai : MonoBehaviour
     { 
         //zoom in to yokai when clicked 
         if (isClicked) 
-        { 
-            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1, Time.deltaTime * 5); 
-            cam.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, cam.transform.position.z); 
+        {
+            Scene currentScene = SceneManager.GetActiveScene();
+            string sceneName = currentScene.name;
+
+            if (sceneName == "Daidarabotchi")
+            {
+                cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 2.6f, Time.deltaTime * 5);
+                cam.transform.position = new Vector3(transform.position.x + 0.9f, transform.position.y, cam.transform.position.z);
+            }
+            else if (sceneName == "Kitsune")
+            {
+                cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1.5f, Time.deltaTime * 5);
+                cam.transform.position = new Vector3(transform.position.x + 0.9f, transform.position.y, cam.transform.position.z);
+            }
+            else
+            {
+                cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1, Time.deltaTime * 5);
+                cam.transform.position = new Vector3(transform.position.x + 0.7f, transform.position.y, cam.transform.position.z);
+            }
         } 
     } 
  
@@ -74,13 +91,13 @@ public class CollectYokai : MonoBehaviour
                                  "They have black skin, long snaky tongues and big rolling eyes.\n\n"+
                                  "The Daidarabotchi are so large that their very movements shaped the landscape of Japan."+
                                  "As such, many towns are named after the yokai which supposedly created them.\n"+
-                                 " In legends, Mount Fuji was said to have been created by a Daidarabotchi. The yokai dug up all the dirt around the Kai province to build the mountain, which is why Mount Fuji is in a large basin."; 
+                                 "In legends, Mount Fuji was said to have been created by a Daidarabotchi. The yokai dug up all the dirt around the Kai province to build the mountain, which is why Mount Fuji is in a large basin."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi); 
             } 
             else if (yokai.name == "Kitsune") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries.\n Kitsune are highly intelligent, mischevious animals. As servants of the gods, Kitsune also have magical powers.\n\n"+
+                yokaiText.text = "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries.\nKitsune are highly intelligent, mischevious animals. As servants of the gods, Kitsune also have magical powers.\n\n"+
                                  "STORY TEXT PENDING..."; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Kitsune); 
             } 
