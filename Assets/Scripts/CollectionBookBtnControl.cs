@@ -20,7 +20,7 @@ public class CollectionBookBtnControl : MonoBehaviour
         // open collection book
         if (!collectionBook.activeSelf) {
             // update yokai isCatched status
-            updateYokaiStatus();
+            // updateYokaiStatus();
             collectionBook.SetActive(true);
             locales.SetActive(false);
         }
