@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 29403762}
   - component: {fileID: 29403761}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Habitat Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,15 +150,15 @@ RectTransform:
   m_GameObject: {fileID: 29403759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.007, y: 0.007, z: 1}
   m_Children: []
   m_Father: {fileID: 134368850}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.41, y: 3.41}
-  m_SizeDelta: {x: 189.73, y: 43.86}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 545, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29403761
 MonoBehaviour:
@@ -182,16 +182,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 5
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Yokai description
 --- !u!222 &29403762
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 134368852}
   - component: {fileID: 134368851}
   m_Layer: 5
-  m_Name: 'Canvas '
+  m_Name: Habitat Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -685,7 +685,7 @@ RectTransform:
   m_GameObject: {fileID: 134368849}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 29403760}
   m_Father: {fileID: 367386256}
@@ -693,8 +693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.1, y: -0.18}
-  m_SizeDelta: {x: 3.7911, y: 3.7911}
+  m_AnchoredPosition: {x: 0, y: -0.11}
+  m_SizeDelta: {x: 3.8, y: 0.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &134368851
 MonoBehaviour:
@@ -1132,7 +1132,7 @@ GameObject:
   - component: {fileID: 367386256}
   - component: {fileID: 367386255}
   m_Layer: 0
-  m_Name: Habitat with words
+  m_Name: Habitat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 370621956}
   - component: {fileID: 370621955}
   m_Layer: 5
-  m_Name: CloseButton
+  m_Name: Close Button Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2474,7 +2474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660905748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.41, y: -5.36, z: 0}
+  m_LocalPosition: {x: 6.41, y: -5.345307, z: 0}
   m_LocalScale: {x: 1.0690614, y: 1.0690614, z: 1.0690614}
   m_Children: []
   m_Father: {fileID: 1733676547}
@@ -2630,7 +2630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8862746, g: 0.86666673, b: 0.28235295, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2805,7 +2805,7 @@ GameObject:
   - component: {fileID: 814520246}
   - component: {fileID: 814520245}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Lore box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2820,7 +2820,7 @@ RectTransform:
   m_GameObject: {fileID: 814520243}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.021317417, y: 0.017429534, z: 1.0658709}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1872666449}
   m_Father: {fileID: 1795677462}
@@ -2828,8 +2828,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.13, y: -0.03}
-  m_SizeDelta: {x: 3.7911, y: 3.7911}
+  m_AnchoredPosition: {x: 0.02, y: -0.01}
+  m_SizeDelta: {x: 13, y: 0.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814520245
 MonoBehaviour:
@@ -3438,7 +3438,7 @@ GameObject:
   - component: {fileID: 1178063332}
   - component: {fileID: 1178063331}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Close Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3789,7 +3789,7 @@ GameObject:
   - component: {fileID: 1427679609}
   - component: {fileID: 1427679608}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Close Button Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3827,7 +3827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.33560658, b: 1, a: 1}
+  m_Color: {r: 0.627451, g: 0.227451, b: 0.23529413, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4626,7 +4626,7 @@ GameObject:
   - component: {fileID: 1795677462}
   - component: {fileID: 1795677461}
   m_Layer: 0
-  m_Name: Lore Text box
+  m_Name: Lore box Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4810,7 +4810,7 @@ GameObject:
   - component: {fileID: 1872666451}
   - component: {fileID: 1872666450}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Lore box Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4825,15 +4825,15 @@ RectTransform:
   m_GameObject: {fileID: 1872666448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.007, y: 0.007, z: 1}
   m_Children: []
   m_Father: {fileID: 814520244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.64, y: 1.45}
-  m_SizeDelta: {x: 616.24, y: 43.86}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872666450
 MonoBehaviour:
@@ -4857,16 +4857,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 5
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Yokai description
 --- !u!222 &1872666451
