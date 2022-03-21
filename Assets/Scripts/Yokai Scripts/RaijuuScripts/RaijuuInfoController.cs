@@ -61,7 +61,7 @@ public class RaijuuInfoController : MonoBehaviour
     {
         if(rai1){
             cam.transform.position = new Vector3(176.2616f,-17.39878f, -10);
-            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 6.1f, Time.deltaTime * 5);
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1.1f, Time.deltaTime * 5);
             cam.transform.position = new Vector3((raijuu1.GetComponent<Transform>().position.x) + 0.7f, raijuu1.GetComponent<Transform>().position.y, -10);
             if(cam.orthographicSize < 6.5f){
             rai1= false;
@@ -69,7 +69,7 @@ public class RaijuuInfoController : MonoBehaviour
         }
         else if(rai2){
             cam.transform.position = new Vector3(176.2616f,-17.39878f, -10);
-            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 6.1f, Time.deltaTime * 5);
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 1.1f, Time.deltaTime * 5);
             cam.transform.position = new Vector3((raijuu2.GetComponent<Transform>().position.x) + 0.7f, raijuu2.GetComponent<Transform>().position.y, -10);
             if(cam.orthographicSize < 6.5f){
             rai2= false;
