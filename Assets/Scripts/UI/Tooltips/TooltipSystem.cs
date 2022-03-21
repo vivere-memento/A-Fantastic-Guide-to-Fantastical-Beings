@@ -6,7 +6,12 @@ public class TooltipSystem : MonoBehaviour
 {
     private static TooltipSystem current;
     public Tooltip tooltip;
-
+    void OnEnable(){
+        FootprintController.revealed += Hide;
+    }
+    void OnDisable(){
+        FootprintController.revealed -= Hide;
+    }
     public void Awake()
     {
         current = this;
