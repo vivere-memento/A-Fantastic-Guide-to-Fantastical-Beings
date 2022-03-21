@@ -38,7 +38,7 @@ Material:
     m_Floats:
     - DissolveStrength: 0
     - _DissolveScale: 40
-    - _DissolveStrength: 0.323
+    - _DissolveStrength: 1
     m_Colors:
     - Color_4f2fc745bdbd4cfc8b2f0c992afe900f: {r: 148.31967, g: 264.96793, b: 1367.1202, a: 1}
   m_BuildTextureStacks: []
