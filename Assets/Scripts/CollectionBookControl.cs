@@ -9,6 +9,7 @@ public class CollectionBookControl : MonoBehaviour
     [SerializeField] GameObject descriptionText;
     [SerializeField] GameObject yokaiPic;
     [SerializeField] GameObject loreboxText;
+    [SerializeField] GameObject habitatText;
     [SerializeField] GameObject yokaiName;
     [SerializeField] GameObject locales;
     [SerializeField] GameObject buttonRight;
@@ -26,10 +27,40 @@ public class CollectionBookControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // onClick Left yokai name, open the right pannel to show the description
-        // onClickYokaiName();
+        
     }
 
+
+    public void initialCollectionBookOnActive(string firstYokaiName, bool isFistYokaiCached) 
+    {
+        pageNumber.GetComponent<Text>().text = "1/6";
+        if (isFistYokaiCached) {
+
+            // name
+            yokaiName.GetComponent<Text>().text = firstYokaiName;
+
+            // pic
+            string picUrl = YokaiControl.Instance.getYokaiPic(firstYokaiName);
+            var yokaiPicSprite = Resources.Load<Sprite>(picUrl);
+            SpriteRenderer yokaiPicRender = yokaiPic.GetComponent<SpriteRenderer>();
+            yokaiPicRender.drawMode = SpriteDrawMode.Sliced;
+            yokaiPicRender.sprite = yokaiPicSprite;
+
+            // description
+            string yokaiDescriptionText = YokaiControl.Instance.getDescriptionText(firstYokaiName);
+            descriptionText.GetComponent<Text>().text = yokaiDescriptionText;
+            // lore
+            string yokaiLoreboxText = YokaiControl.Instance.getLoreboxText(firstYokaiName);
+            loreboxText.GetComponent<Text>().text = yokaiLoreboxText;
+
+            // habitat
+            string yokaiHabitat = YokaiControl.Instance.getHabitatText(firstYokaiName);
+            habitatText.GetComponent<Text>().text = yokaiHabitat;
+        } 
+        // else {
+
+        // }
+    }
     // private void onClickYokaiName() {
     //     //If the left mouse button is clicked.
     //     if (collectionBook.activeSelf && Input.GetMouseButtonDown(0))

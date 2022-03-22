@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 29403762}
   - component: {fileID: 29403761}
   m_Layer: 5
-  m_Name: Habitat Text
+  m_Name: habitatText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1/6
+  m_Text: 
 --- !u!222 &40817452
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5206,6 +5206,7 @@ MonoBehaviour:
   descriptionText: {fileID: 1471576193}
   yokaiPic: {fileID: 1081564751}
   loreboxText: {fileID: 1872666448}
+  habitatText: {fileID: 29403759}
   yokaiName: {fileID: 749671385}
   locales: {fileID: 1255761130}
   buttonRight: {fileID: 660905748}

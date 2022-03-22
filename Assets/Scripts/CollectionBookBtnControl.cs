@@ -22,6 +22,13 @@ public class CollectionBookBtnControl : MonoBehaviour
             // update yokai isCatched status
             // updateYokaiStatus();
             collectionBook.SetActive(true);
+            string firstYokaiName = YokaiControl.Instance.getFirstYokaiName();
+            bool isCatched = PlayManager.Instance.GetCaughtYokai(
+                (PlayManager.QuestName)System.Enum.Parse(
+                    typeof(PlayManager.QuestName), firstYokaiName)
+            );
+            collectionBook.GetComponent<CollectionBookControl>()
+                .initialCollectionBookOnActive(firstYokaiName, isCatched);
             locales.SetActive(false);
         }
     }
