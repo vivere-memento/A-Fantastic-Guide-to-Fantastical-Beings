@@ -5,13 +5,15 @@ public class AudioManager : MonoBehaviour {
 
 	public enum AudioChannel {Master, Sfx, Music};
 
-	float masterVolumePercent = .8f;
+	float masterVolumePercent = 1f;
 	float sfxVolumePercent = 1;
 	float musicVolumePercent = 1f;
 
 	AudioSource sfx2DSource;
 	AudioSource[] musicSources;
+	AudioSource[] ambientSources;
 	int activeMusicSourceIndex;
+	int activeAmbientSourceIndex;
 
 	public static AudioManager instance;
 
@@ -37,6 +39,13 @@ public class AudioManager : MonoBehaviour {
 				musicSources [i] = newMusicSource.AddComponent<AudioSource> ();
 				newMusicSource.transform.parent = transform;
 			}
+			ambientSources = new AudioSource[2];
+			for (int i = 0; i < 2; i++) {
+				GameObject newambientSource = new GameObject ("Ambient source " + (i + 1));
+				ambientSources [i] = newambientSource.AddComponent<AudioSource> ();
+				newambientSource.transform.parent = transform;
+			}
+			
 			GameObject newSfx2Dsource = new GameObject ("2D sfx source");
 			sfx2DSource = newSfx2Dsource.AddComponent<AudioSource> ();
 			newSfx2Dsource.transform.parent = transform;
@@ -72,6 +81,8 @@ public class AudioManager : MonoBehaviour {
 
 		musicSources [0].volume = musicVolumePercent * masterVolumePercent;
 		musicSources [1].volume = musicVolumePercent * masterVolumePercent;
+		ambientSources[0].volume = musicVolumePercent * masterVolumePercent;
+		ambientSources[1].volume = musicVolumePercent * masterVolumePercent;
 
 		PlayerPrefs.SetFloat ("master vol", masterVolumePercent);
 		PlayerPrefs.SetFloat ("sfx vol", sfxVolumePercent);
@@ -85,6 +96,23 @@ public class AudioManager : MonoBehaviour {
 		musicSources [activeMusicSourceIndex].Play ();
 
 		StartCoroutine(AnimateMusicCrossfade(fadeDuration));
+	}
+	public void PlayAmbient(AudioClip clip, float fadeDuration = 1) {
+		activeAmbientSourceIndex = 1 - activeAmbientSourceIndex;
+		ambientSources [activeAmbientSourceIndex].clip = clip;
+		ambientSources [activeAmbientSourceIndex].loop = true;
+		ambientSources [activeAmbientSourceIndex].Play ();
+
+		StartCoroutine(AnimateAmbientCrossfade(fadeDuration));
+	}
+	IEnumerator AnimateAmbientCrossfade(float duration) {
+		float percent = 0;
+		while (percent < 1) {
+			percent += Time.deltaTime * 1 / duration;
+			ambientSources [activeAmbientSourceIndex].volume = Mathf.Lerp (0, musicVolumePercent * masterVolumePercent, percent);
+			ambientSources [1-activeAmbientSourceIndex].volume = Mathf.Lerp (musicVolumePercent * masterVolumePercent, 0, percent);
+			yield return null;
+		}
 	}
 /*
 	public void PlaySound(AudioClip clip, Vector3 pos) {

@@ -12,7 +12,7 @@ public class MusicManager : MonoBehaviour {
 		GoToJapan.MovingToMain -=changeMusic;
 	}
 	void Start() {
-		AudioManager.instance.PlayMusic (menuTheme, 2);
+		AudioManager.instance.PlayMusic(menuTheme, 2);
 	}
 	void changeMusic(){
 		AudioManager.instance.PlayMusic(mainTheme,3);

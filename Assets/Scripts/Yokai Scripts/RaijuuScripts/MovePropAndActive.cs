@@ -6,14 +6,16 @@ public class MovePropAndActive : MonoBehaviour
 {
     public GameObject footprint;
     private float startPosX;
+    private Animator myAnim;
     private float startPosY;
+    private bool playOnce=true;
     public TooltipTrigger ts;
     private bool isBeingHeld = false;
     private void OnMouseDown()
     {
-        //if the left mouse is clicked
-        if (Input.GetMouseButtonDown(0))
-        {
+        //if(playOnce){myAnim.SetBool("Lifted",true); playOnce=false;}
+            
+
             Debug.Log("Props dragged");
 
             footprint.SetActive(true);
@@ -37,20 +39,28 @@ public class MovePropAndActive : MonoBehaviour
             {
                 isBeingHeld = false;
             }
-        }
+        
     }
 
     private void OnMouseUp()
     {
         isBeingHeld = false;
         ts.isActive = true;
+        gameObject.GetComponent<SpriteRenderer>().color = Color.clear;
+        myAnim.SetBool("Lifted",true);
+        Destroy(gameObject,.55f);
+        
+    }
+    private IEnumerator Begon(){
+        if(playOnce){myAnim.SetBool("Lifted",true); playOnce=false;}
+        yield return new WaitForSeconds(3);
         gameObject.SetActive(false);
     }
-
     // Start is called before the first frame update
     void Start()
     {
         footprint.SetActive(false);
+        myAnim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
