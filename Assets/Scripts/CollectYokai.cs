@@ -13,6 +13,7 @@ public class CollectYokai : MonoBehaviour
     //[SerializeField] 
     private GameObject descBox;
     private GameObject dialogue;
+    private Vector3 startScale;
     [SerializeField] private GameObject yokai; 
     [SerializeField] private TMP_Text yokaiText; 
     [SerializeField] private GameObject propBlock;
@@ -24,11 +25,13 @@ public class CollectYokai : MonoBehaviour
     { 
         cam = Camera.main; 
         isClicked = false;
+
         descBox = GameObject.Find("Description Box");
         descBox.SetActive(false);
+
         dialogue = GameObject.Find("Yokai Found");
         dialogue.SetActive(false);
-    } 
+    }
  
     // Update is called once per frame 
     void Update()
@@ -39,9 +42,9 @@ public class CollectYokai : MonoBehaviour
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, zoom, Time.deltaTime * 5);
             cam.transform.position = new Vector3(transform.position.x + xOffset, transform.position.y, cam.transform.position.z);
         }
-    } 
- 
-   void OnMouseDown() 
+    }
+
+    void OnMouseDown() 
     { 
         if (Input.GetMouseButtonDown(0)) 
         { 
