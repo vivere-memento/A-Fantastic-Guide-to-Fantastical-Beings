@@ -7,18 +7,21 @@ public class Yokai
     private string yokaiName;
     private string yokaiDescription;
     private string picture;
-    private string yokaiStory;
+    private string habitatText;
+    private string loreboxText;
 
     public Yokai(
         string yokaiName,
         string yokaiDescription,
         string picture,
-        string yokaiStory
+        string habitatText,
+        string loreboxText
     ) {
         this.yokaiName = yokaiName;
         this.yokaiDescription = yokaiDescription;
         this.picture = picture;
-        this.yokaiStory = yokaiStory;
+        this.habitatText = habitatText;
+        this.loreboxText = loreboxText;
     }
 
     public string getYokaiName() {
@@ -33,8 +36,11 @@ public class Yokai
         return this.picture;
     }
 
-    public string getYokaiStory() {
-        return this.yokaiStory;
+    public string getHabitatText() {
+        return this.habitatText;
+    }
+    public string getLoreboxText() {
+        return this.loreboxText;
     }
 }
 
@@ -47,14 +53,15 @@ public class YokaiControl : MonoBehaviour
     // yokai data list
     private List<Yokai> yokaiList;
 
+    private string firstYokaiName = "Tengu";
     void Start() {
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Tengu", "Description2", "tengu fullbody alt", "yokai story"));
-        yokaiList.Add(new Yokai("Onibi", "Description3", "onibii 03", "yokai story"));
-        yokaiList.Add(new Yokai("Raijuu", "Description4", "raiju 01", "yokai story"));
-        yokaiList.Add(new Yokai("Daidarabotchi", "Description5", "giant copy", "yokai story"));
-        yokaiList.Add(new Yokai("YogenNoTori", "Description1", "two head crow  04", "yokai story"));
-        yokaiList.Add(new Yokai("Kitsune", "Description6", "kitsune full body 01", "yokai story"));
+        yokaiList.Add(new Yokai("Tengu", "Description1", "habitat1","tengu found", "lorebox1"));
+        yokaiList.Add(new Yokai("Onibi", "Description2", "habitat2","onibii found", "lorebox2"));
+        yokaiList.Add(new Yokai("Raijuu", "Description3", "habitat3", "raiju found", "lorebox3"));
+        yokaiList.Add(new Yokai("Daidarabotchi", "Description4", "habitat4", "giant found", "lorebox4"));
+        yokaiList.Add(new Yokai("YogenNoTori", "Description5", "habitat5", "two head crow  found", "lorebox5"));
+        yokaiList.Add(new Yokai("Kitsune", "Description6", "habitat6", "kitsune found", "lorebox6"));
     }
 
     public List<string> getFullYokaiList()
@@ -93,6 +100,40 @@ public class YokaiControl : MonoBehaviour
         return "";
     }
 
+    public string getFirstYokaiName() {
+        return this.firstYokaiName;
+    }
+
+    public string getDescriptionText(string yokaiName)
+    {
+        foreach (Yokai aYokai in yokaiList)
+        {
+            if (aYokai.getYokaiName().Equals(yokaiName)){
+                return aYokai.getYokaiDescription();
+            }
+        }
+        return "";
+    }
+    public string getLoreboxText(string yokaiName)
+    {
+        foreach (Yokai aYokai in yokaiList)
+        {
+            if (aYokai.getYokaiName().Equals(yokaiName)){
+                return aYokai.getLoreboxText();
+            }
+        }
+        return "";
+    }
+    public string getHabitatText(string yokaiName)
+    {
+        foreach (Yokai aYokai in yokaiList)
+        {
+            if (aYokai.getYokaiName().Equals(yokaiName)){
+                return aYokai.getHabitatText();
+            }
+        }
+        return "";
+    }
     private void Awake(){
         if( Instance != null){
             Destroy(gameObject);
