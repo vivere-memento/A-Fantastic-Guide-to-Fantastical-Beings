@@ -8,6 +8,8 @@ TagManager:
   - Yokai Behind
   - Destroy
   - YokaiAvatar
+  - nextPage
+  - prevPage
   layers:
   - Default
   - TransparentFX
