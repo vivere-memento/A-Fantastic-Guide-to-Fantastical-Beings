@@ -52,16 +52,20 @@ public class YokaiControl : MonoBehaviour
 
     // yokai data list
     private List<Yokai> yokaiList;
+    private List<string> yokaiNameSequence;
 
-    private string firstYokaiName = "Tengu";
     void Start() {
+        // yokai sequence list
+        yokaiNameSequence = new List<string>{ "YogenNoTori", "Daidarabotchi", "Onibi", "Raijuu", "Tengu" };;
+
+        // yokaiName, yokaiDescription, picture, habitatText, loreboxText;
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Tengu", "Description1", "habitat1","tengu found", "lorebox1"));
-        yokaiList.Add(new Yokai("Onibi", "Description2", "habitat2","onibii found", "lorebox2"));
-        yokaiList.Add(new Yokai("Raijuu", "Description3", "habitat3", "raiju found", "lorebox3"));
-        yokaiList.Add(new Yokai("Daidarabotchi", "Description4", "habitat4", "giant found", "lorebox4"));
-        yokaiList.Add(new Yokai("YogenNoTori", "Description5", "habitat5", "two head crow  found", "lorebox5"));
-        yokaiList.Add(new Yokai("Kitsune", "Description6", "habitat6", "kitsune found", "lorebox6"));
+        yokaiList.Add(new Yokai("Tengu", "Description1", "Collection Book/tengu found", "habitat1", "lorebox1"));
+        yokaiList.Add(new Yokai("Onibi", "Description2", "Collection Book/onibii found","habitat2", "lorebox2"));
+        yokaiList.Add(new Yokai("Raijuu", "Description3",  "Collection Book/raiju found", "habitat3", "lorebox3"));
+        yokaiList.Add(new Yokai("Daidarabotchi", "Description4", "Collection Book/giant found", "habitat4", "lorebox4"));
+        yokaiList.Add(new Yokai("YogenNoTori", "Description5", "Collection Book/two head crow  found",  "habitat5", "lorebox5"));
+        yokaiList.Add(new Yokai("Kitsune", "Description6", "Collection Book/kitsune found", "habitat6", "lorebox6"));
     }
 
     public List<string> getFullYokaiList()
@@ -101,7 +105,7 @@ public class YokaiControl : MonoBehaviour
     }
 
     public string getFirstYokaiName() {
-        return this.firstYokaiName;
+        return this.yokaiNameSequence[0];
     }
 
     public string getDescriptionText(string yokaiName)
@@ -134,6 +138,55 @@ public class YokaiControl : MonoBehaviour
         }
         return "";
     }
+
+    public int getPageNumber(string yokaiName)
+    {
+        for (int index = 0; index < yokaiNameSequence.Count; index++)
+        {
+            if (yokaiNameSequence[index].Equals(yokaiName))
+            {
+                return index + 1;
+            }
+        }
+        return 0;
+    }
+
+    public string getNextYokaiName(string currentYokaiName) 
+    {
+        for (int index = 0; index < yokaiNameSequence.Count; index++)
+        {
+            if (yokaiNameSequence[index].Equals(currentYokaiName))
+            {
+                if (index == (yokaiNameSequence.Count - 1)) {
+                    return yokaiNameSequence[0];
+                }
+                else
+                {
+                    return yokaiNameSequence[index+1];
+                }
+            }
+        }
+        return null;
+    }
+
+    public string getPrevYokaiName(string currentYokaiName) 
+    {
+        for (int index = 0; index < yokaiNameSequence.Count; index++)
+        {
+            if (yokaiNameSequence[index].Equals(currentYokaiName))
+            {
+                if (index == 0) {
+                    return yokaiNameSequence[yokaiNameSequence.Count - 1];
+                }
+                else
+                {
+                    return yokaiNameSequence[index-1];
+                }
+            }
+        }
+        return null;
+    }
+
     private void Awake(){
         if( Instance != null){
             Destroy(gameObject);

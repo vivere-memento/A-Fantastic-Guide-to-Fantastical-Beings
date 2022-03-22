@@ -7,6 +7,7 @@ public class CollectionBookBtnControl : MonoBehaviour
 {
     [SerializeField] GameObject collectionBook;
     [SerializeField] GameObject locales;
+    [SerializeField] GameObject JapanTitle;
     private string yokaiNotFoundPic = "yokai_notFound";
 
     void Start()
@@ -29,7 +30,15 @@ public class CollectionBookBtnControl : MonoBehaviour
             );
             collectionBook.GetComponent<CollectionBookControl>()
                 .initialCollectionBookOnActive(firstYokaiName, isCatched);
-            locales.SetActive(false);
+
+            if (locales != null)
+            {
+                locales.SetActive(false);
+            }
+            if (JapanTitle != null)
+            {
+                JapanTitle.SetActive(false);
+            }
         }
     }
 
