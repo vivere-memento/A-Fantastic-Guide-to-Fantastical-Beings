@@ -19,9 +19,6 @@ public class MusicManager : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.F)) {
-			AudioManager.instance.PlayMusic (mainTheme, 3);
-		}
 	
 	}
 }

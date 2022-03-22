@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.EventSystems;
 
-public class TextWriter : MonoBehaviour
+public class TextWriter : MonoBehaviour, IPointerDownHandler
 {
     private string text;
     private TMP_Text textDisplay;
@@ -27,7 +28,12 @@ public class TextWriter : MonoBehaviour
         }
     }
     
-
+     public void OnPointerDown(PointerEventData pointerEventData)
+    {
+        //Output the name of the GameObject that is being clicked
+        Debug.Log(name + "Game Object Click in Progress");
+        ScrollSpeed = 0.0001f;
+    }
     // Update is called once per frame
     void Update()
     {
