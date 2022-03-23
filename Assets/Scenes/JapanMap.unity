@@ -3949,11 +3949,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0369745b5a876fc4888a6097e823a9c1, type: 3}
-    m_FontSize: 50
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4832,7 +4832,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0369745b5a876fc4888a6097e823a9c1, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 50
@@ -6199,11 +6199,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 308.76
+      value: 149
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 309.236
+      value: 165
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6235,11 +6235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -198
+      value: -74.5
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 187
+      value: 82.5
       objectReference: {fileID: 0}
     - target: {fileID: 3117631483095325718, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
