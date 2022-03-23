@@ -83,7 +83,7 @@ public class YokaiControl : MonoBehaviour
         yokaiList.Add(new Yokai("Kitsune", 
             "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries.Kitsune are highly intelligent, mischevious animals. As servants of the gods, Kitsune also have magical powers.",
             "Collection Book/kitsune found", "Forest/Rural", 
-            "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries. Kitsune are highly intelligent, mischievous animals. As servants of the gods, Kitsune also have magical powers."));
+            "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries. Kitsune are highly intelligent, mischievous animals."));
     }
 
     public List<string> getFullYokaiList()

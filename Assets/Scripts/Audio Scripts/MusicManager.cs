@@ -7,6 +7,7 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip mainTheme;
 	public AudioClip menuTheme;
 	public AudioClip endTheme;
+	bool stopRepeat= true;
 	void OnEnable(){
 		StartMusic2.menuStarted+= StartMainTheme;
 	}
@@ -17,7 +18,10 @@ public class MusicManager : MonoBehaviour {
 		StartMenuTheme();
 	}
 	public void StartMainTheme(){
+		if(stopRepeat){
 		AudioManager.instance.PlayMusic(mainTheme,3);
+		stopRepeat = false;
+		}
 	}
 
     public void StartMenuTheme()
