@@ -15,16 +15,16 @@ public class MusicManager : MonoBehaviour {
 	void Start(){
 		StartMenuTheme();
 	}
-	void StartMainTheme(){
+	public void StartMainTheme(){
 		AudioManager.instance.PlayMusic(mainTheme,3);
 	}
 
-    void StartMenuTheme()
+    public void StartMenuTheme()
     {
      	AudioManager.instance.PlayMusic(menuTheme,1);
     }
 
-	void StartEndTheme()
+	public void StartEndTheme()
     {
      	AudioManager.instance.PlayMusic(endTheme,3);
     }
