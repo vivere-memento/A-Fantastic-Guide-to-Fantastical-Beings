@@ -84,10 +84,10 @@ public class CollectionBookControl : MonoBehaviour
             yokaiName.GetComponent<Text>().text = "??????";
 
             // pic
-            string picUrl = YokaiControl.Instance.getYokaiPic(yokaiNameText);
+            string foundPicUrl = YokaiControl.Instance.getYokaiPic(yokaiNameText);
             // replace "found" to "unfound"
-            picUrl.Replace("found", "unfound");
-            var yokaiPicSprite = Resources.Load<Sprite>(picUrl);
+            string unfoundPicUrl = foundPicUrl.Replace("found", "unfound");
+            var yokaiPicSprite = Resources.Load<Sprite>(unfoundPicUrl);
             SpriteRenderer yokaiPicRender = yokaiPic.GetComponent<SpriteRenderer>();
             yokaiPicRender.sprite = yokaiPicSprite;
 

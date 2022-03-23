@@ -60,12 +60,24 @@ public class YokaiControl : MonoBehaviour
 
         // yokaiName, yokaiDescription, picture, habitatText, loreboxText;
         yokaiList = new List<Yokai>();
-        yokaiList.Add(new Yokai("Tengu", "Description1", "Collection Book/tengu found", "habitat1", "lorebox1"));
-        yokaiList.Add(new Yokai("Onibi", "Description2", "Collection Book/onibii found","habitat2", "lorebox2"));
-        yokaiList.Add(new Yokai("Raijuu", "Description3",  "Collection Book/raiju found", "habitat3", "lorebox3"));
-        yokaiList.Add(new Yokai("Daidarabotchi", "Description4", "Collection Book/giant found", "habitat4", "lorebox4"));
-        yokaiList.Add(new Yokai("YogenNoTori", "Description5", "Collection Book/two head crow  found",  "habitat5", "lorebox5"));
-        yokaiList.Add(new Yokai("Kitsune", "Description6", "Collection Book/kitsune found", "habitat6", "lorebox6"));
+        yokaiList.Add(new Yokai("Tengu", 
+            "Daitengu are a type of Tengu, Tengu meaning 'Heavenly Dog'.The Daitengu look closer to humans than the Tengu, but still have bird-like features. Historically, the Daitengu were viewed as dangerous beings. However, over time, the Japanese began to see them as wise sages and would sometimes seek their help. Daitengu live alone, in places away from others, practicing meditation to perfect themselves. The long and big noses of a Daitengu show their power. The longer the nose, the more powerful the Daitengu.", 
+            "Collection Book/tengu found", "habitat1", "lorebox1"));
+        yokaiList.Add(new Yokai("Onibi", 
+            "Description2", 
+            "Collection Book/onibii found","habitat2", "lorebox2"));
+        yokaiList.Add(new Yokai("Raijuu", 
+            "Description3",  
+            "Collection Book/raiju found", "habitat3", "lorebox3"));
+        yokaiList.Add(new Yokai("Daidarabotchi", 
+            "Daidarabotchi are giants that look like bald priests. They have black skin, long snaky tongues and big rolling eyes.The Daidarabotchi are so large that their very movements shaped the landscape of Japan. As such, many towns are named after the yokai which supposedly created them. In legends, Mount Fuji was said to have been created by a Daidarabotchi. The yokai dug up all the dirt around the Kai province to build the mountain, which is why Mount Fuji is in a large basin.", 
+            "Collection Book/giant found", "habitat4", "lorebox4"));
+        yokaiList.Add(new Yokai("YogenNoTori", 
+            "Yogen no Tori are twin-headed birds that look like crows.They can speak and the gods use them to deliver important messages. In 1858, near Mount Haku, a government official heard a prophecy from a Yogen no Tori.The official, wanting to save the citizens, spread the message across the country.This marked the first written record of an encounter with a Yogen no Tori.", 
+            "Collection Book/two head crow  found",  "habitat5", "lorebox5"));
+        yokaiList.Add(new Yokai("Kitsune", 
+            "Description6", 
+            "Collection Book/kitsune found", "habitat6", "lorebox6"));
     }
 
     public List<string> getFullYokaiList()
