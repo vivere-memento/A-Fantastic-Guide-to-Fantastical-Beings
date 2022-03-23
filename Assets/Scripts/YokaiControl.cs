@@ -56,7 +56,7 @@ public class YokaiControl : MonoBehaviour
 
     void Start() {
         // yokai sequence list
-        yokaiNameSequence = new List<string>{ "YogenNoTori", "Daidarabotchi", "Onibi", "Raijuu", "Tengu" };;
+        yokaiNameSequence = new List<string>{ "YogenNoTori", "Daidarabotchi", "Onibi", "Raijuu", "Kitsune", "Tengu"};;
 
         // yokaiName, yokaiDescription, picture, habitatText, loreboxText;
         yokaiList = new List<Yokai>();
