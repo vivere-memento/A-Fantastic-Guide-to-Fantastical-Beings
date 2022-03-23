@@ -31,7 +31,7 @@ public class OniibiiSpawner : MonoBehaviour
         counter = 0;
     }
     private void countYokai(string v){
-        counter++;
+        //counter++;
         Debug.Log("Increased the count by 1. Count is now" + counter.ToString());
     }
     private void spawnAgain(string v){

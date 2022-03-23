@@ -5,20 +5,31 @@ public class MusicManager : MonoBehaviour {
 
 	public AudioClip mainTheme;
 	public AudioClip menuTheme;
+	public AudioClip endTheme;
 	void OnEnable(){
-		GoToJapan.MovingToMain +=changeMusic;
+		GoToJapan.MovingToMain +=StartMainTheme;
 	}
 	void OnDisable(){
-		GoToJapan.MovingToMain -=changeMusic;
+		GoToJapan.MovingToMain -=StartMainTheme;
 	}
-	void Start() {
-		AudioManager.instance.PlayMusic(menuTheme, 2);
+	void Start(){
+		StartMenuTheme();
 	}
-	void changeMusic(){
-		AudioManager.instance.PlayMusic(mainTheme,3);
+	void StartMainTheme(){
+		AudioManager.instance.PlayMusic(mainTheme,7);
 	}
 
-	void Update () {
+    void StartMenuTheme()
+    {
+     	AudioManager.instance.PlayMusic(menuTheme,1);
+    }
+
+	void StartEndTheme()
+    {
+     	AudioManager.instance.PlayMusic(endTheme,3);
+    }
+
+	void Update(){
 	
 	}
 }
