@@ -6,10 +6,16 @@ public class AmbientSoundManager : MonoBehaviour
 {
     public AudioClip ambientWind;
 	public AudioClip ambientRain;
-    // Start is called before the first frame update
-    void Start()
+	void Start(){
+		StartRain();
+	}
+	void StartRain(){
+		AudioManager.instance.PlayAmbient(ambientRain, 5);
+	}
+
+    void StartWind()
     {
-        
+     	AudioManager.instance.PlayAmbient(ambientWind, 5);
     }
 
     // Update is called once per frame

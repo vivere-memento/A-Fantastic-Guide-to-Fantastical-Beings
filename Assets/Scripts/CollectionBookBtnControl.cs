@@ -18,6 +18,8 @@ public class CollectionBookBtnControl : MonoBehaviour
     }
     void OnOpenCollectionBook()
     {
+        //Play Short Book open
+        AudioManager.instance.PlaySound2D("LongBookOpen");
         // open collection book
         if (!collectionBook.activeSelf) {
             // update yokai isCatched status

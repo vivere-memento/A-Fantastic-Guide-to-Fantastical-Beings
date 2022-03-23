@@ -81,8 +81,9 @@ public class AudioManager : MonoBehaviour {
 
 		musicSources [0].volume = musicVolumePercent * masterVolumePercent;
 		musicSources [1].volume = musicVolumePercent * masterVolumePercent;
-		ambientSources[0].volume = musicVolumePercent * masterVolumePercent;
-		ambientSources[1].volume = musicVolumePercent * masterVolumePercent;
+		musicSources [2].volume = musicVolumePercent * masterVolumePercent;
+		ambientSources[0].volume = .3f ;
+		ambientSources[1].volume = .3f ;
 
 		PlayerPrefs.SetFloat ("master vol", masterVolumePercent);
 		PlayerPrefs.SetFloat ("sfx vol", sfxVolumePercent);
@@ -109,12 +110,16 @@ public class AudioManager : MonoBehaviour {
 		float percent = 0;
 		while (percent < 1) {
 			percent += Time.deltaTime * 1 / duration;
-			ambientSources [activeAmbientSourceIndex].volume = Mathf.Lerp (0, musicVolumePercent * masterVolumePercent, percent);
-			ambientSources [1-activeAmbientSourceIndex].volume = Mathf.Lerp (musicVolumePercent * masterVolumePercent, 0, percent);
+			ambientSources [activeAmbientSourceIndex].volume = Mathf.Lerp (0, .06f, percent);
+			ambientSources [1-activeAmbientSourceIndex].volume = Mathf.Lerp (.06f, 0, percent);
 			yield return null;
 		}
 	}
-/*
+
+	void Start(){
+
+	}
+/*	
 	public void PlaySound(AudioClip clip, Vector3 pos) {
 		if (clip != null) {
 			AudioSource.PlayClipAtPoint (clip, pos, sfxVolumePercent * masterVolumePercent);

@@ -7,16 +7,16 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip menuTheme;
 	public AudioClip endTheme;
 	void OnEnable(){
-		GoToJapan.MovingToMain +=StartMainTheme;
+		
 	}
 	void OnDisable(){
-		GoToJapan.MovingToMain -=StartMainTheme;
+		
 	}
 	void Start(){
 		StartMenuTheme();
 	}
 	void StartMainTheme(){
-		AudioManager.instance.PlayMusic(mainTheme,7);
+		AudioManager.instance.PlayMusic(mainTheme,3);
 	}
 
     void StartMenuTheme()
