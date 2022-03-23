@@ -5935,7 +5935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[2].groupID
-      value: WindBGM
+      value: KotoGliss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[3].groupID
+      value: KotoGlissand
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[0].group.Array.size
@@ -5947,6 +5951,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[2].group.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[3].group.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
@@ -5968,11 +5976,15 @@ PrefabInstance:
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[2].group.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: cc43e224cb33fe542bbc8b9555756dea, type: 3}
+      objectReference: {fileID: 8300000, guid: 134cd6fb15fdc3d4b93522dff7867410, type: 3}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[2].group.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: cc43e224cb33fe542bbc8b9555756dea, type: 3}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[3].group.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 134cd6fb15fdc3d4b93522dff7867410, type: 3}
     - target: {fileID: 5190720723407447542, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6020,11 +6032,11 @@ PrefabInstance:
     - target: {fileID: 5190720723407447543, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: mainTheme
       value: 
-      objectReference: {fileID: 8300000, guid: 0685c10c15fef0d42bf4a4130013c5de, type: 3}
+      objectReference: {fileID: 8300000, guid: b1273010ad7e84747a20821277bc703a, type: 3}
     - target: {fileID: 5190720723407447543, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: menuTheme
       value: 
-      objectReference: {fileID: 8300000, guid: fc3fe025cc1cb9b4da3f3b65baaa9378, type: 3}
+      objectReference: {fileID: 8300000, guid: 7ec4d9e6d1a2ce7458ff336d31f50025, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
 --- !u!1 &1085541830 stripped
@@ -6044,6 +6056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c6a36d4cf55b441b6b50f08cea22e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ambientWind: {fileID: 8300000, guid: fc3fe025cc1cb9b4da3f3b65baaa9378, type: 3}
+  ambientRain: {fileID: 8300000, guid: a7020c6bd8e615f4e990bde0aac691a6, type: 3}
 --- !u!1 &1095180653
 GameObject:
   m_ObjectHideFlags: 0
