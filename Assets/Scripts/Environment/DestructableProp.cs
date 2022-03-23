@@ -14,7 +14,7 @@ public class DestructableProp : MonoBehaviour
     void OnMouseDown(){
         if(Health<1){
             StartCoroutine("ShakeMe");
-            Destroy(gameObject,2);
+            Destroy(gameObject,0.6f);
         }
         else{
             Health--;
