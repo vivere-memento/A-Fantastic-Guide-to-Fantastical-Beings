@@ -11064,11 +11064,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.44755486
+      value: 0.44549814
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.61700183
+      value: 0.6180302
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11080,11 +11080,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -100.6947
+      value: -104.643555
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 644.64355
+      value: 646.6179
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555503, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: wrapLimit
@@ -41540,7 +41540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726263970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 570353723}
