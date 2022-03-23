@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class OneShotOnibi : MonoBehaviour
 {
+    public static Action movedScene;
     public NotifiSystem sys;
     private SpriteRenderer sR;
     private AudioSource aS;
@@ -32,6 +34,7 @@ public class OneShotOnibi : MonoBehaviour
     }
     public void GoToNextForest(){
         cam.transform.position = new Vector3(100,0,-10);
+        movedScene?.Invoke();
         spawner.counter= 10;
         Destroy(gameObject);
     }

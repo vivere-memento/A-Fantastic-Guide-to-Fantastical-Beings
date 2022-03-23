@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class MusicManager : MonoBehaviour {
 
@@ -7,10 +8,10 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip menuTheme;
 	public AudioClip endTheme;
 	void OnEnable(){
-		
+		StartMusic2.menuStarted+= StartMainTheme;
 	}
 	void OnDisable(){
-		
+		StartMusic2.menuStarted-= StartMainTheme;
 	}
 	void Start(){
 		StartMenuTheme();

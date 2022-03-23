@@ -2497,6 +2497,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &151420306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151420307}
+  - component: {fileID: 151420308}
+  m_Layer: 0
+  m_Name: RainStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151420307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151420306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 72.32291, y: 1.9252441, z: -20.968645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151420308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151420306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab70f389d0c02c448a3332c8fe3e72c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &154715722
 GameObject:
   m_ObjectHideFlags: 0
@@ -11064,11 +11107,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.46216923
+      value: 0.46961135
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5972299
+      value: 0.59412897
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11080,11 +11123,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -72.63513
+      value: -58.34619
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 606.6814
+      value: 600.72766
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555503, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: wrapLimit
@@ -17182,7 +17225,7 @@ MonoBehaviour:
   - Animals are known to flee from Onibi...
   - The animal that left these tracks must have been in a hurry.
   - These prints are wet, what was the animal running from?
-  - Did you see that!? The Onibi must be deeper in the forest! Go after them!
+  - Did you see that!?    The Onibi must be deeper in the forest! Go after them!
   - Try to spot an Onibi!
   - Try to spot a group of Onibi!
   - 
@@ -41540,7 +41583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726263970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 570353723}
