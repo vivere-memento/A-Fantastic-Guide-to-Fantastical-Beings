@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
+<<<<<<< Updated upstream
       value: 22424703114646680e0b0227036c731f1516142f3f0227202c275201e3e93e2df7a923e7ee2e26
       flags: 0
     RecentlyUsedScenePath-1:
@@ -34,6 +35,36 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c731f1516142f3f0227202c275218ebf4272dece278fce9332b25
+=======
+      value: 22424703114646680e0b0227036c7511061616072d3868252320092a
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 22424703114646680e0b0227036c741902040d242966333e243d04
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646680e0b0227036c731f1516142f3f0227202c27521cece93d1aebee78fce9332b25
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f06200920f7ee3178b3a923e7ee2e26
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f14261a36eca01a37a2d339fbee7a6e722c0ce6281d
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f09281437e3f2353aedf335e1ee7a6e722c0ce6281d
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f192c1334f7a01039edf43ee0a76b7129370bfb25
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f0227143ac0e93d78b3a923e7ee2e26
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f06200920f7ee3178b0a923e7ee2e26
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c6c1313191d0e3938237f1f281439f7f57469acf238e0f323
+>>>>>>> Stashed changes
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4ba75e435d8715fa32c70d15d11612dacc11fee5d3c5d1fe9ab1bf968e93e2ffcbc3e7e2f0b3ffe0e8b0be9af8ffaeffff8e85dd8390e3949c8899daa7
