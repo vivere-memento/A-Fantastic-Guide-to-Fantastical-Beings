@@ -7,6 +7,7 @@ public class CollectionBookBtnControl : MonoBehaviour
 {
     [SerializeField] GameObject collectionBook;
     [SerializeField] GameObject locales;
+    [SerializeField] GameObject JapanTitle;
     private string yokaiNotFoundPic = "yokai_notFound";
 
     void Start()
@@ -17,12 +18,29 @@ public class CollectionBookBtnControl : MonoBehaviour
     }
     void OnOpenCollectionBook()
     {
+        //Play Short Book open
+        AudioManager.instance.PlaySound2D("LongBookOpen");
         // open collection book
         if (!collectionBook.activeSelf) {
             // update yokai isCatched status
             // updateYokaiStatus();
             collectionBook.SetActive(true);
-            locales.SetActive(false);
+            string firstYokaiName = YokaiControl.Instance.getFirstYokaiName();
+            bool isCatched = PlayManager.Instance.GetCaughtYokai(
+                (PlayManager.QuestName)System.Enum.Parse(
+                    typeof(PlayManager.QuestName), firstYokaiName)
+            );
+            collectionBook.GetComponent<CollectionBookControl>()
+                .initialCollectionBookOnActive(firstYokaiName, isCatched);
+
+            if (locales != null)
+            {
+                locales.SetActive(false);
+            }
+            if (JapanTitle != null)
+            {
+                JapanTitle.SetActive(false);
+            }
         }
     }
 

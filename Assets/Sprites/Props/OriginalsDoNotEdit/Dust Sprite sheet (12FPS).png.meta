@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 397810787cfefb543b910de98b3853e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8818604093782086304
+    second: Dust Sprite sheet (12FPS)_0
+  - first:
+      213: 9106988654710591859
+    second: Dust Sprite sheet (12FPS)_1
+  - first:
+      213: -8238129804835975268
+    second: Dust Sprite sheet (12FPS)_2
+  - first:
+      213: 7180527042361554621
+    second: Dust Sprite sheet (12FPS)_3
+  - first:
+      213: -3617559008664474576
+    second: Dust Sprite sheet (12FPS)_4
+  - first:
+      213: 2245946004992652520
+    second: Dust Sprite sheet (12FPS)_5
+  - first:
+      213: -5383980932351294360
+    second: Dust Sprite sheet (12FPS)_6
+  - first:
+      213: -1024507410688405288
+    second: Dust Sprite sheet (12FPS)_7
+  - first:
+      213: 7002173662843324336
+    second: Dust Sprite sheet (12FPS)_8
+  - first:
+      213: -8608931356820990305
+    second: Dust Sprite sheet (12FPS)_9
+  - first:
+      213: 3154069542509651817
+    second: Dust Sprite sheet (12FPS)_10
+  - first:
+      213: -622494197133119729
+    second: Dust Sprite sheet (12FPS)_11
+  - first:
+      213: 4101779242155641953
+    second: Dust Sprite sheet (12FPS)_12
+  - first:
+      213: 1349391612069908292
+    second: Dust Sprite sheet (12FPS)_13
+  - first:
+      213: -7677656867477825270
+    second: Dust Sprite sheet (12FPS)_14
+  - first:
+      213: -4446730176364383639
+    second: Dust Sprite sheet (12FPS)_15
+  - first:
+      213: 7920975914016990290
+    second: Dust Sprite sheet (12FPS)_16
+  - first:
+      213: 3842766588835217977
+    second: Dust Sprite sheet (12FPS)_17
+  - first:
+      213: 8555053995085384635
+    second: Dust Sprite sheet (12FPS)_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_0
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1870
+        width: 623
+        height: 223
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d2057bc460e9580800000000000000
+      internalID: -8818604093782086304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_1
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1892
+        width: 965
+        height: 463
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37199893ee5826e70800000000000000
+      internalID: 9106988654710591859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_2
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 402
+        width: 1205
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f813907984cad80800000000000000
+      internalID: -8238129804835975268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_3
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 1907
+        width: 1050
+        height: 529
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6fb0c0d4b56a360800000000000000
+      internalID: 7180527042361554621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_5
+      rect:
+        serializedVersion: 2
+        x: 4708
+        y: 1907
+        width: 1103
+        height: 547
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e47b44fdf33b2f10800000000000000
+      internalID: 2245946004992652520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_7
+      rect:
+        serializedVersion: 2
+        x: 6193
+        y: 1903
+        width: 1148
+        height: 551
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0992420f738c1f0800000000000000
+      internalID: -1024507410688405288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 401
+        width: 1184
+        height: 553
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9696f40b8ee68880800000000000000
+      internalID: -8608931356820990305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_11
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 401
+        width: 1202
+        height: 534
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f632963d47c57f0800000000000000
+      internalID: -622494197133119729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust Sprite sheet (12FPS)_15
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 416
+        width: 1209
+        height: 524
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9627ac1e67a0a42c0800000000000000
+      internalID: -4446730176364383639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

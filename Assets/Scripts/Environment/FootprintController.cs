@@ -6,6 +6,7 @@ using System;
 
 public class FootprintController : MonoBehaviour
 {
+    public bool Active;
     public static Action revealed;
     [SerializeField]
     private List<PropClicked> footsteps;
@@ -13,7 +14,7 @@ public class FootprintController : MonoBehaviour
         PropClicked.propClicked += RevealNext;
     }
     void OnDisable(){
-        PropClicked.propClicked += RevealNext;
+        PropClicked.propClicked -= RevealNext;
     }
     void RevealNext(string s){
         revealed?.Invoke();

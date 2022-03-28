@@ -1,27 +1,40 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class MusicManager : MonoBehaviour {
 
 	public AudioClip mainTheme;
 	public AudioClip menuTheme;
+	public AudioClip endTheme;
+	bool stopRepeat= true;
 	void OnEnable(){
-		GoToJapan.MovingToMain +=changeMusic;
+		StartMusic2.menuStarted+= StartMainTheme;
 	}
 	void OnDisable(){
-		GoToJapan.MovingToMain -=changeMusic;
+		StartMusic2.menuStarted-= StartMainTheme;
 	}
-	void Start() {
-		AudioManager.instance.PlayMusic (menuTheme, 2);
+	void Start(){
+		StartMenuTheme();
 	}
-	void changeMusic(){
+	public void StartMainTheme(){
+		if(stopRepeat){
 		AudioManager.instance.PlayMusic(mainTheme,3);
+		stopRepeat = false;
+		}
 	}
 
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.F)) {
-			AudioManager.instance.PlayMusic (mainTheme, 3);
-		}
+    public void StartMenuTheme()
+    {
+     	AudioManager.instance.PlayMusic(menuTheme,1);
+    }
+
+	public void StartEndTheme()
+    {
+     	AudioManager.instance.PlayMusic(endTheme,3);
+    }
+
+	void Update(){
 	
 	}
 }

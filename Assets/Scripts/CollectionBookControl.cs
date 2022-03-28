@@ -9,15 +9,26 @@ public class CollectionBookControl : MonoBehaviour
     [SerializeField] GameObject descriptionText;
     [SerializeField] GameObject yokaiPic;
     [SerializeField] GameObject loreboxText;
+    [SerializeField] GameObject habitatText;
     [SerializeField] GameObject yokaiName;
     [SerializeField] GameObject locales;
+    [SerializeField] GameObject JapanTitle;
     [SerializeField] GameObject buttonRight;
     [SerializeField] GameObject buttonLeft;
     [SerializeField] GameObject pageNumber;
 
+    private string currentYokaiName;
+
     private string yokaiNotFoundPic = "yokai_notFound";
     void OnDisable(){
-        locales.SetActive(true);
+        if (locales != null)
+        {
+            locales.SetActive(true);
+        }
+        if (JapanTitle != null)
+        {
+            JapanTitle.SetActive(true);
+        }
     }
     void Start()
     {
@@ -26,43 +37,99 @@ public class CollectionBookControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // onClick Left yokai name, open the right pannel to show the description
-        // onClickYokaiName();
+        if (collectionBook.activeSelf && Input.GetMouseButtonDown(0)) {
+            Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+            //next page
+            if (hit.collider != null && hit.collider.gameObject.tag == "nextPage") {
+                goToNextPage();
+            }
+
+            // prev page
+            if (hit.collider != null && hit.collider.gameObject.tag == "prevPage") {
+                goToPrevPage();
+            }
+        }
     }
 
-    // private void onClickYokaiName() {
-    //     //If the left mouse button is clicked.
-    //     if (collectionBook.activeSelf && Input.GetMouseButtonDown(0))
-    //     {
-    //         //Get the mouse position on the screen and send a raycast into the game world from that position.
-    //         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    //         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+    private void setCollectionBookByYokaiName(string yokaiNameText, bool isCatched)
+    {
+        int pageNumber = YokaiControl.Instance.getPageNumber(yokaiNameText);
+        this.pageNumber.GetComponent<Text>().text = pageNumber + "/6";
+        if (isCatched) {
 
-    //         //If something was hit, the RaycastHit2D.collider will not be null.
-    //         if (hit.collider != null && hit.collider.gameObject.tag == "YokaiAvatar")
-    //         {
-    //             string yokaiName = hit.collider.name;
-    //             bool isCatched = PlayManager.Instance.GetCaughtYokai(
-    //                 (PlayManager.QuestName)System.Enum.Parse(
-    //                     typeof(PlayManager.QuestName), yokaiName)
-    //             );
-    //             if (!isCatched) {
-    //                 // If not catched, show not found
-    //                 yokaiNameContainer.GetComponent<Text>().text = "unkown";
-    //                 descriptionText.GetComponent<Text>().text = "Not Found!";
-    //                 picContainer.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>(yokaiNotFoundPic);;
-    //             } else {
-    //                 // If catched, show infomation
-    //                 string description = YokaiControl.Instance.getYokaiDescription(yokaiName);
-    //                 string picUrl = YokaiControl.Instance.getYokaiPic(yokaiName);
-    //                 var yokaiPicSprite = Resources.Load<Sprite>(picUrl);
-    //                 yokaiNameContainer.GetComponent<Text>().text = yokaiName;
-    //                 if (!description.Equals("Default")) {
-    //                     descriptionText.GetComponent<Text>().text = description;
-    //                     picContainer.GetComponent<SpriteRenderer>().sprite = yokaiPicSprite;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+            // name
+            yokaiName.GetComponent<Text>().text = yokaiNameText;
+
+            // pic
+            string picUrl = YokaiControl.Instance.getYokaiPic(yokaiNameText);
+            var yokaiPicSprite = Resources.Load<Sprite>(picUrl);
+            SpriteRenderer yokaiPicRender = yokaiPic.GetComponent<SpriteRenderer>();
+            yokaiPicRender.sprite = yokaiPicSprite;
+
+            // description
+            string yokaiDescriptionText = YokaiControl.Instance.getDescriptionText(yokaiNameText);
+            descriptionText.GetComponent<Text>().text = yokaiDescriptionText;
+            // lore
+            string yokaiLoreboxText = YokaiControl.Instance.getLoreboxText(yokaiNameText);
+            loreboxText.GetComponent<Text>().text = yokaiLoreboxText;
+
+            // habitat
+            string yokaiHabitat = YokaiControl.Instance.getHabitatText(yokaiNameText);
+            habitatText.GetComponent<Text>().text = yokaiHabitat;
+        }
+        else {
+            // name
+            yokaiName.GetComponent<Text>().text = "??????";
+
+            // pic
+            string foundPicUrl = YokaiControl.Instance.getYokaiPic(yokaiNameText);
+            // replace "found" to "unfound"
+            string unfoundPicUrl = foundPicUrl.Replace("found", "unfound");
+            var yokaiPicSprite = Resources.Load<Sprite>(unfoundPicUrl);
+            SpriteRenderer yokaiPicRender = yokaiPic.GetComponent<SpriteRenderer>();
+            yokaiPicRender.sprite = yokaiPicSprite;
+
+            // description
+            string yokaiDescriptionText = YokaiControl.Instance.getDescriptionText(yokaiNameText);
+            descriptionText.GetComponent<Text>().text = "??????";
+            // lore
+            string yokaiLoreboxText = YokaiControl.Instance.getLoreboxText(yokaiNameText);
+            loreboxText.GetComponent<Text>().text = "??????";
+
+            // habitat
+            string yokaiHabitat = YokaiControl.Instance.getHabitatText(yokaiNameText);
+            habitatText.GetComponent<Text>().text = "??????";
+        }
+    }
+    public void initialCollectionBookOnActive(string firstYokaiName, bool isFistYokaiCached) 
+    {
+        currentYokaiName = firstYokaiName;
+        setCollectionBookByYokaiName(firstYokaiName, isFistYokaiCached);
+    }
+
+    private void goToNextPage() {
+        string nextYokaiName = YokaiControl.Instance.getNextYokaiName(currentYokaiName);
+        bool isCatched = PlayManager.Instance.GetCaughtYokai(
+            (PlayManager.QuestName)System.Enum.Parse(
+                typeof(PlayManager.QuestName), nextYokaiName)
+        );
+        if (nextYokaiName != null) {
+            setCollectionBookByYokaiName(nextYokaiName, isCatched);
+            currentYokaiName = nextYokaiName;
+        }
+    }
+
+    private void goToPrevPage() {
+        string prevYokaiName = YokaiControl.Instance.getPrevYokaiName(currentYokaiName);
+        bool isCatched = PlayManager.Instance.GetCaughtYokai(
+            (PlayManager.QuestName)System.Enum.Parse(
+                typeof(PlayManager.QuestName), prevYokaiName)
+        );
+        if (prevYokaiName != null) {
+            setCollectionBookByYokaiName(prevYokaiName, isCatched);
+            currentYokaiName = prevYokaiName;
+        }
+    }
 }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
-    [SerializeField] private float minX, maxX, minY, maxY;
+    [SerializeField] private float minX, maxX;
+        //minY, maxY;
 
     void OnMouseDrag()
     {
@@ -19,6 +20,8 @@ public class Drag : MonoBehaviour
 
        transform.position = new Vector2(
             Mathf.Clamp(before_clamp.x, minX, maxX),
-            Mathf.Clamp(before_clamp.y, minY, maxY));
+            transform.position.y);
+
+        //Mathf.Clamp(before_clamp.y, minY, maxY)
     }
 }

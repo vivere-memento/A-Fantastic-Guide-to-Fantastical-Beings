@@ -15,16 +15,24 @@ public class NotifiSystem : MonoBehaviour
     void OnEnable(){
         NotifButton.buttonClicked += UpdateCurrentText;
         PropClicked.propClicked += UpdateCurrentText;
+        AmbientYokai.yokaiFleed += ShowModdedNotif;
     }
 
     void OnDisable(){
         NotifButton.buttonClicked -= UpdateCurrentText;
         PropClicked.propClicked -= UpdateCurrentText;
+        AmbientYokai.yokaiFleed += ShowModdedNotif;
     }
 
     private IEnumerator StayAndGo(){
         yield return new WaitForSeconds(3);
         panel.SetActive(false);
+    }
+
+    public void ShowModdedNotif(){
+        helpText.text = "Even other yokai flee from Onibi...";
+        panel.SetActive(true);
+        StartCoroutine("StayAndGo");
     }
 
     public void ShowNotif(){
