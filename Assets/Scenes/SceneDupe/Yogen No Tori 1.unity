@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 468791020}
   m_Layer: 0
   m_Name: leaves_2 (1)
-  m_TagString: Untagged
+  m_TagString: Yokai Behind
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1659,11 +1659,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 468791017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 135291b0aed4de14a857cdebb83ca89b, type: 3}
+  m_Script: {fileID: 11500000, guid: 04ac78540e820924698a257ad78df377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 2
-  yokai: {fileID: 0}
 --- !u!65 &468791021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1716,7 +1714,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 636092161
   m_SortingLayer: 3
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 8052996635532825307, guid: fdef5755249e77a459e26c54e5588f5e, type: 3}
   m_Color: {r: 0.90699995, g: 0.90699995, b: 0.90699995, a: 1}
   m_FlipX: 0
@@ -4130,7 +4128,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 636092161
   m_SortingLayer: 3
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 9143147992548321084, guid: d44192c8deb15684e8d4af20a8680f66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5051,9 +5049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1650335362}
   - component: {fileID: 1650335363}
-  - component: {fileID: 1650335365}
   - component: {fileID: 1650335366}
-  - component: {fileID: 1650335364}
   m_Layer: 0
   m_Name: leaves_1
   m_TagString: Yokai Behind
@@ -5114,7 +5110,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 636092161
   m_SortingLayer: 3
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 8052996635532825307, guid: fdef5755249e77a459e26c54e5588f5e, type: 3}
   m_Color: {r: 0.895, g: 0.895, b: 0.895, a: 1}
   m_FlipX: 0
@@ -5126,33 +5122,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1650335364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650335361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 135291b0aed4de14a857cdebb83ca89b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 2
-  yokai: {fileID: 0}
---- !u!65 &1650335365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650335361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 11.722709, y: 8.282234, z: 0.19999999}
-  m_Center: {x: 0.26797622, y: -0.5138837, z: 0}
 --- !u!114 &1650335366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5263,7 +5232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yokai: {fileID: 1671794849}
   yokaiText: {fileID: 1644344121}
-  propBlock: {fileID: 1650335361}
+  propBlock: {fileID: 468791017}
   zoom: 1
   xOffset: 0.7
 --- !u!65 &1671794853
@@ -6092,7 +6061,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 636092161
   m_SortingLayer: 3
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 8052996635532825307, guid: fdef5755249e77a459e26c54e5588f5e, type: 3}
   m_Color: {r: 0.936, g: 0.936, b: 0.936, a: 1}
   m_FlipX: 0
