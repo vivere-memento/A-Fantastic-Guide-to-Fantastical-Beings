@@ -48,22 +48,22 @@ public class LocaleSelector : MonoBehaviour
         }
     }
     public void GoToYogen(){
-        SceneManager.LoadScene("Yogen No Tori");
+        SceneManager.LoadScene("Yogen No Tori_EA_Checked");
     }
     public void GoToDaidara(){
-        SceneManager.LoadScene("Daidarabotchi");
+        SceneManager.LoadScene("Daidarabotchi_EA_Checked");
     }
     public void GoToOniiBii(){
-        SceneManager.LoadScene("OniiBii");
+        SceneManager.LoadScene("Onibi_EA_Checked");
     }
     public void GoToTengu(){
-        SceneManager.LoadScene("Tengu Daoshi");
+        SceneManager.LoadScene("Daitengu_EA_Checked");
     }
     public void GoToRaijuu(){
-        SceneManager.LoadScene("Raijuu");
+        SceneManager.LoadScene("Raijuu_EA_Checked");
     }
     public void GoToKitsune(){
-        SceneManager.LoadScene("Kitsune");
+        SceneManager.LoadScene("Kitsune_EA_Checked");
     }
     // Update is called once per frame
     void Update()
