@@ -22,7 +22,7 @@ public class GoToJapan : MonoBehaviour
         gameObject.GetComponentInChildren<TMP_Text>().color = Color.black;
     }
     public void GoToNext(){
-        AudioManager.instance.PlaySound2D("KotoGliss");
+        AudioManager.instance.PlaySound2D("ButtonPress");
         MovingToMain?.Invoke();
         SceneManager.LoadScene("JapanMap");
     }

@@ -4,9 +4,11 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class QuestManager : MonoBehaviour
 {
+    public static Action clicked;
     private Quest currentQuest;
     private int textMarker= 0;
     private int questMarker = 0;
@@ -28,7 +30,9 @@ public class QuestManager : MonoBehaviour
     public void ForceNextQuest(){
         //questMarker++;
         PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
-        SceneManager.LoadScene("JapanMap");
+        clicked?.Invoke();
+        //SceneManager.LoadScene("JapanMap");
+        AudioManager.instance.PlaySound2D("ButtonPress");
         //SetCurrentQuest(questMarker);
         /*textMarker = 0;
         updateText();*/

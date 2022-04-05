@@ -18,7 +18,12 @@ public class LocaleSelector : MonoBehaviour
         SetAllCanvasInActive();
         SetActiveCanvases();
     }
-
+    void OnEnable(){
+        QuestManager.clicked += Start;
+    }
+    void OnDisable(){
+        QuestManager.clicked -= Start;
+    }
     private void SetActiveCanvases(){
         if(PlayManager.Instance.GetCaughtYokai(PlayManager.QuestName.Tutorial)){
             locales[0].enabled = true;
@@ -49,21 +54,27 @@ public class LocaleSelector : MonoBehaviour
     }
     public void GoToYogen(){
         SceneManager.LoadScene("Yogen No Tori_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     public void GoToDaidara(){
         SceneManager.LoadScene("Daidarabotchi_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     public void GoToOniiBii(){
         SceneManager.LoadScene("Onibi_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     public void GoToTengu(){
         SceneManager.LoadScene("Daitengu_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     public void GoToRaijuu(){
         SceneManager.LoadScene("Raijuu_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     public void GoToKitsune(){
         SceneManager.LoadScene("Kitsune_EA_Checked");
+        AudioManager.instance.PlaySound2D("KotoGliss");
     }
     // Update is called once per frame
     void Update()

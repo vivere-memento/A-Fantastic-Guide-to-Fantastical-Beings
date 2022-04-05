@@ -89,14 +89,21 @@ public class AudioManager : MonoBehaviour {
 		PlayerPrefs.SetFloat ("sfx vol", sfxVolumePercent);
 		PlayerPrefs.SetFloat ("music vol", musicVolumePercent);
 	}
-
+	public void IntroStart(){
+		musicSources[activeAmbientSourceIndex].Stop();
+	}
 	public void PlayMusic(AudioClip clip, float fadeDuration = 1) {
-		activeMusicSourceIndex = 1 - activeMusicSourceIndex;
-		musicSources [activeMusicSourceIndex].clip = clip;
-		musicSources [activeMusicSourceIndex].loop = true;
-		musicSources [activeMusicSourceIndex].Play ();
+		musicSources[activeMusicSourceIndex].Stop();
+		StartCoroutine(WaitForABit());
+		IEnumerator WaitForABit(){
+			yield return new WaitForSeconds(1);
+			activeMusicSourceIndex = 1 - activeMusicSourceIndex;
+			musicSources [activeMusicSourceIndex].clip = clip;
+			musicSources [activeMusicSourceIndex].loop = true;
+			musicSources [activeMusicSourceIndex].Play();
 
-		StartCoroutine(AnimateMusicCrossfade(fadeDuration));
+			StartCoroutine(AnimateMusicCrossfade(fadeDuration));
+		}
 	}
 	public void PlayAmbient(AudioClip clip, float fadeDuration = 1) {
 		activeAmbientSourceIndex = 1 - activeAmbientSourceIndex;

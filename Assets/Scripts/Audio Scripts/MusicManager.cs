@@ -7,6 +7,7 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip mainTheme;
 	public AudioClip menuTheme;
 	public AudioClip endTheme;
+	public AudioClip backingTheme;
 	bool stopRepeat= true;
 	void OnEnable(){
 		StartMusic2.menuStarted+= StartMainTheme;
@@ -15,25 +16,26 @@ public class MusicManager : MonoBehaviour {
 		StartMusic2.menuStarted-= StartMainTheme;
 	}
 	void Start(){
-		StartMenuTheme();
+		StartBackingTheme();
 	}
 	public void StartMainTheme(){
-		if(stopRepeat){
-		AudioManager.instance.PlayMusic(mainTheme,3);
-		stopRepeat = false;
-		}
+		AudioManager.instance.PlayMusic(mainTheme,0.5f);
 	}
 
     public void StartMenuTheme()
     {
-     	AudioManager.instance.PlayMusic(menuTheme,1);
+     	AudioManager.instance.PlayMusic(menuTheme,0.5f);
     }
 
 	public void StartEndTheme()
     {
-     	AudioManager.instance.PlayMusic(endTheme,3);
+     	AudioManager.instance.PlayMusic(endTheme,0.5f);
     }
 
+	public void StartBackingTheme()
+    {
+     	AudioManager.instance.PlayMusic(backingTheme,0.5f);
+    }
 	void Update(){
 	
 	}

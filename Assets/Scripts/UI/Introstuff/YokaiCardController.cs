@@ -37,7 +37,7 @@ public class YokaiCardController : MonoBehaviour, IPointerEnterHandler, IPointer
 
     private IEnumerator StartIntro(){
     yield return new WaitForSeconds(2.1f);
-    AudioManager.instance.PlaySound2D("ShortBookOpen");
+    AudioManager.instance.PlaySound2D("LongBookOpen");
     GetComponentInParent<Canvas>().enabled = false;
     g.SetActive(true);
   }

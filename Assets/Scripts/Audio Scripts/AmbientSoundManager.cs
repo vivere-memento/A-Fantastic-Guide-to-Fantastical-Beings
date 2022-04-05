@@ -7,7 +7,7 @@ public class AmbientSoundManager : MonoBehaviour
     public AudioClip ambientWind;
 	public AudioClip ambientRain;
 	void Start(){
-		StartRain();
+		
 	}
 	void StartRain(){
 		AudioManager.instance.PlayAmbient(ambientRain, 5);
