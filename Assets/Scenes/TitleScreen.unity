@@ -7620,7 +7620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[0].groupID
@@ -7639,6 +7639,10 @@ PrefabInstance:
       value: ButtonPress
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[4].groupID
+      value: Thunder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[0].group.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -7652,6 +7656,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: soundGroups.Array.data[3].group.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[4].group.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
@@ -7682,6 +7690,10 @@ PrefabInstance:
       propertyPath: soundGroups.Array.data[3].group.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: a5b75f6b5169e32479dbeffd98b0ae58, type: 3}
+    - target: {fileID: 5190720723407447540, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: soundGroups.Array.data[4].group.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e37e556a5e803842bed3d8de2d1805f, type: 3}
     - target: {fileID: 5190720723407447542, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: m_RootOrder
       value: 3

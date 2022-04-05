@@ -11,6 +11,7 @@ public class MusicManager : MonoBehaviour {
 	bool stopRepeat= true;
 	void OnEnable(){
 		StartMusic2.menuStarted+= StartMainTheme;
+		
 	}
 	void OnDisable(){
 		StartMusic2.menuStarted-= StartMainTheme;

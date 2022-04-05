@@ -96,7 +96,7 @@ public class AudioManager : MonoBehaviour {
 		musicSources[activeMusicSourceIndex].Stop();
 		StartCoroutine(WaitForABit());
 		IEnumerator WaitForABit(){
-			yield return new WaitForSeconds(1);
+			yield return new WaitForSeconds(0.7f);
 			activeMusicSourceIndex = 1 - activeMusicSourceIndex;
 			musicSources [activeMusicSourceIndex].clip = clip;
 			musicSources [activeMusicSourceIndex].loop = true;
@@ -105,11 +105,14 @@ public class AudioManager : MonoBehaviour {
 			StartCoroutine(AnimateMusicCrossfade(fadeDuration));
 		}
 	}
+	public void StopAmbient(){
+		ambientSources[activeAmbientSourceIndex].Stop();
+	}
 	public void PlayAmbient(AudioClip clip, float fadeDuration = 1) {
 		activeAmbientSourceIndex = 1 - activeAmbientSourceIndex;
 		ambientSources [activeAmbientSourceIndex].clip = clip;
 		ambientSources [activeAmbientSourceIndex].loop = true;
-		ambientSources [activeAmbientSourceIndex].Play ();
+		ambientSources [activeAmbientSourceIndex].Play();
 
 		StartCoroutine(AnimateAmbientCrossfade(fadeDuration));
 	}

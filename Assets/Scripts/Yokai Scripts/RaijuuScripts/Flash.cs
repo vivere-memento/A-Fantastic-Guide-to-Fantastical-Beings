@@ -46,5 +46,6 @@ using UnityEngine.Experimental.Rendering.Universal;
              yield return null;
          }
          yield return null;
+         AudioManager.instance.PlaySound2D("Thunder");
      }
  }

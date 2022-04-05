@@ -6,11 +6,13 @@ using System;
 public class StartRain : MonoBehaviour
 {
     public static Action playRain;
+    public static Action stopRain;
     void OnEnable(){
         OneShotOnibi.movedScene+= Rain; 
     }
     void OnDisable(){
         OneShotOnibi.movedScene-= Rain; 
+        stopRain.Invoke();
     }
     void Rain(){
         playRain?.Invoke();
