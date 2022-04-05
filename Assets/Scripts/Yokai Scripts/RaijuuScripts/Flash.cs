@@ -21,7 +21,7 @@ using UnityEngine.Experimental.Rendering.Universal;
         HelpController.allCluesFound -=FlashLight;
     }
 
-    void FlashLight(){
+    public void FlashLight(){
         StartCoroutine("flashNow");
     }
 

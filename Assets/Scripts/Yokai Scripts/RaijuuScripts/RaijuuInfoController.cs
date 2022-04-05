@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class RaijuuInfoController : MonoBehaviour
 {
+    public Flash flasher;
     [SerializeField]
     private Canvas panel1,panel2;
     private bool showSecond= false;
@@ -48,6 +49,7 @@ public class RaijuuInfoController : MonoBehaviour
         cam.transform.position = new Vector3(0f,0f, -10);
         cam.orthographicSize = 16.2f;
         paneClosed?.Invoke();
+        flasher.flashNow();
     }
     // Start is called before the first frame update
     void Start()
