@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 20903955}
   - component: {fileID: 20903956}
   m_Layer: 0
-  m_Name: M Layer 1 (6)
+  m_Name: MOUNTAIN
   m_TagString: Yokai Behind
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,8 +292,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 57.6, y: 32.399998, z: 0.2}
-  m_Center: {x: -0.0000002682209, y: 0.00000011920929, z: 0}
+  m_Size: {x: 25.860989, y: 12.64488, z: 0.2}
+  m_Center: {x: -0.32682168, y: 2.759903, z: 0}
 --- !u!212 &20903957
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -7751,9 +7751,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 0685c10c15fef0d42bf4a4130013c5de, type: 3}
     - target: {fileID: 5190720723407447543, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
+      propertyPath: finalTheme
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ed6f746858705c43b3ecf0c2d1902f4, type: 3}
+    - target: {fileID: 5190720723407447543, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
       propertyPath: backingTheme
       value: 
-      objectReference: {fileID: 8300000, guid: 1654d7fa6f4fd7f47a72336284e77c67, type: 3}
+      objectReference: {fileID: 8300000, guid: 0dc69b09a64a8684ab8c36ed33714c7c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 101da70c3c684724a8689b6bf0196fa1, type: 3}
 --- !u!1 &1085541830 stripped
