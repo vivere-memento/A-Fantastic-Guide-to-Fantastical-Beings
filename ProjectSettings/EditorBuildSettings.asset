@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneDupe/Yogen No Tori_EA_Checked.unity
     guid: 6edea8b42306fd34594c5b775c13a2fa
+  - enabled: 1
+    path: Assets/Scenes/SceneDupe/Daitengu_Extra.unity
+    guid: 6266edf7b78f0c044a4e4b1c3f047e2c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e96e67521bf9a664aad2823f3f6e8d4b, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 849cbfcdfccb47047832a861e4fb4149, type: 2}

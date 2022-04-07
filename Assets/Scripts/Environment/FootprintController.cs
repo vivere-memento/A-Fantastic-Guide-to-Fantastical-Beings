@@ -18,7 +18,8 @@ public class FootprintController : MonoBehaviour
     }
     void RevealNext(string s){
         revealed?.Invoke();
-        footsteps[0].gameObject.SetActive(false);
+//        footsteps[0].gameObject.GetComponent<SpriteRenderer>().color = Color.clear;
+    //    footsteps[0].gameObject.GetComponent<CircleCollider2D>().enabled = false;
         footsteps[1].gameObject.SetActive(true);
     }
     // Start is called before the first frame update
