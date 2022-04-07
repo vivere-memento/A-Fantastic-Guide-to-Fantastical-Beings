@@ -79,7 +79,7 @@ public class CollectYokai : MonoBehaviour
                                  "The Daitengu look closer to humans than the Tengu, but still have bird-like features. \n\n"+
                                  "Historically, the Daitengu were viewed as dangerous beings. However, over time, the Japanese began to see them as wise sages and would sometimes seek their help. " +
                                  "Daitengu live alone, in places away from others, practicing meditation to perfect themselves. The long and big noses of a Daitengu show their power. The longer the nose, the more powerful the Daitengu."; 
-//                PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu); 
+                PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu); 
             } 
             else if (yokai.name == "Daidarabotchi") 
             { 

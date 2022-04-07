@@ -7985,7 +7985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.11764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20730,6 +20730,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[0]
+      value: Hey {playername}! \nWelcome to the Shiga mountain ranges!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[1]
+      value: That shock from earlier must have come from around here.\nBut the exact
+        location is hard to pin down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[2]
+      value: If we can find traces of the Raijuu around here, we'll know we're in
+        the right spot!
+      objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -21041,12 +21055,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When a Raijuu moves, lightning follows. Raijuu were seen as divine beasts,
-    delivering the judgement of the heavens.
-
-
-    A long time ago, the Japanese
-    thought lightning bolts were Raijuu, sent by the gods to punish them. '
+  m_text: "When a Raijuu moves, lightning follows. Raijuu were seen as divine beasts,
+    delivering the judgement of the heavens.\nA long time ago, the Japanese thought
+    lightning bolts were Raijuu, sent by the gods to punish them. \n\nA common superstition
+    in Japan is to cover your belly button when lightning strikes.\nChildren were
+    told that  Raijuu would sleep in their belly buttons, which started the above
+    practice. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d418e55817be004d89c211c648c1c2c, type: 2}
   m_sharedMaterial: {fileID: 381197443931373239, guid: 3d418e55817be004d89c211c648c1c2c, type: 2}
@@ -21073,7 +21087,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.45
+  m_fontSize: 23.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29956,11 +29970,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.46436113
+      value: 0.46554908
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.593387
+      value: 0.5898231
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -29972,11 +29986,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -68.426636
+      value: -66.14575
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471842555496, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 599.3031
+      value: 592.46045
       objectReference: {fileID: 0}
     - target: {fileID: 4146823471934596553, guid: bc5d5b88fe6ad214eaf57779e00408d1, type: 3}
       propertyPath: m_Name
@@ -30462,7 +30476,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7181660828497969207}
         m_TargetAssemblyTypeName: RaijuuInfoController, Assembly-CSharp
-        m_MethodName: ClosePanel
+        m_MethodName: BackToJapan
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

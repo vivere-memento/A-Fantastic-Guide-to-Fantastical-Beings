@@ -13,9 +13,18 @@ public class BirdController : MonoBehaviour
     }
     void OnEnable(){
         OneShotOnibi.movedScene+=ShowBird;
+        FlashCopy.doneFlashing+=ShowBirdWithDelay;
     }
     void OnDisable(){
         OneShotOnibi.movedScene-=ShowBird;
+        FlashCopy.doneFlashing-=ShowBirdWithDelay;
+    }
+    void ShowBirdWithDelay(){
+        StartCoroutine(StartInABit());
+        IEnumerator StartInABit(){
+            yield return new WaitForSeconds(2);
+            secondBird.SetActive(true);
+        }
     }
     void ShowBird(){
         secondBird.SetActive(true);

@@ -2,30 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using System;
 
- public class Flash : MonoBehaviour
- {
- 
-     public float totalSeconds;     // The total of seconds the flash wil last
-     public float maxIntensity;     // The maximum intensity the flash will reach
-     public Light2D myLight;        // Your light
+public class FlashCopy : MonoBehaviour
+{
+    public static Action doneFlashing;
+    public float totalSeconds;     // The total of seconds the flash wil last
+    public float maxIntensity;     // The maximum intensity the flash will reach
+    public Light2D myLight;        // Your light
     
-    void Start(){
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(WAIT());
+        IEnumerator WAIT(){
+            yield return new WaitForSeconds(2);
+            StartCoroutine("flashNow");
+        }
         
     }
-
-    void OnEnable(){
-        HelpController.allCluesFound +=FlashLight;
-    }
-    void OnDisable(){
-        HelpController.allCluesFound -=FlashLight;
-    }
-
-    public void FlashLight(){
-        StartCoroutine("flashNow");
-    }
-
-     public IEnumerator flashNow ()
+    public IEnumerator flashNow ()
      {
          float waitTime = totalSeconds / 3;                        
          // Get half of the seconds (One half to get brighter and one to get darker)
@@ -46,6 +42,12 @@ using UnityEngine.Experimental.Rendering.Universal;
              yield return null;
          }
          yield return null;
-         //AudioManager.instance.PlaySound2D("Thunder");
+//         AudioManager.instance.PlaySound2D("Thunder");
+         doneFlashing?.Invoke();
      }
- }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

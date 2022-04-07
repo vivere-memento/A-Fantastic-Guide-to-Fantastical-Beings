@@ -10,7 +10,7 @@ public class OKButton : MonoBehaviour
 
     public void ReturnToMap()
     {
-        PlayManager.Instance.CaughtAYokai(yokaiName);
+//        PlayManager.Instance.CaughtAYokai(yokaiName);
         SceneManager.LoadScene("JapanMap");
     }
 }
