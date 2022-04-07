@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public Texture2D cursor;
     private Canvas pauseCanvas;
     private AudioSource menuSource;
     public GameObject quitBacking;
@@ -13,6 +14,7 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Cursor.SetCursor(cursor,Vector2.zero,CursorMode.ForceSoftware);
         menuSource = gameObject.GetComponent<AudioSource>();
         pauseCanvas = gameObject.GetComponentInChildren<Canvas>();
         pauseCanvas.enabled = false;

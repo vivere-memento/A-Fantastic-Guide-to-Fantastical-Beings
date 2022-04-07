@@ -14293,6 +14293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f61aa5014786e4983ceaa66c0a5680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: a4b4a9fb0289f3849a1008365ea40f9e, type: 3}
   quitBacking: {fileID: 2067651678}
 --- !u!82 &2037520300
 AudioSource:
