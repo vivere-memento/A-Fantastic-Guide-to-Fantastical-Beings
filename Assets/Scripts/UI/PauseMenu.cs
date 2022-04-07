@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     private Canvas pauseCanvas;
     private AudioSource menuSource;
-    public Image quitBacking;
+    public GameObject quitBacking;
     private bool showingCanvas = false;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class PauseMenu : MonoBehaviour
         pauseCanvas = gameObject.GetComponentInChildren<Canvas>();
         pauseCanvas.enabled = false;
         menuSource.ignoreListenerPause= true;
-        quitBacking.enabled=false;
+        quitBacking.SetActive(false);
     }
     void PlayButtonNoise(){
         menuSource.Play();
@@ -64,12 +65,14 @@ public class PauseMenu : MonoBehaviour
     public void Quit()
     {
         PlayButtonNoise();
-        quitBacking.enabled=true;
+        quitBacking.SetActive(true);
     }
     public void ReallyQuit(){
-        Application.Quit();
+        SceneManager.LoadScene("TitleScreen");
+        UnPause();
+        CloseQuitBacking();
     }
     public void CloseQuitBacking(){
-        quitBacking.enabled=false;
+        quitBacking.SetActive(false);
     }
 }
