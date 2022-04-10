@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1187231056}
   - component: {fileID: 1187231055}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,8 +289,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: 0.000021935}
-  m_SizeDelta: {x: 960.992, y: 283.7621}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 915.2198, y: 283.7621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1308189414
 MonoBehaviour:
@@ -334,10 +334,10 @@ MonoBehaviour:
     yokais that are hiding in these locales.
 
     4. You can read the information
-    about the yokais when you have found them.
+    about the yokais once have found them.
 
-    4. Complete the collection book
-    by finding all the yokais!'
+    5. Complete the collection book by
+    finding all the yokais!'
 --- !u!222 &1308189415
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -822,7 +822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000021935, y: 230.83331}
+  m_AnchoredPosition: {x: 0.000021935, y: 216}
   m_SizeDelta: {x: 571.6346, y: 75.6329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985772224
@@ -848,7 +848,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0369745b5a876fc4888a6097e823a9c1, type: 3}
     m_FontSize: 60
-    m_FontStyle: 3
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 72

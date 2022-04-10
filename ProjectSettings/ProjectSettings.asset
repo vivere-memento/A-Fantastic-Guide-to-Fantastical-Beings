@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: viverememento
   productName: A Fantastic Guide to Fantastical Beings
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: c11cb712457c9d549a4660964331d158, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
