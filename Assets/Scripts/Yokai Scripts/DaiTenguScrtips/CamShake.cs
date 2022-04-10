@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CamShake : MonoBehaviour
 {
+    public Camera cam;
     public float durat, mag;
     public IEnumerator Shake(float duration,float magnitude){
         Vector3 oPos = transform.localPosition;
@@ -30,6 +31,6 @@ public class CamShake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, 5.0f, Time.deltaTime * 1.5f);
     }
 }

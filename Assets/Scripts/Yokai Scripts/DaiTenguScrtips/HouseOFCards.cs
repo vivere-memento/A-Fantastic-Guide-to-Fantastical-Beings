@@ -14,6 +14,7 @@ public class HouseOFCards : MonoBehaviour
         c.enabled=false;
     }
     void COn(){
+        if(c)
         c.enabled=true;
     }
     public void GoToJapan(){
