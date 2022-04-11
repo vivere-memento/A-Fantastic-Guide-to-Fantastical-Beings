@@ -3981,6 +3981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TALKINGBIRD
       objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144152, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
 --- !u!1 &991610194 stripped
