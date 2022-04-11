@@ -535,12 +535,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51090241}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.205, y: -3.876, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 2118249339}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73442590
 GameObject:
@@ -1892,7 +1892,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395524766
 GameObject:
@@ -2308,7 +2308,7 @@ Transform:
   - {fileID: 2017675897}
   - {fileID: 197621593}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.603}
 --- !u!1 &512270282
 GameObject:
@@ -3067,6 +3067,128 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &826645610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[0]
+      value: Hey there! Nice to see you again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[1]
+      value: Congratulations for making it to the Mountains!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[2]
+      value: "Some of my friends have told me that they\u2019ve spotted a Daidarabotchi
+        here."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[3]
+      value: I heard from them that it is extremely HUGE.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: helpMessages.Array.data[4]
+      value: "So, it shouldn\u2019t be too difficult for you to find it, right?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692654742647144152, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
+      propertyPath: m_Name
+      value: TALKINGBIRD
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
 --- !u!1 &880378471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,128 +3757,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201596541}
   m_CullTransparentMesh: 1
---- !u!1001 &1306464526
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.data[0]
-      value: Hey there! Nice to see you again.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.data[1]
-      value: Congrats for making it to the Mountains!
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.data[2]
-      value: "Some of my friends told me that they\u2019ve spotted a Daidarabotchi
-        here."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.data[3]
-      value: I heard from them that it is extremely HUGE.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: helpMessages.Array.data[4]
-      value: "So, it shouldn\u2019t be too difficult for you to find it, right?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692654742647144152, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
-      propertyPath: m_Name
-      value: TALKINGBIRD
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
 --- !u!1 &1319809196
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,7 +4806,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1565142468
 AudioListener:
@@ -6158,10 +6158,10 @@ Transform:
   m_GameObject: {fileID: 1955618801}
   m_LocalRotation: {x: -0, y: -0, z: -0.3073924, w: 0.9515829}
   m_LocalPosition: {x: -2.821, y: -4.615, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.10000001, y: 0.10000001, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 2118249339}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -35.804}
 --- !u!1 &1990143584
 GameObject:
@@ -6409,7 +6409,7 @@ Transform:
   - {fileID: 1378093333}
   - {fileID: 395524767}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2054913968
 GameObject:
@@ -6572,6 +6572,8 @@ Transform:
   - {fileID: 512870039}
   - {fileID: 1764133587}
   - {fileID: 826464346}
+  - {fileID: 51090243}
+  - {fileID: 1955618803}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
