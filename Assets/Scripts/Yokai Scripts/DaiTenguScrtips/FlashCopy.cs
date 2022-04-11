@@ -42,7 +42,7 @@ public class FlashCopy : MonoBehaviour
              yield return null;
          }
          yield return null;
-//         AudioManager.instance.PlaySound2D("Thunder");
+         AudioManager.instance.PlaySound2D("Thunder");
          doneFlashing?.Invoke();
      }
     // Update is called once per frame

@@ -12,8 +12,9 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip sceneIntrigue;
 	public AudioClip akemura;
 	bool stopRepeat= true;
+	private int timesCalled;
 	void OnEnable(){
-		StartMusic2.menuStarted+= StartMenuTheme;
+		StartMusic2.menuStarted+= Judgement;
 		YogenMusic.yogenStarted+=StartTranquil;
 		DaidaraMusic.daidaraStarted+=StartVibrantTheme;
 		OnibiMusic.onibiStarted+=StartIntrigue;
@@ -22,7 +23,7 @@ public class MusicManager : MonoBehaviour {
 		KitsuneMusic.kitsuneStarted+=StartEpicTheme;
 	}
 	void OnDisable(){
-		StartMusic2.menuStarted-= StartMenuTheme;
+		StartMusic2.menuStarted-= Judgement;
 		YogenMusic.yogenStarted-=StartTranquil;
 		DaidaraMusic.daidaraStarted-=StartVibrantTheme;
 		OnibiMusic.onibiStarted-=StartIntrigue;
@@ -32,6 +33,18 @@ public class MusicManager : MonoBehaviour {
 	}
 	void Start(){
 		StartTranquil();
+	}
+	public void Judgement(){
+		timesCalled++;
+		if(timesCalled==2){
+			//do nothing
+		}
+		if(timesCalled<2){
+			StartMenuTheme();
+		}
+		if(timesCalled>2){
+			StartMenuTheme();
+		}
 	}
 	public void StartEpicTheme(){
 		AudioManager.instance.PlayMusic(sceneEpic,0.5f);
