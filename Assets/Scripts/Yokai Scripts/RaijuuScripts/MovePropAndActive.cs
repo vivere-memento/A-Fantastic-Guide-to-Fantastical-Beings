@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MovePropAndActive : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class MovePropAndActive : MonoBehaviour
     {
         //if(playOnce){myAnim.SetBool("Lifted",true); playOnce=false;}
             
-
+            if ( ! EventSystem.current.IsPointerOverGameObject()){
             Debug.Log("Props dragged");
 
             footprint.SetActive(true);
@@ -39,7 +40,7 @@ public class MovePropAndActive : MonoBehaviour
             {
                 isBeingHeld = false;
             }
-        
+            }
     }
 
     private void OnMouseUp()

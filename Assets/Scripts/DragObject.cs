@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 
 public class DragObject : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class DragObject : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if ( ! EventSystem.current.IsPointerOverGameObject()){
             Debug.Log("Props dragged");
 
             oldPos = transform.position;
@@ -54,6 +56,7 @@ public class DragObject : MonoBehaviour
             if (mousePos == limit)
             {
                 isBeingHeld = false;
+            }
             }
         }
     }

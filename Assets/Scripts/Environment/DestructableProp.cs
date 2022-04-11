@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+using UnityEngine.EventSystems;
 public class DestructableProp : MonoBehaviour
 {
     public static event Action propBroke;
@@ -12,6 +12,7 @@ public class DestructableProp : MonoBehaviour
     private AmbientYokai yokai;
     Vector3 origPos;
     void OnMouseDown(){
+        if (!EventSystem.current.IsPointerOverGameObject()){
         if(Health<1){
             StartCoroutine("ShakeMe");
             Destroy(gameObject,0.6f);
@@ -19,6 +20,7 @@ public class DestructableProp : MonoBehaviour
         else{
             Health--;
             StartCoroutine("ShakeMe");
+        }
         }
     }
     private void OnDisable(){

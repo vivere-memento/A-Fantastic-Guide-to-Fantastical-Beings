@@ -49,7 +49,8 @@ public class OneShotOnibi : MonoBehaviour
          //AudioManager.instance.PlaySound2D("Thunder");
      }
     public void GoToNextForest(){
-        StartCoroutine(fadeNow());
+        //StartCoroutine(fadeNow());
+        AudioManager.instance.PlaySound2D("Shift");
         cam.transform.position = new Vector3(100,0,-10);
         movedScene?.Invoke();
         spawner.counter= 10;

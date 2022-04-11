@@ -42,7 +42,7 @@ public class HelpButtonSystem : MonoBehaviour, IPointerEnterHandler, IPointerExi
         }
         panel.SetActive(true);
         StartCoroutine("StayAWhile");
-
+        AudioManager.instance.PlaySound2D("Shift");
     }
     // Start is called before the first frame update
     void Start()
