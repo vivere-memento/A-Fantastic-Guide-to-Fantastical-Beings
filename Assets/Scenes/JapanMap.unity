@@ -5946,10 +5946,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -6216,6 +6216,7 @@ GameObject:
   - component: {fileID: 2780555553429774818}
   - component: {fileID: 2780555553429774817}
   - component: {fileID: 2780555553429774816}
+  - component: {fileID: 2780555553429774824}
   m_Layer: 5
   m_Name: NotifcationButton
   m_TagString: Untagged
@@ -6242,6 +6243,19 @@ RectTransform:
   m_AnchoredPosition: {x: -92.699646, y: 33.882355}
   m_SizeDelta: {x: 152, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2780555553429774824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2780555553429774822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a368168e70cced840ab85620419db4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: 047bbd594d71c964ca45a9a95c7d414f, type: 3}
 --- !u!1 &2780555553790702129
 GameObject:
   m_ObjectHideFlags: 0

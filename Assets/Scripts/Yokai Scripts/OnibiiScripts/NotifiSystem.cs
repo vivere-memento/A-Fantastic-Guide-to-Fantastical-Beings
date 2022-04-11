@@ -30,7 +30,7 @@ public class NotifiSystem : MonoBehaviour
     }
 
     public void ShowModdedNotif(){
-        helpText.text = "Even other yokai flee from Onibi...";
+        helpText.text = "Animals flee from Onibi...";
         panel.SetActive(true);
         StartCoroutine("StayAndGo");
     }

@@ -86,6 +86,7 @@ public class MessageController : MonoBehaviour
         }
     }
     public void ByeBye(){
+        birdStopped?.Invoke();
         StartFadeOut();
     }
 #endregion

@@ -15,7 +15,7 @@ MonoBehaviour:
   questName: TutorialQuest
   id: 0
   questText:
-  - Hey I'm the quest helper you can click on my arrows to see more!
+  - 
   - Click on the right arrow and you get the next text!
   - Click on the left arrow and you'll get the previous text!
   - You can click on the book to see your collected info!

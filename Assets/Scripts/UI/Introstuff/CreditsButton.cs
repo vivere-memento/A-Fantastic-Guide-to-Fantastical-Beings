@@ -12,7 +12,16 @@ public class CreditsButton : MonoBehaviour
     }
 
     public void StartCredits(){
+        AudioManager.instance.PlaySound2D("ButtonPress");
         SceneManager.LoadSceneAsync("Credits",LoadSceneMode.Additive);
+    }
+    public void HowToPlay(){
+        AudioManager.instance.PlaySound2D("ButtonPress");
+        SceneManager.LoadSceneAsync("HowToPlay",LoadSceneMode.Additive);
+    }
+    public void ActuallyQuit(){
+        AudioManager.instance.PlaySound2D("ButtonPress");
+        Application.Quit();
     }
     // Update is called once per frame
     void Update()

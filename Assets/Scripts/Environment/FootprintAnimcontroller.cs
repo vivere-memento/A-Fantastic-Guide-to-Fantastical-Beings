@@ -15,6 +15,7 @@ public class FootprintAnimcontroller : MonoBehaviour
     }
     void StartAnimation(){
         anim.enabled = true;
+        anim.Play("Footprint");
     }
     void StopAnimation(string s){
         anim.enabled = false;
