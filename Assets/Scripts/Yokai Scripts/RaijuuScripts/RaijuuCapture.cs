@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+using UnityEngine.EventSystems;
 public class RaijuuCapture : MonoBehaviour
 {
     [SerializeField]
@@ -15,6 +15,7 @@ public class RaijuuCapture : MonoBehaviour
         GetComponentInChildren<ParticleSystem>().Play(true);
     }
     private void OnMouseDown(){
+        if(!EventSystem.current.IsPointerOverGameObject()){
         Debug.Log("Raijuu Moused");
         if(canCapture){
         Debug.Log("Caught a Raijuu!");
@@ -24,6 +25,7 @@ public class RaijuuCapture : MonoBehaviour
         this.gameObject.SetActive(false);
         }
         //PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
+        }
         }
     }
     private void OnMouseUp(){

@@ -16,7 +16,7 @@ public class MovePropAndActive : MonoBehaviour
     {
         //if(playOnce){myAnim.SetBool("Lifted",true); playOnce=false;}
             
-            if ( ! EventSystem.current.IsPointerOverGameObject()){
+        if(EventSystem.current.IsPointerOverGameObject()){
             Debug.Log("Props dragged");
 
             footprint.SetActive(true);
@@ -40,7 +40,7 @@ public class MovePropAndActive : MonoBehaviour
             {
                 isBeingHeld = false;
             }
-            }
+        }
     }
 
     private void OnMouseUp()
@@ -48,6 +48,7 @@ public class MovePropAndActive : MonoBehaviour
         isBeingHeld = false;
         ts.isActive = true;
         gameObject.GetComponent<SpriteRenderer>().color = Color.clear;
+        footprint.SetActive(true);
         myAnim.SetBool("Lifted",true);
         Destroy(gameObject,.55f);
         
