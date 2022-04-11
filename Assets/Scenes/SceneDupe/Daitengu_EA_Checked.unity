@@ -2357,7 +2357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &616823381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6224,6 +6224,7 @@ GameObject:
   - component: {fileID: 1652300253}
   - component: {fileID: 1652300254}
   - component: {fileID: 1652300255}
+  - component: {fileID: 1652300256}
   m_Layer: 0
   m_Name: Tengu Daoshi
   m_TagString: Yokai
@@ -6284,13 +6285,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 691a784114d7ada459fe2b7d54295d0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.72, y: 8.99}
+  m_Size: {x: 6.73, y: 7.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6313,6 +6314,7 @@ MonoBehaviour:
   propBlock: {fileID: 616823380}
   zoom: 1
   xOffset: 0.7
+  yOffset: 0
 --- !u!65 &1652300255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6326,6 +6328,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.73, y: 7.81, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1652300256
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652300251}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a29983b1ac6b42439988e6d21244f08, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1656989365
 GameObject:
   m_ObjectHideFlags: 0

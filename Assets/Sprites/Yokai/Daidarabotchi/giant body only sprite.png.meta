@@ -1,0 +1,2436 @@
+fileFormatVersion: 2
+guid: a9de8aa4899de5043b80c13af0c0c990
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4281329219274765622
+    second: giant body only sprite_0
+  - first:
+      213: 4026896040629485133
+    second: giant body only sprite_1
+  - first:
+      213: 2645027747471864344
+    second: giant body only sprite_2
+  - first:
+      213: 5446509229106799946
+    second: giant body only sprite_3
+  - first:
+      213: -509123612010561027
+    second: giant body only sprite_4
+  - first:
+      213: -1098956774600551585
+    second: giant body only sprite_5
+  - first:
+      213: 2441562275754308609
+    second: giant body only sprite_6
+  - first:
+      213: -7196414378257140905
+    second: giant body only sprite_7
+  - first:
+      213: -3142613387109877411
+    second: giant body only sprite_8
+  - first:
+      213: 1437683155375536973
+    second: giant body only sprite_9
+  - first:
+      213: -223890889782034991
+    second: giant body only sprite_10
+  - first:
+      213: 4995197159640878525
+    second: giant body only sprite_11
+  - first:
+      213: 4128897352381867719
+    second: giant body only sprite_12
+  - first:
+      213: 7086020892568289453
+    second: giant body only sprite_13
+  - first:
+      213: 157742453205114119
+    second: giant body only sprite_14
+  - first:
+      213: -382288112874844779
+    second: giant body only sprite_15
+  - first:
+      213: 1117697373724021330
+    second: giant body only sprite_16
+  - first:
+      213: -3614384460682077619
+    second: giant body only sprite_17
+  - first:
+      213: -3642300465562867077
+    second: giant body only sprite_18
+  - first:
+      213: -1182248532047816093
+    second: giant body only sprite_19
+  - first:
+      213: -7064164280304021868
+    second: giant body only sprite_20
+  - first:
+      213: 8007087705231036203
+    second: giant body only sprite_21
+  - first:
+      213: -3917063003211153934
+    second: giant body only sprite_22
+  - first:
+      213: 717018229627229532
+    second: giant body only sprite_23
+  - first:
+      213: -750822255069759509
+    second: giant body only sprite_24
+  - first:
+      213: -8181335163972542879
+    second: giant body only sprite_25
+  - first:
+      213: 1844257818023270174
+    second: giant body only sprite_26
+  - first:
+      213: -1595212417476513529
+    second: giant body only sprite_27
+  - first:
+      213: 8527993654250482975
+    second: giant body only sprite_28
+  - first:
+      213: 5174412031965162162
+    second: giant body only sprite_29
+  - first:
+      213: -826102818907591502
+    second: giant body only sprite_30
+  - first:
+      213: 4490085732345480471
+    second: giant body only sprite_31
+  - first:
+      213: -7609375741163240794
+    second: giant body only sprite_32
+  - first:
+      213: 646722035121087173
+    second: giant body only sprite_33
+  - first:
+      213: -8907864189914291818
+    second: giant body only sprite_34
+  - first:
+      213: 2984144158645681519
+    second: giant body only sprite_35
+  - first:
+      213: 2965100607129938234
+    second: giant body only sprite_36
+  - first:
+      213: 2001253175962299558
+    second: giant body only sprite_37
+  - first:
+      213: -7284886234042264688
+    second: giant body only sprite_38
+  - first:
+      213: -3764898171331638710
+    second: giant body only sprite_39
+  - first:
+      213: -6431642931995873264
+    second: giant body only sprite_40
+  - first:
+      213: -4434796728568239691
+    second: giant body only sprite_41
+  - first:
+      213: 480559863230763664
+    second: giant body only sprite_42
+  - first:
+      213: -5846939404183341055
+    second: giant body only sprite_43
+  - first:
+      213: -1979531861855238509
+    second: giant body only sprite_44
+  - first:
+      213: -1556560814675217736
+    second: giant body only sprite_45
+  - first:
+      213: 4423963654026868315
+    second: giant body only sprite_46
+  - first:
+      213: 8981704335339793588
+    second: giant body only sprite_47
+  - first:
+      213: 6741261017610883974
+    second: giant body only sprite_48
+  - first:
+      213: -1249035304440932245
+    second: giant body only sprite_49
+  - first:
+      213: 903807030461673098
+    second: giant body only sprite_50
+  - first:
+      213: 353092272559915548
+    second: giant body only sprite_51
+  - first:
+      213: -394917668370443491
+    second: giant body only sprite_52
+  - first:
+      213: -7234075299329572020
+    second: giant body only sprite_53
+  - first:
+      213: 3767797645305566122
+    second: giant body only sprite_54
+  - first:
+      213: 3370586260744570365
+    second: giant body only sprite_55
+  - first:
+      213: -5888047573641605255
+    second: giant body only sprite_56
+  - first:
+      213: -7875691368501529384
+    second: giant body only sprite_57
+  - first:
+      213: -2661575051223844709
+    second: giant body only sprite_58
+  - first:
+      213: -565068063784337200
+    second: giant body only sprite_59
+  - first:
+      213: 445992730247847802
+    second: giant body only sprite_60
+  - first:
+      213: 3749966262721647010
+    second: giant body only sprite_61
+  - first:
+      213: -2402403961101417180
+    second: giant body only sprite_62
+  - first:
+      213: 7767485326384106403
+    second: giant body only sprite_63
+  - first:
+      213: -1821868118138982755
+    second: giant body only sprite_64
+  - first:
+      213: 2095768714574472504
+    second: giant body only sprite_65
+  - first:
+      213: 4494077089679941681
+    second: giant body only sprite_66
+  - first:
+      213: 8295489204564663137
+    second: giant body only sprite_67
+  - first:
+      213: -5434123741323616209
+    second: giant body only sprite_68
+  - first:
+      213: -2381209203657083033
+    second: giant body only sprite_69
+  - first:
+      213: 6230595604175167637
+    second: giant body only sprite_70
+  - first:
+      213: 8024744753392288043
+    second: giant body only sprite_71
+  - first:
+      213: 6264689856695868934
+    second: giant body only sprite_72
+  - first:
+      213: 4790226921435266903
+    second: giant body only sprite_73
+  - first:
+      213: -3426053988244949920
+    second: giant body only sprite_74
+  - first:
+      213: 3542425608297316182
+    second: giant body only sprite_75
+  - first:
+      213: 137355311405995910
+    second: giant body only sprite_76
+  - first:
+      213: 2750167534277309834
+    second: giant body only sprite_77
+  - first:
+      213: 1460226101468856812
+    second: giant body only sprite_78
+  - first:
+      213: -8957717694326372781
+    second: giant body only sprite_79
+  - first:
+      213: 654203172809671865
+    second: giant body only sprite_80
+  - first:
+      213: 8440425894127550867
+    second: giant body only sprite_81
+  - first:
+      213: 4336346514817841290
+    second: giant body only sprite_82
+  - first:
+      213: -7143069301161981551
+    second: giant body only sprite_83
+  - first:
+      213: 1174146460206233741
+    second: giant body only sprite_84
+  - first:
+      213: 7709599357766003305
+    second: giant body only sprite_85
+  - first:
+      213: -6336346991044011698
+    second: giant body only sprite_86
+  - first:
+      213: -1631182402796639131
+    second: giant body only sprite_87
+  - first:
+      213: -2570324814740305138
+    second: giant body only sprite_88
+  - first:
+      213: 4547079188137691067
+    second: giant body only sprite_89
+  - first:
+      213: 5912725793632124267
+    second: giant body only sprite_90
+  - first:
+      213: -6162373011241817832
+    second: giant body only sprite_91
+  - first:
+      213: 1852458240085613747
+    second: giant body only sprite_92
+  - first:
+      213: 5087156478836695271
+    second: giant body only sprite_93
+  - first:
+      213: 288463195501459638
+    second: giant body only sprite_94
+  - first:
+      213: -3092844695094664095
+    second: giant body only sprite_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giant body only sprite_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 9077
+        width: 845
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca80ae22c9a594c0800000000000000
+      internalID: -4281329219274765622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 9076
+        width: 849
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eb5211d9862e730800000000000000
+      internalID: 4026896040629485133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 9075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812bc1de8b605b420800000000000000
+      internalID: 2645027747471864344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 9075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a452cca7943e59b40800000000000000
+      internalID: 5446509229106799946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 9075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1c857b5ca3fe8f0800000000000000
+      internalID: -509123612010561027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5086
+        y: 9075
+        width: 854
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53dc62d2a8bfb0f0800000000000000
+      internalID: -1098956774600551585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_6
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 9075
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104745f24fb22e120800000000000000
+      internalID: 2441562275754308609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_7
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 9075
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753387f4043312c90800000000000000
+      internalID: -7196414378257140905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_8
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 9075
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59bde256c13364d0800000000000000
+      internalID: -3142613387109877411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_9
+      rect:
+        serializedVersion: 2
+        x: 9085
+        y: 9075
+        width: 859
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb8bf663da3f310800000000000000
+      internalID: 1437683155375536973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 8074
+        width: 860
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd78160c6494ecf0800000000000000
+      internalID: -223890889782034991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 8074
+        width: 860
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd4f6bd951825540800000000000000
+      internalID: 4995197159640878525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 8074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6a5c2244acc4930800000000000000
+      internalID: 4128897352381867719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 8074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0878c557a965260800000000000000
+      internalID: 7086020892568289453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_14
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 8074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d1a49ece9603200800000000000000
+      internalID: 157742453205114119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_15
+      rect:
+        serializedVersion: 2
+        x: 5085
+        y: 8074
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d8d3e9cf6d1baf0800000000000000
+      internalID: -382288112874844779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_16
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 8074
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252153fe6dbd28f00800000000000000
+      internalID: 1117697373724021330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_17
+      rect:
+        serializedVersion: 2
+        x: 7083
+        y: 8074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a5a5b9b7027ddc0800000000000000
+      internalID: -3614384460682077619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_18
+      rect:
+        serializedVersion: 2
+        x: 8084
+        y: 8074
+        width: 868
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa2e83603f37dc0800000000000000
+      internalID: -3642300465562867077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_19
+      rect:
+        serializedVersion: 2
+        x: 9085
+        y: 8074
+        width: 868
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1013593fc79fe0800000000000000
+      internalID: -1182248532047816093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 7073
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ec97db30c07fd90800000000000000
+      internalID: -7064164280304021868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 7073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f81b338d3ee1f60800000000000000
+      internalID: 8007087705231036203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 7073
+        width: 871
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd36cab3fbc3a9c0800000000000000
+      internalID: -3917063003211153934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 7073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55196ae74c53f900800000000000000
+      internalID: 717018229627229532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_24
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 7069
+        width: 874
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7fb15132b8495f0800000000000000
+      internalID: -750822255069759509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_25
+      rect:
+        serializedVersion: 2
+        x: 5081
+        y: 7073
+        width: 873
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e1103d30f067e80800000000000000
+      internalID: -8181335163972542879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_26
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 7073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e179385d6be189910800000000000000
+      internalID: 1844257818023270174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_27
+      rect:
+        serializedVersion: 2
+        x: 7083
+        y: 7073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701350312caacd9e0800000000000000
+      internalID: -1595212417476513529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_28
+      rect:
+        serializedVersion: 2
+        x: 8084
+        y: 7073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1da2689b05895670800000000000000
+      internalID: 8527993654250482975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_29
+      rect:
+        serializedVersion: 2
+        x: 9085
+        y: 7073
+        width: 868
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba6acee3543fc740800000000000000
+      internalID: 5174412031965162162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_30
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6072
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc6013fcd71984f0800000000000000
+      internalID: -826102818907591502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 6072
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715808f1f2dff4e30800000000000000
+      internalID: 4490085732345480471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 6073
+        width: 864
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28d716411166690800000000000000
+      internalID: -7609375741163240794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_33
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 6072
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26fc3b34e99f800800000000000000
+      internalID: 646722035121087173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 6077
+        width: 864
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6916cb417b8e06480800000000000000
+      internalID: -8907864189914291818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_35
+      rect:
+        serializedVersion: 2
+        x: 5085
+        y: 6077
+        width: 860
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6df1a63d4fc96920800000000000000
+      internalID: 2984144158645681519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_36
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 6077
+        width: 860
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39664bda47262920800000000000000
+      internalID: 2965100607129938234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_37
+      rect:
+        serializedVersion: 2
+        x: 7085
+        y: 6077
+        width: 862
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acead21921e5cb10800000000000000
+      internalID: 2001253175962299558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_38
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 6077
+        width: 855
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09317ce2192e6ea90800000000000000
+      internalID: -7284886234042264688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_39
+      rect:
+        serializedVersion: 2
+        x: 9089
+        y: 6077
+        width: 855
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a824a7f0560cbc0800000000000000
+      internalID: -3764898171331638710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5076
+        width: 858
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010fb3464d63eb6a0800000000000000
+      internalID: -6431642931995873264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 5076
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b920a63fdf6472c0800000000000000
+      internalID: -4434796728568239691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 5076
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0921e2546aa4ba600800000000000000
+      internalID: 480559863230763664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 5076
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108fa6e179f7bdea0800000000000000
+      internalID: -5846939404183341055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_44
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 5076
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960d88724a4784e0800000000000000
+      internalID: -1979531861855238509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_45
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 5078
+        width: 847
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2bdf1af2cf56ae0800000000000000
+      internalID: -1556560814675217736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_46
+      rect:
+        serializedVersion: 2
+        x: 6087
+        y: 5077
+        width: 849
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56b2811183156d30800000000000000
+      internalID: 4423963654026868315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_47
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 5081
+        width: 850
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bca381818c65ac70800000000000000
+      internalID: 8981704335339793588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_48
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 5081
+        width: 845
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68392e4cd25cd8d50800000000000000
+      internalID: 6741261017610883974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_49
+      rect:
+        serializedVersion: 2
+        x: 9089
+        y: 5081
+        width: 845
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6850ee12098aaee0800000000000000
+      internalID: -1249035304440932245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 4076
+        width: 845
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e2b24a4b7fa8c00800000000000000
+      internalID: 903807030461673098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 4075
+        width: 853
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128ed61d8f66e400800000000000000
+      internalID: 353092272559915548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 4075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1311451978f48af0800000000000000
+      internalID: -394917668370443491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_53
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 4075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c438801d7d66b9b90800000000000000
+      internalID: -7234075299329572020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_54
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 4075
+        width: 850
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ddf9eef7e94430800000000000000
+      internalID: 3767797645305566122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_55
+      rect:
+        serializedVersion: 2
+        x: 5086
+        y: 4075
+        width: 857
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df50e74985ab6ce20800000000000000
+      internalID: 3370586260744570365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_56
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 4075
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fcd709de3794ea0800000000000000
+      internalID: -5888047573641605255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_57
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 4075
+        width: 855
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d43bd37d6ce3b290800000000000000
+      internalID: -7875691368501529384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_58
+      rect:
+        serializedVersion: 2
+        x: 8084
+        y: 4075
+        width: 859
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98b2c0b79f201bd0800000000000000
+      internalID: -2661575051223844709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_59
+      rect:
+        serializedVersion: 2
+        x: 9085
+        y: 4075
+        width: 859
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0873007997828f0800000000000000
+      internalID: -565068063784337200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_60
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3074
+        width: 860
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f54d2760c703600800000000000000
+      internalID: 445992730247847802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 3074
+        width: 860
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a11931a27e8a0430800000000000000
+      internalID: 3749966262721647010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4250f8b6352f8aed0800000000000000
+      internalID: -2402403961101417180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_63
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 3074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab0f2d10c6abcb60800000000000000
+      internalID: 7767485326384106403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_64
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 3074
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e67b6699c67b6e0800000000000000
+      internalID: -1821868118138982755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_65
+      rect:
+        serializedVersion: 2
+        x: 5085
+        y: 3074
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a693ca8aa51d10800000000000000
+      internalID: 2095768714574472504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_66
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 3074
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130289b6d4b2e5e30800000000000000
+      internalID: 4494077089679941681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_67
+      rect:
+        serializedVersion: 2
+        x: 7083
+        y: 3074
+        width: 869
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b1a2cea7f7f1370800000000000000
+      internalID: 8295489204564663137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_68
+      rect:
+        serializedVersion: 2
+        x: 8084
+        y: 3074
+        width: 869
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20a3ec9f3d1694b0800000000000000
+      internalID: -5434123741323616209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_69
+      rect:
+        serializedVersion: 2
+        x: 9084
+        y: 3074
+        width: 869
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767f02078de34fed0800000000000000
+      internalID: -2381209203657083033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_70
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a8fdd0b5877650800000000000000
+      internalID: 6230595604175167637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2073
+        width: 873
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21802716de9d5f60800000000000000
+      internalID: 8024744753392288043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_72
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 2073
+        width: 873
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e9950ab36a0f650800000000000000
+      internalID: 6264689856695868934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_73
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 2073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f79ad510e4a7240800000000000000
+      internalID: 4790226921435266903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_74
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 2073
+        width: 870
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647959bc063470d0800000000000000
+      internalID: -3426053988244949920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_75
+      rect:
+        serializedVersion: 2
+        x: 5085
+        y: 2073
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ffec97259392130800000000000000
+      internalID: 3542425608297316182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_76
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 2073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6871e509debf7e100800000000000000
+      internalID: 137355311405995910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_77
+      rect:
+        serializedVersion: 2
+        x: 7083
+        y: 2073
+        width: 869
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8539692dce8a2620800000000000000
+      internalID: 2750167534277309834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_78
+      rect:
+        serializedVersion: 2
+        x: 8084
+        y: 2073
+        width: 868
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce10ec517e3c34410800000000000000
+      internalID: 1460226101468856812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_79
+      rect:
+        serializedVersion: 2
+        x: 9085
+        y: 2073
+        width: 864
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356027f873bcfa380800000000000000
+      internalID: -8957717694326372781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_80
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1072
+        width: 865
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4014ec152341900800000000000000
+      internalID: 654203172809671865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_81
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1077
+        width: 860
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914b74a1aa622570800000000000000
+      internalID: 8440425894127550867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_82
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1074
+        width: 864
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8878b62e2ccd2c30800000000000000
+      internalID: 4336346514817841290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_83
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1074
+        width: 864
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1990e32f058bedc90800000000000000
+      internalID: -7143069301161981551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_84
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 1077
+        width: 861
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88ffd21cf76b4010800000000000000
+      internalID: 1174146460206233741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_85
+      rect:
+        serializedVersion: 2
+        x: 5085
+        y: 1077
+        width: 860
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ae838c4cffdfa60800000000000000
+      internalID: 7709599357766003305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_86
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 1077
+        width: 860
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49d439abf5c018a0800000000000000
+      internalID: -6336346991044011698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_87
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 1077
+        width: 855
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c207d3f30ec59e0800000000000000
+      internalID: -1631182402796639131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_88
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 1077
+        width: 855
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b480cf23f545cd0800000000000000
+      internalID: -2570324814740305138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_89
+      rect:
+        serializedVersion: 2
+        x: 9089
+        y: 1077
+        width: 850
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c48e1e687a1f30800000000000000
+      internalID: 4547079188137691067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_90
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 76
+        width: 854
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d7bb748c83e0250800000000000000
+      internalID: 5912725793632124267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 76
+        width: 854
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8192a7b556ada7aa0800000000000000
+      internalID: -6162373011241817832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_92
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 77
+        width: 850
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc5c8164f045b910800000000000000
+      internalID: 1852458240085613747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_93
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 81
+        width: 850
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e063e55dd5399640800000000000000
+      internalID: 5087156478836695271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_94
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 81
+        width: 845
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b873aa7fb3d00400800000000000000
+      internalID: 288463195501459638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant body only sprite_95
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 81
+        width: 845
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646e6be2220415d0800000000000000
+      internalID: -3092844695094664095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

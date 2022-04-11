@@ -19,6 +19,7 @@ public class CollectYokai : MonoBehaviour
     [SerializeField] private GameObject propBlock;
     [SerializeField] private float zoom; //default is 1
     [SerializeField] private float xOffset; //default is 0.7f
+    [SerializeField] private float yOffset;
 
     // Start is called before the first frame update 
     void Start() 
@@ -40,7 +41,7 @@ public class CollectYokai : MonoBehaviour
         if (isClicked) 
         {
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, zoom, Time.deltaTime * 5);
-            cam.transform.position = new Vector3(transform.position.x + xOffset, transform.position.y, cam.transform.position.z);
+            cam.transform.position = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset, cam.transform.position.z);
         }
     }
 

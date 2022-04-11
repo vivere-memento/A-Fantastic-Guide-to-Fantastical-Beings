@@ -1,0 +1,2436 @@
+fileFormatVersion: 2
+guid: 3ac3a992ab8af2448859a852c5c800e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -67075591122366043
+    second: giant w-mountain sprite_0
+  - first:
+      213: 4383931085010153199
+    second: giant w-mountain sprite_1
+  - first:
+      213: 6239241548406659487
+    second: giant w-mountain sprite_2
+  - first:
+      213: -3485234130830760918
+    second: giant w-mountain sprite_3
+  - first:
+      213: -1550522524006572398
+    second: giant w-mountain sprite_4
+  - first:
+      213: 1354491554321198509
+    second: giant w-mountain sprite_5
+  - first:
+      213: -5205989427535480563
+    second: giant w-mountain sprite_6
+  - first:
+      213: -4549605309734359516
+    second: giant w-mountain sprite_7
+  - first:
+      213: 6656667214657272115
+    second: giant w-mountain sprite_8
+  - first:
+      213: -455933300510667037
+    second: giant w-mountain sprite_9
+  - first:
+      213: 2479507590433553708
+    second: giant w-mountain sprite_10
+  - first:
+      213: -358673345865284355
+    second: giant w-mountain sprite_11
+  - first:
+      213: -4473387269339948189
+    second: giant w-mountain sprite_12
+  - first:
+      213: 7080262716810033334
+    second: giant w-mountain sprite_13
+  - first:
+      213: 7331020149762029994
+    second: giant w-mountain sprite_14
+  - first:
+      213: -8168951168349623158
+    second: giant w-mountain sprite_15
+  - first:
+      213: 3299146141226341167
+    second: giant w-mountain sprite_16
+  - first:
+      213: 8601901967250952379
+    second: giant w-mountain sprite_17
+  - first:
+      213: -5545439603176979646
+    second: giant w-mountain sprite_18
+  - first:
+      213: 4443624762931243974
+    second: giant w-mountain sprite_19
+  - first:
+      213: 1774229775444836940
+    second: giant w-mountain sprite_20
+  - first:
+      213: -3498537417640312556
+    second: giant w-mountain sprite_21
+  - first:
+      213: -6935999993603732297
+    second: giant w-mountain sprite_22
+  - first:
+      213: 6667365465788728151
+    second: giant w-mountain sprite_23
+  - first:
+      213: 7245510862335192938
+    second: giant w-mountain sprite_24
+  - first:
+      213: 5478964471062750599
+    second: giant w-mountain sprite_25
+  - first:
+      213: 7101121428982761684
+    second: giant w-mountain sprite_26
+  - first:
+      213: -7682416196621620608
+    second: giant w-mountain sprite_27
+  - first:
+      213: 2066547246440982679
+    second: giant w-mountain sprite_28
+  - first:
+      213: 62820431716015952
+    second: giant w-mountain sprite_29
+  - first:
+      213: -704297388276860730
+    second: giant w-mountain sprite_30
+  - first:
+      213: 5342434008258662023
+    second: giant w-mountain sprite_31
+  - first:
+      213: -1324333162562239050
+    second: giant w-mountain sprite_32
+  - first:
+      213: -4831185480056423567
+    second: giant w-mountain sprite_33
+  - first:
+      213: -679251489195810974
+    second: giant w-mountain sprite_34
+  - first:
+      213: 9094609145738263438
+    second: giant w-mountain sprite_35
+  - first:
+      213: 8465796920049296984
+    second: giant w-mountain sprite_36
+  - first:
+      213: 1265999516354084560
+    second: giant w-mountain sprite_37
+  - first:
+      213: 8027576154872308489
+    second: giant w-mountain sprite_38
+  - first:
+      213: -3404208216932736762
+    second: giant w-mountain sprite_39
+  - first:
+      213: 8016249056712015109
+    second: giant w-mountain sprite_40
+  - first:
+      213: 7294950972024437119
+    second: giant w-mountain sprite_41
+  - first:
+      213: -8038941653152094228
+    second: giant w-mountain sprite_42
+  - first:
+      213: -6744087084508256122
+    second: giant w-mountain sprite_43
+  - first:
+      213: 6573041454012467197
+    second: giant w-mountain sprite_44
+  - first:
+      213: -3773819014859020286
+    second: giant w-mountain sprite_45
+  - first:
+      213: 5752460860594308155
+    second: giant w-mountain sprite_46
+  - first:
+      213: 4827516256661541862
+    second: giant w-mountain sprite_47
+  - first:
+      213: 6957807920440327639
+    second: giant w-mountain sprite_48
+  - first:
+      213: 6828468950002484913
+    second: giant w-mountain sprite_49
+  - first:
+      213: 3696716463567791382
+    second: giant w-mountain sprite_50
+  - first:
+      213: -1012230746164373087
+    second: giant w-mountain sprite_51
+  - first:
+      213: -3386101594418131783
+    second: giant w-mountain sprite_52
+  - first:
+      213: -2046718978340140955
+    second: giant w-mountain sprite_53
+  - first:
+      213: 2709053242367703605
+    second: giant w-mountain sprite_54
+  - first:
+      213: 8018400962698737508
+    second: giant w-mountain sprite_55
+  - first:
+      213: -3477370100694362469
+    second: giant w-mountain sprite_56
+  - first:
+      213: 7535138223926322149
+    second: giant w-mountain sprite_57
+  - first:
+      213: -5239623132625602148
+    second: giant w-mountain sprite_58
+  - first:
+      213: -642975259494272583
+    second: giant w-mountain sprite_59
+  - first:
+      213: -5167596305487978347
+    second: giant w-mountain sprite_60
+  - first:
+      213: 2801248649886319560
+    second: giant w-mountain sprite_61
+  - first:
+      213: 2074021239496885785
+    second: giant w-mountain sprite_62
+  - first:
+      213: 1156252179087889089
+    second: giant w-mountain sprite_63
+  - first:
+      213: 3673751324157364121
+    second: giant w-mountain sprite_64
+  - first:
+      213: -2528266020595823891
+    second: giant w-mountain sprite_65
+  - first:
+      213: 6425772994699521082
+    second: giant w-mountain sprite_66
+  - first:
+      213: 6780653978202151770
+    second: giant w-mountain sprite_67
+  - first:
+      213: 7646279857714630295
+    second: giant w-mountain sprite_68
+  - first:
+      213: 8463452711414026601
+    second: giant w-mountain sprite_69
+  - first:
+      213: -181053630818714853
+    second: giant w-mountain sprite_70
+  - first:
+      213: -8734951355819372558
+    second: giant w-mountain sprite_71
+  - first:
+      213: 8247534160752210582
+    second: giant w-mountain sprite_72
+  - first:
+      213: 1717182669092566597
+    second: giant w-mountain sprite_73
+  - first:
+      213: -5422572627687394782
+    second: giant w-mountain sprite_74
+  - first:
+      213: 1230059404638997522
+    second: giant w-mountain sprite_75
+  - first:
+      213: -597466735902886978
+    second: giant w-mountain sprite_76
+  - first:
+      213: -8587425626012735462
+    second: giant w-mountain sprite_77
+  - first:
+      213: -8492218350362203794
+    second: giant w-mountain sprite_78
+  - first:
+      213: 2214626205033055204
+    second: giant w-mountain sprite_79
+  - first:
+      213: -5861709993994666112
+    second: giant w-mountain sprite_80
+  - first:
+      213: -3046974878542000214
+    second: giant w-mountain sprite_81
+  - first:
+      213: -8852680482770510942
+    second: giant w-mountain sprite_82
+  - first:
+      213: 1955581474686969083
+    second: giant w-mountain sprite_83
+  - first:
+      213: -8894306492438201080
+    second: giant w-mountain sprite_84
+  - first:
+      213: 4010288162860185680
+    second: giant w-mountain sprite_85
+  - first:
+      213: -9067748633160754509
+    second: giant w-mountain sprite_86
+  - first:
+      213: -6947323553845492106
+    second: giant w-mountain sprite_87
+  - first:
+      213: 5327216405892125479
+    second: giant w-mountain sprite_88
+  - first:
+      213: -4171571685137064350
+    second: giant w-mountain sprite_89
+  - first:
+      213: 2553843398431598256
+    second: giant w-mountain sprite_90
+  - first:
+      213: 6139230846209907224
+    second: giant w-mountain sprite_91
+  - first:
+      213: 5421498062242063566
+    second: giant w-mountain sprite_92
+  - first:
+      213: -5042904054166705106
+    second: giant w-mountain sprite_93
+  - first:
+      213: -1656130834817302223
+    second: giant w-mountain sprite_94
+  - first:
+      213: -7353264341626719228
+    second: giant w-mountain sprite_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giant w-mountain sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9089
+        width: 1003
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a15d02fa13b11ff0800000000000000
+      internalID: -67075591122366043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 9089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feea2d1481ad6dc30800000000000000
+      internalID: 4383931085010153199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 9089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9913a0a12d369650800000000000000
+      internalID: 6239241548406659487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 9089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e3c80606f1afc0800000000000000
+      internalID: -3485234130830760918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 9089
+        width: 985
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e985cbaff6b7ae0800000000000000
+      internalID: -1550522524006572398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 9089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dade49a64ee1cc210800000000000000
+      internalID: 1354491554321198509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_6
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 9089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fe4bb23c90c7b0800000000000000
+      internalID: -5205989427535480563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_7
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 9089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6d0d531e8cd0c0800000000000000
+      internalID: -4549605309734359516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_8
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 9089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b2ad209b316c50800000000000000
+      internalID: 6656667214657272115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_9
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 9089
+        width: 979
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee4acd24133ca9f0800000000000000
+      internalID: -455933300510667037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8089
+        width: 1003
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3da9340bf86220800000000000000
+      internalID: 2479507590433553708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 8089
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48c450e7cb50bf0800000000000000
+      internalID: -358673345865284355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 8089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bdc34caf55be1c0800000000000000
+      internalID: -4473387269339948189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 8089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b877e79d65224260800000000000000
+      internalID: 7080262716810033334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_14
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 8089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9fbcb1cf30db560800000000000000
+      internalID: 7331020149762029994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_15
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 8089
+        width: 981
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c220f713e02ae80800000000000000
+      internalID: -8168951168349623158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_16
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 8089
+        width: 981
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2395e19febe8cd20800000000000000
+      internalID: 3299146141226341167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_17
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 8089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb01abea348106770800000000000000
+      internalID: 8601901967250952379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_18
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 8089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c049df04aa03b0800000000000000
+      internalID: -5545439603176979646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_19
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 8089
+        width: 979
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb65a5bd2deaad30800000000000000
+      internalID: 4443624762931243974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7090
+        width: 1003
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c428f4b94945f9810800000000000000
+      internalID: 1774229775444836940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 7090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411032431c2b27fc0800000000000000
+      internalID: -3498537417640312556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 7088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc432b11c06ebf90800000000000000
+      internalID: -6935999993603732297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 7088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7534b00e09d378c50800000000000000
+      internalID: 6667365465788728151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_24
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 7089
+        width: 986
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f29bdadb93d8460800000000000000
+      internalID: 7245510862335192938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_25
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 7090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7856eaa5821390c40800000000000000
+      internalID: 5478964471062750599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_26
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 7090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d88e69f0504c8260800000000000000
+      internalID: 7101121428982761684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_27
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 7088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a29af1c23926590800000000000000
+      internalID: -7682416196621620608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_28
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 7088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7982da785c9ddac10800000000000000
+      internalID: 2066547246440982679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_29
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 7089
+        width: 979
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fd11d89de2fd000800000000000000
+      internalID: 62820431716015952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6087
+        width: 1003
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8b583c145d936f0800000000000000
+      internalID: -704297388276860730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_31
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 6087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e4932dc63242a40800000000000000
+      internalID: 5342434008258662023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 6087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5453951060f9de0800000000000000
+      internalID: -1324333162562239050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_33
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 6087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b3631176e24fcb0800000000000000
+      internalID: -4831185480056423567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 6087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f14519e50d296f0800000000000000
+      internalID: -679251489195810974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_35
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 6087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7fbe25da863e70800000000000000
+      internalID: 9094609145738263438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_36
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 6087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566220f17d8c7570800000000000000
+      internalID: 8465796920049296984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_37
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 6087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0def9124adbb19110800000000000000
+      internalID: 1265999516354084560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_38
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 6087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036f8e1bfda76f60800000000000000
+      internalID: 8027576154872308489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_39
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 6087
+        width: 979
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6012248b9a2d1c0d0800000000000000
+      internalID: -3404208216932736762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5090
+        width: 1003
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d31609b007f3f60800000000000000
+      internalID: 8016249056712015109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 5090
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79386d324fdc3560800000000000000
+      internalID: 7294950972024437119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 5090
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce727c99821ff6090800000000000000
+      internalID: -8038941653152094228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 5090
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e59147803862a0800000000000000
+      internalID: -6744087084508256122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_44
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 5090
+        width: 985
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df784508062283b50800000000000000
+      internalID: 6573041454012467197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_45
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 5090
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208a6bcb993b0abc0800000000000000
+      internalID: -3773819014859020286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_46
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 5090
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34cf04cca8d4df40800000000000000
+      internalID: 5752460860594308155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_47
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 5090
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e31cb94578cef240800000000000000
+      internalID: 4827516256661541862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_48
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 5090
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddbe3980791f8060800000000000000
+      internalID: 6957807920440327639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_49
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 5090
+        width: 979
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6ceacc45893ce50800000000000000
+      internalID: 6828468950002484913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4089
+        width: 1003
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615eb4e99006d4330800000000000000
+      internalID: 3696716463567791382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 4089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9d428df75d3f1f0800000000000000
+      internalID: -1012230746164373087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 4089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc25b4a862201d0800000000000000
+      internalID: -3386101594418131783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_53
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 4089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5684cf4eee79893e0800000000000000
+      internalID: -2046718978340140955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_54
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 4089
+        width: 985
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a72fc129d789520800000000000000
+      internalID: 2709053242367703605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_55
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 4089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fe483135174f60800000000000000
+      internalID: 8018400962698737508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_56
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 4089
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b965c8b3156edbfc0800000000000000
+      internalID: -3477370100694362469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_57
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 4089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3a892ba40329860800000000000000
+      internalID: 7535138223926322149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_58
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 4089
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c997ee6858e1947b0800000000000000
+      internalID: -5239623132625602148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_59
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 4089
+        width: 979
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ba7a7861b317f0800000000000000
+      internalID: -642975259494272583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3089
+        width: 1003
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a4cc0a820948b0800000000000000
+      internalID: -5167596305487978347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 3089
+        width: 981
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c344003ec800e620800000000000000
+      internalID: 2801248649886319560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c3d4245768cc10800000000000000
+      internalID: 2074021239496885785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_63
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 3089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c21e451b35db0010800000000000000
+      internalID: 1156252179087889089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_64
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 3089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997458d6d59cbf230800000000000000
+      internalID: 3673751324157364121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_65
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 3089
+        width: 981
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea02b8137bc9ecd0800000000000000
+      internalID: -2528266020595823891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_66
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 3089
+        width: 981
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cec545e7eec2950800000000000000
+      internalID: 6425772994699521082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_67
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 3089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b14932ed8b91e50800000000000000
+      internalID: 6780653978202151770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_68
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 3089
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0e44d40b0d1a60800000000000000
+      internalID: 7646279857714630295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_69
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 3089
+        width: 979
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96156255669347570800000000000000
+      internalID: 8463452711414026601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2090
+        width: 1003
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b71c99ea4cc7df0800000000000000
+      internalID: -181053630818714853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffc11a850837c680800000000000000
+      internalID: -8734951355819372558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_72
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692f8843f90257270800000000000000
+      internalID: 8247534160752210582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_73
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 2088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54638bd1a88a4d710800000000000000
+      internalID: 1717182669092566597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_74
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 2089
+        width: 986
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222bfe5dce62fb4b0800000000000000
+      internalID: -5422572627687394782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_75
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 2090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cc22ae28c021110800000000000000
+      internalID: 1230059404638997522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_76
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 2090
+        width: 981
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb375615b2f55b7f0800000000000000
+      internalID: -597466735902886978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_77
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 2088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18ac6a24e553d880800000000000000
+      internalID: -8587425626012735462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_78
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 2088
+        width: 986
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e696b9f6764952a80800000000000000
+      internalID: -8492218350362203794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_79
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 2089
+        width: 979
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e34445ccceebbe10800000000000000
+      internalID: 2214626205033055204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1087
+        width: 1003
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f379f21d507aea0800000000000000
+      internalID: -5861709993994666112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_81
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf07f4dd78f6b5d0800000000000000
+      internalID: -3046974878542000214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_82
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab1e622106f42580800000000000000
+      internalID: -8852680482770510942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_83
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf42d087dfe932b10800000000000000
+      internalID: 1955581474686969083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_84
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 1087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d35c28e53119480800000000000000
+      internalID: -8894306492438201080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_85
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 1087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0583c3236d767a730800000000000000
+      internalID: 4010288162860185680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_86
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 1087
+        width: 981
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5bef39a2e82280800000000000000
+      internalID: -9067748633160754509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_87
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 1087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c5594906269f90800000000000000
+      internalID: -6947323553845492106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_88
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 1087
+        width: 986
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72355daa8131ee940800000000000000
+      internalID: 5327216405892125479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_89
+      rect:
+        serializedVersion: 2
+        x: 9021
+        y: 1087
+        width: 979
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed35087a99b16c0800000000000000
+      internalID: -4171571685137064350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_90
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 90
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ed7f3a03117320800000000000000
+      internalID: 2553843398431598256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 90
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a56767dede23550800000000000000
+      internalID: 6139230846209907224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_92
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 90
+        width: 986
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4286663c70d3b40800000000000000
+      internalID: 5421498062242063566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_93
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 90
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c240f2b71040ab0800000000000000
+      internalID: -5042904054166705106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_94
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 90
+        width: 985
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131c421c7cd3409e0800000000000000
+      internalID: -1656130834817302223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giant w-mountain sprite_95
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 90
+        width: 981
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404fac16a05f3f990800000000000000
+      internalID: -7353264341626719228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

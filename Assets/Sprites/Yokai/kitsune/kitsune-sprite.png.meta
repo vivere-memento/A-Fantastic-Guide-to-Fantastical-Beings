@@ -1,0 +1,2436 @@
+fileFormatVersion: 2
+guid: 41c77d1201098b34bb796571b8a36a3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8375211920743922050
+    second: kitsune-sprite_0
+  - first:
+      213: -5828833842237618761
+    second: kitsune-sprite_1
+  - first:
+      213: -7346002032692319811
+    second: kitsune-sprite_2
+  - first:
+      213: -5422713192150938532
+    second: kitsune-sprite_3
+  - first:
+      213: -5820433805717931360
+    second: kitsune-sprite_4
+  - first:
+      213: -430248930071514881
+    second: kitsune-sprite_5
+  - first:
+      213: -4678517504019264969
+    second: kitsune-sprite_6
+  - first:
+      213: 8726528794305861116
+    second: kitsune-sprite_7
+  - first:
+      213: 584379249643428995
+    second: kitsune-sprite_8
+  - first:
+      213: -8573226991249371522
+    second: kitsune-sprite_9
+  - first:
+      213: -7705002383753934520
+    second: kitsune-sprite_10
+  - first:
+      213: -8575264407642100081
+    second: kitsune-sprite_11
+  - first:
+      213: 7362422144383886514
+    second: kitsune-sprite_12
+  - first:
+      213: 1215520327760928256
+    second: kitsune-sprite_13
+  - first:
+      213: 6697203625427866578
+    second: kitsune-sprite_14
+  - first:
+      213: 7361412820021874512
+    second: kitsune-sprite_15
+  - first:
+      213: 3020959504442923040
+    second: kitsune-sprite_16
+  - first:
+      213: -6895924587580285961
+    second: kitsune-sprite_17
+  - first:
+      213: -8802994121106356308
+    second: kitsune-sprite_18
+  - first:
+      213: -6291901189187520378
+    second: kitsune-sprite_19
+  - first:
+      213: -5162999702409740159
+    second: kitsune-sprite_20
+  - first:
+      213: -1879579310185552068
+    second: kitsune-sprite_21
+  - first:
+      213: -2416533435783478423
+    second: kitsune-sprite_22
+  - first:
+      213: -911055057299473705
+    second: kitsune-sprite_23
+  - first:
+      213: -5966846828471094944
+    second: kitsune-sprite_24
+  - first:
+      213: 7070892981317331134
+    second: kitsune-sprite_25
+  - first:
+      213: -3220555747744997844
+    second: kitsune-sprite_26
+  - first:
+      213: -2941426511532406486
+    second: kitsune-sprite_27
+  - first:
+      213: -6846523145014262275
+    second: kitsune-sprite_28
+  - first:
+      213: 6722934699060300
+    second: kitsune-sprite_29
+  - first:
+      213: -6545006293203454044
+    second: kitsune-sprite_30
+  - first:
+      213: 5420585792197593452
+    second: kitsune-sprite_31
+  - first:
+      213: 5821755377192243937
+    second: kitsune-sprite_32
+  - first:
+      213: 6745519951406198340
+    second: kitsune-sprite_33
+  - first:
+      213: -3170959797460861635
+    second: kitsune-sprite_34
+  - first:
+      213: -2414733592209183705
+    second: kitsune-sprite_35
+  - first:
+      213: -909785072832537131
+    second: kitsune-sprite_36
+  - first:
+      213: 311524144386534781
+    second: kitsune-sprite_37
+  - first:
+      213: 9129333401984287591
+    second: kitsune-sprite_38
+  - first:
+      213: 3946485271592988817
+    second: kitsune-sprite_39
+  - first:
+      213: -2688069250686079882
+    second: kitsune-sprite_40
+  - first:
+      213: 4049410440211528462
+    second: kitsune-sprite_41
+  - first:
+      213: 8335500454068112341
+    second: kitsune-sprite_42
+  - first:
+      213: 499226502662769273
+    second: kitsune-sprite_43
+  - first:
+      213: -2971188340030051408
+    second: kitsune-sprite_44
+  - first:
+      213: 3033285373092169125
+    second: kitsune-sprite_45
+  - first:
+      213: -7049872390486860894
+    second: kitsune-sprite_46
+  - first:
+      213: -5302072173880878704
+    second: kitsune-sprite_47
+  - first:
+      213: -1394467182067304944
+    second: kitsune-sprite_48
+  - first:
+      213: -6972715538428731165
+    second: kitsune-sprite_49
+  - first:
+      213: -1482026244672788521
+    second: kitsune-sprite_50
+  - first:
+      213: -1338803940726001196
+    second: kitsune-sprite_51
+  - first:
+      213: -8880990670799355052
+    second: kitsune-sprite_52
+  - first:
+      213: -6690936639367012028
+    second: kitsune-sprite_53
+  - first:
+      213: -2874814073812105698
+    second: kitsune-sprite_54
+  - first:
+      213: 806040517570250607
+    second: kitsune-sprite_55
+  - first:
+      213: 5247356340666912091
+    second: kitsune-sprite_56
+  - first:
+      213: 3460083261688512586
+    second: kitsune-sprite_57
+  - first:
+      213: -7462098320579579774
+    second: kitsune-sprite_58
+  - first:
+      213: -185951715325208409
+    second: kitsune-sprite_59
+  - first:
+      213: 5068623186026301367
+    second: kitsune-sprite_60
+  - first:
+      213: -1219447746851577006
+    second: kitsune-sprite_61
+  - first:
+      213: -9154113072655889475
+    second: kitsune-sprite_62
+  - first:
+      213: 7215465669844985758
+    second: kitsune-sprite_63
+  - first:
+      213: -5676894527974048067
+    second: kitsune-sprite_64
+  - first:
+      213: -464406393652951381
+    second: kitsune-sprite_65
+  - first:
+      213: 1886468747017443520
+    second: kitsune-sprite_66
+  - first:
+      213: -5878087270082657827
+    second: kitsune-sprite_67
+  - first:
+      213: -5612852237595794116
+    second: kitsune-sprite_68
+  - first:
+      213: -233271878337248867
+    second: kitsune-sprite_69
+  - first:
+      213: -4415467189167841510
+    second: kitsune-sprite_70
+  - first:
+      213: -1975311467486096324
+    second: kitsune-sprite_71
+  - first:
+      213: 1179312028521105006
+    second: kitsune-sprite_72
+  - first:
+      213: -8860728091032648080
+    second: kitsune-sprite_73
+  - first:
+      213: -5817689887042924924
+    second: kitsune-sprite_74
+  - first:
+      213: -7829195813836366214
+    second: kitsune-sprite_75
+  - first:
+      213: 513015649026807862
+    second: kitsune-sprite_76
+  - first:
+      213: -3317619064909028407
+    second: kitsune-sprite_77
+  - first:
+      213: -9155854240638151960
+    second: kitsune-sprite_78
+  - first:
+      213: 1810829005581161997
+    second: kitsune-sprite_79
+  - first:
+      213: 5683118648222869467
+    second: kitsune-sprite_80
+  - first:
+      213: 2289129793147973604
+    second: kitsune-sprite_81
+  - first:
+      213: 3530870481144115345
+    second: kitsune-sprite_82
+  - first:
+      213: 1011375698378937612
+    second: kitsune-sprite_83
+  - first:
+      213: 6353091336586964548
+    second: kitsune-sprite_84
+  - first:
+      213: 475763795025908181
+    second: kitsune-sprite_85
+  - first:
+      213: -8133201268799078724
+    second: kitsune-sprite_86
+  - first:
+      213: -3576807007101421552
+    second: kitsune-sprite_87
+  - first:
+      213: 4139235255487958414
+    second: kitsune-sprite_88
+  - first:
+      213: 1322676432111387687
+    second: kitsune-sprite_89
+  - first:
+      213: 930472069138673580
+    second: kitsune-sprite_90
+  - first:
+      213: -490872399606176363
+    second: kitsune-sprite_91
+  - first:
+      213: 5135333640367315520
+    second: kitsune-sprite_92
+  - first:
+      213: -5230225940448846155
+    second: kitsune-sprite_93
+  - first:
+      213: -6253844122230505009
+    second: kitsune-sprite_94
+  - first:
+      213: 4906183477773028339
+    second: kitsune-sprite_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kitsune-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7751
+        width: 816
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e760171c12545cb80800000000000000
+      internalID: -8375211920743922050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 7758
+        width: 822
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c6a2c082db1fa0800000000000000
+      internalID: -5828833842237618761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 7767
+        width: 835
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9a3127212cd0a90800000000000000
+      internalID: -7346002032692319811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 7773
+        width: 841
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc40f1517aeb4b0800000000000000
+      internalID: -5422713192150938532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4458
+        y: 7777
+        width: 854
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaf18baa4aa93fa0800000000000000
+      internalID: -5820433805717931360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 7776
+        width: 866
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0781ea0e2770af0800000000000000
+      internalID: -430248930071514881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 7776
+        width: 870
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a0c713e11921fb0800000000000000
+      internalID: -4678517504019264969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 7673
+        y: 7776
+        width: 879
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf591da04bbda1970800000000000000
+      internalID: 8726528794305861116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 8744
+        y: 7776
+        width: 890
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c1b15d4d12c1800800000000000000
+      internalID: 584379249643428995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 9818
+        y: 7776
+        width: 899
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e4acf6977c50980800000000000000
+      internalID: -8573226991249371522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 10888
+        y: 7780
+        width: 911
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490fc2a725521590800000000000000
+      internalID: -7705002383753934520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 11963
+        y: 7782
+        width: 918
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e2177747a8ef880800000000000000
+      internalID: -8575264407642100081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 6694
+        width: 930
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4a87abee39c2660800000000000000
+      internalID: 7362422144383886514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 6688
+        width: 942
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed4794c456ed010800000000000000
+      internalID: 1215520327760928256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 6682
+        width: 949
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3161ac63f31fc50800000000000000
+      internalID: 6697203625427866578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 6676
+        width: 961
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f096615fdf82660800000000000000
+      internalID: 7361412820021874512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 6670
+        width: 968
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028192fd9aa9ce920800000000000000
+      internalID: 3020959504442923040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 5439
+        y: 6666
+        width: 974
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb156faf11cc40a0800000000000000
+      internalID: -6895924587580285961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 6521
+        y: 6662
+        width: 968
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78a93bc7b75d580800000000000000
+      internalID: -8802994121106356308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 7598
+        y: 6656
+        width: 973
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688be90543daea8a0800000000000000
+      internalID: -6291901189187520378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 8679
+        y: 6656
+        width: 974
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1808b6a10275958b0800000000000000
+      internalID: -5162999702409740159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 9761
+        y: 6668
+        width: 975
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37673963946ae5e0800000000000000
+      internalID: -1879579310185552068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 10843
+        y: 6675
+        width: 975
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963854cb4afb67ed0800000000000000
+      internalID: -2416533435783478423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 11921
+        y: 6681
+        width: 979
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da77da90484b53f0800000000000000
+      internalID: -911055057299473705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 5611
+        width: 980
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06170d75c60813da0800000000000000
+      internalID: -5966846828471094944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 5612
+        width: 980
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8e83c04bbd02260800000000000000
+      internalID: 7070892981317331134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 5612
+        width: 974
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e11545c994e43d0800000000000000
+      internalID: -3220555747744997844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 5612
+        width: 974
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29c13f0c24fd27d0800000000000000
+      internalID: -2941426511532406486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 4378
+        y: 5615
+        width: 972
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df54fea59734cf0a0800000000000000
+      internalID: -6846523145014262275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 5618
+        width: 968
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ce5963972e71000800000000000000
+      internalID: 6722934699060300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 6547
+        y: 5618
+        width: 967
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a779e804777b25a0800000000000000
+      internalID: -6545006293203454044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 7635
+        y: 5618
+        width: 961
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69877afe0ac93b40800000000000000
+      internalID: 5420585792197593452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 8717
+        y: 5621
+        width: 961
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e293caaba70bc050800000000000000
+      internalID: 5821755377192243937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 9805
+        y: 5624
+        width: 956
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e60e018a6ec9d50800000000000000
+      internalID: 6745519951406198340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 10888
+        y: 5621
+        width: 955
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dfc4b5ddc7ef3d0800000000000000
+      internalID: -3170959797460861635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 11976
+        y: 5619
+        width: 943
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c2b2977942d7ed0800000000000000
+      internalID: -2414733592209183705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4542
+        width: 943
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd1dd7eb4bcf53f0800000000000000
+      internalID: -909785072832537131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 4537
+        width: 936
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ded1d0f81c25400800000000000000
+      internalID: 311524144386534781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 4536
+        width: 930
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c16d1c58e1be70800000000000000
+      internalID: 9129333401984287591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 4535
+        width: 924
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907c94f17bb4c630800000000000000
+      internalID: 3946485271592988817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 4532
+        width: 923
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ca43d224f02bad0800000000000000
+      internalID: -2688069250686079882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 4529
+        width: 911
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bf0963755623830800000000000000
+      internalID: 4049410440211528462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 6616
+        y: 4529
+        width: 898
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db46d5ef75ada370800000000000000
+      internalID: 8335500454068112341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 7699
+        y: 4529
+        width: 891
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97acca1fbdb9de600800000000000000
+      internalID: 499226502662769273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 8787
+        y: 4524
+        width: 879
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbe9bf52f734c6d0800000000000000
+      internalID: -2971188340030051408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 9875
+        y: 4523
+        width: 867
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50c8dc9f4681a20800000000000000
+      internalID: 3033285373092169125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 10957
+        y: 4523
+        width: 866
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab5235a962d92e90800000000000000
+      internalID: -7049872390486860894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 12046
+        y: 4517
+        width: 854
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099d85e03714b66b0800000000000000
+      internalID: -5302072173880878704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3434
+        width: 848
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01630f17c7bd5ace0800000000000000
+      internalID: -1394467182067304944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3440
+        width: 854
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0eb1c2920fb3f90800000000000000
+      internalID: -6972715538428731165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 3447
+        width: 863
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e87a8bf8ce6be0800000000000000
+      internalID: -1482026244672788521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 3453
+        width: 873
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d13221c8ec9b6de0800000000000000
+      internalID: -1338803940726001196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 4458
+        y: 3459
+        width: 879
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4534275d90260c480800000000000000
+      internalID: -8880990670799355052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 3466
+        width: 885
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44122eb93940523a0800000000000000
+      internalID: -6690936639367012028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 3472
+        width: 896
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16c22fc4db9a18d0800000000000000
+      internalID: -2874814073812105698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 7673
+        y: 3478
+        width: 898
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67c8548491af2b00800000000000000
+      internalID: 806040517570250607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 8742
+        y: 3478
+        width: 911
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d48574aca52d840800000000000000
+      internalID: 5247356340666912091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 9818
+        y: 3472
+        width: 911
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40083ae46fa40030800000000000000
+      internalID: 3460083261688512586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 10888
+        y: 3466
+        width: 923
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b0d20d1d417890800000000000000
+      internalID: -7462098320579579774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 11957
+        y: 3459
+        width: 930
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a89aae66ed5b6df0800000000000000
+      internalID: -185951715325208409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2377
+        width: 936
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b70867deed575640800000000000000
+      internalID: 5068623186026301367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 2371
+        width: 943
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e2c23cb6a31fe0800000000000000
+      internalID: -1219447746851577006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 2364
+        width: 949
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb069639ae06f080800000000000000
+      internalID: -9154113072655889475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 2358
+        width: 961
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97e22c2ccb722460800000000000000
+      internalID: 7215465669844985758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 2352
+        width: 968
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7fb8118e9731b0800000000000000
+      internalID: -5676894527974048067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 5434
+        y: 2345
+        width: 973
+        height: 766
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba645e278d81e89f0800000000000000
+      internalID: -464406393652951381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 6515
+        y: 2339
+        width: 974
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8d9d994551e2a10800000000000000
+      internalID: 1886468747017443520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 7591
+        y: 2339
+        width: 980
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd14af375c6dc6ea0800000000000000
+      internalID: -5878087270082657827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 8673
+        y: 2339
+        width: 974
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a859c0a42b12b0800000000000000
+      internalID: -5612852237595794116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 9749
+        y: 2345
+        width: 980
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91ce9b667043ccf0800000000000000
+      internalID: -233271878337248867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 10831
+        y: 2352
+        width: 980
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f12405cfb19b2c0800000000000000
+      internalID: -4415467189167841510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 11913
+        y: 2358
+        width: 977
+        height: 766
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c345cbb9fa84694e0800000000000000
+      internalID: -1975311467486096324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1288
+        width: 972
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66885baa02cd5010800000000000000
+      internalID: 1179312028521105006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1284
+        width: 968
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768ca25fbe580580800000000000000
+      internalID: -8860728091032648080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1285
+        width: 966
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8c650fd9634fa0800000000000000
+      internalID: -5817689887042924924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_75
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 1288
+        width: 960
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ede4f53eb195390800000000000000
+      internalID: -7829195813836366214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_76
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 1289
+        width: 955
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6389574c3099e1700800000000000000
+      internalID: 513015649026807862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_77
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 1292
+        width: 954
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a808b90375f1d0800000000000000
+      internalID: -3317619064909028407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_78
+      rect:
+        serializedVersion: 2
+        x: 6547
+        y: 1295
+        width: 942
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25283f31fdfe080800000000000000
+      internalID: -9155854240638151960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_79
+      rect:
+        serializedVersion: 2
+        x: 7629
+        y: 1295
+        width: 942
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0693aae26b512910800000000000000
+      internalID: 1810829005581161997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_80
+      rect:
+        serializedVersion: 2
+        x: 8717
+        y: 1298
+        width: 936
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7e8b3dc4e7ede40800000000000000
+      internalID: 5683118648222869467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_81
+      rect:
+        serializedVersion: 2
+        x: 9801
+        y: 1301
+        width: 934
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef29552b6f94cf10800000000000000
+      internalID: 2289129793147973604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_82
+      rect:
+        serializedVersion: 2
+        x: 10888
+        y: 1301
+        width: 923
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190f188cefb200130800000000000000
+      internalID: 3530870481144115345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_83
+      rect:
+        serializedVersion: 2
+        x: 11976
+        y: 1302
+        width: 917
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05d654d6d0290e00800000000000000
+      internalID: 1011375698378937612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_84
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 911
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ea0e619e6ba2850800000000000000
+      internalID: 6353091336586964548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_85
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 220
+        width: 904
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1d28f96a04a9600800000000000000
+      internalID: 475763795025908181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_86
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 219
+        width: 892
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe797e9980112f80800000000000000
+      internalID: -8133201268799078724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_87
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 219
+        width: 891
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018779f4af0ac5ec0800000000000000
+      internalID: -3576807007101421552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_88
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 219
+        width: 879
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d0225c884817930800000000000000
+      internalID: 4139235255487958414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_89
+      rect:
+        serializedVersion: 2
+        x: 5534
+        y: 219
+        width: 867
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c7c805371b5210800000000000000
+      internalID: 1322676432111387687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_90
+      rect:
+        serializedVersion: 2
+        x: 6616
+        y: 216
+        width: 861
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafee62ca63b9ec00800000000000000
+      internalID: 930472069138673580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_91
+      rect:
+        serializedVersion: 2
+        x: 7705
+        y: 216
+        width: 852
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952e6f37221039f0800000000000000
+      internalID: -490872399606176363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_92
+      rect:
+        serializedVersion: 2
+        x: 8793
+        y: 214
+        width: 841
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a153ddcbe544740800000000000000
+      internalID: 5135333640367315520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_93
+      rect:
+        serializedVersion: 2
+        x: 9877
+        y: 206
+        width: 833
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5384d7318a67b0800000000000000
+      internalID: -5230225940448846155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_94
+      rect:
+        serializedVersion: 2
+        x: 10964
+        y: 200
+        width: 822
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc149c5b7e1e539a0800000000000000
+      internalID: -6253844122230505009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitsune-sprite_95
+      rect:
+        serializedVersion: 2
+        x: 12046
+        y: 193
+        width: 822
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb4d8301e3461440800000000000000
+      internalID: 4906183477773028339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
