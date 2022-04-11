@@ -3720,19 +3720,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: helpMessages.Array.data[0]
-      value: Hey {playername}! \nYou have collected all the yokai!
+      value: Hey {playername}! \nYou have successfully found all the yokais!
       objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: helpMessages.Array.data[1]
-      value: Is the time we need to say goodbye for a little while.
+      value: "It\u2019s time for us to say goodbye for a little while."
       objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: helpMessages.Array.data[2]
-      value: Don't be sad, you still can check on the yokai in the collection book.
+      value: Don't be too sad, you can always look inside the collection book whenever
+        you miss us.
       objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144146, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: helpMessages.Array.data[3]
-      value: Thanks for your time and see you soon in the future.
+      value: Thanks for your time and see you soon in the future!
       objectReference: {fileID: 0}
     - target: {fileID: 6692654742647144148, guid: 38ee97cf75c69f844baf154ae06c2bc7, type: 3}
       propertyPath: m_Pivot.x
