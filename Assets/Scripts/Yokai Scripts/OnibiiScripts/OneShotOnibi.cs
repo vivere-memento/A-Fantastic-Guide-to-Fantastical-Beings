@@ -50,7 +50,7 @@ public class OneShotOnibi : MonoBehaviour
      }
     public void GoToNextForest(){
         //StartCoroutine(fadeNow());
-        AudioManager.instance.PlaySound2D("Shift");
+        AudioManager.instance.PlaySound2D("ButtonPress");
         cam.transform.position = new Vector3(100,0,-10);
         movedScene?.Invoke();
         spawner.counter= 10;

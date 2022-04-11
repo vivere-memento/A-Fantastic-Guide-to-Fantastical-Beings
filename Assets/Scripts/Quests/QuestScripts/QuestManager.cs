@@ -73,9 +73,11 @@ public class QuestManager : MonoBehaviour
 
     void Start(){
         PlayManager.Instance.UpdateCurrentQuests();
+        ForceNextQuest();
         SetCurrentQuest(PlayManager.Instance.GetCurrentQuest());
         Debug.Log("Current quest is " + PlayManager.Instance.GetCurrentQuest().ToString());
         updateText();
+
     }
     // Update is called once per frame
     void Update()

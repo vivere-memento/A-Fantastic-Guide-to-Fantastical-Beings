@@ -30,12 +30,14 @@ public class NotifiSystem : MonoBehaviour
     }
 
     public void ShowModdedNotif(){
+        AudioManager.instance.PlaySound2D("Shift");
         helpText.text = "Animals flee from Onibi...";
         panel.SetActive(true);
         StartCoroutine("StayAndGo");
     }
 
     public void ShowNotif(){
+        AudioManager.instance.PlaySound2D("Shift");
         panel.SetActive(true);
         StartCoroutine("StayAndGo");
     }

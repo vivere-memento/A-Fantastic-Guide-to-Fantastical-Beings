@@ -77,6 +77,7 @@ public class MessageController : MonoBehaviour
     }
     public void GoNextText(){
         if(currentMessageIndex<=(helpMessages.Count-1)){
+            AudioManager.instance.PlaySound2D("ButtonPress");
             currentMessageIndex++;
             helperText.text="";
             StartTyping();
@@ -87,6 +88,7 @@ public class MessageController : MonoBehaviour
     }
     public void ByeBye(){
         birdStopped?.Invoke();
+        AudioManager.instance.PlaySound2D("ButtonPress");
         StartFadeOut();
     }
 #endregion

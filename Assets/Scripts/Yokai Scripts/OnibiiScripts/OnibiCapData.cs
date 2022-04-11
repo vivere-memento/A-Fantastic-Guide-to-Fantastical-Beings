@@ -23,6 +23,7 @@ public class OnibiCapData : MonoBehaviour
         OniGroup.oniGroupCaptured -= ShowSecondPanel;
     }
     public void BackToJapan(){
+        AudioManager.instance.PlaySound2D("ButtonPress");
         PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
         SceneManager.LoadScene("JapanMap");
     }
@@ -35,6 +36,7 @@ public class OnibiCapData : MonoBehaviour
         showOni1 = true;
     }
     public void ClosePanel(){
+        AudioManager.instance.PlaySound2D("ButtonPress");
         panel1.enabled=false;
         cam.transform.position = new Vector3(100f,0f, -10);
         cam.orthographicSize = 16.2f;

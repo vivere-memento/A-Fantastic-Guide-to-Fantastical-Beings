@@ -28,6 +28,43 @@ public class CheatConsole : MonoBehaviour
             }
         }
     }
+
+    public void CatchAClue(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.YogenNoTori);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Kitsune);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
+    }
+    public void CatchBird(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.YogenNoTori);
+    }
+    public void CatchGiant(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Daidarabotchi);
+    }
+    public void CatchGhost(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Onibi);
+
+    }
+    public void CatchADog(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tengu);
+
+    }
+    public void CatchWolf(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Raijuu);
+    }
+    public void CatchFOx(){
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Tutorial);
+        PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Kitsune);
+    }
+
     public void GoToTitle(){
         SceneManager.LoadScene("TitleScreen");
         c.enabled=false;

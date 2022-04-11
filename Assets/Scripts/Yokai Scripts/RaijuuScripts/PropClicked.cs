@@ -9,6 +9,7 @@ public class PropClicked : MonoBehaviour
     public string propName;
     private bool done = true;
     void OnMouseDown(){
+        AudioManager.instance.PlaySound2D("Shift");
         Debug.Log("done.ToString()");
         if(done){
         Debug.Log(propName);

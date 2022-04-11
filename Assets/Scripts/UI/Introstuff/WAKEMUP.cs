@@ -9,7 +9,7 @@ public class WAKEMUP : MonoBehaviour
     public static Action MovingToMain;
     public void WAKEMEUP(){
         MovingToMain?.Invoke();
-        SceneManager.LoadScene("JapanMap");
+        SceneManager.LoadScene("JapanIntroCutscene");
     }
     // Start is called before the first frame update
     void Start()

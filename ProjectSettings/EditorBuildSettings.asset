@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 2c1ccfa61cc1e47479c7936d3dba3d4f
+  - enabled: 1
+    path: Assets/Scenes/JapanIntroCutscene.unity
+    guid: faeb1eb243c74784eac1fa6d394f3524
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e96e67521bf9a664aad2823f3f6e8d4b, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 849cbfcdfccb47047832a861e4fb4149, type: 2}
