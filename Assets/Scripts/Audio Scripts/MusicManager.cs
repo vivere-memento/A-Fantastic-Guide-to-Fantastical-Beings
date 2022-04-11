@@ -4,11 +4,12 @@ using System;
 
 public class MusicManager : MonoBehaviour {
 
-	public AudioClip mainTheme;
+	public AudioClip titleTheme;
 	public AudioClip menuTheme;
-	public AudioClip endTheme;
-	public AudioClip backingTheme;
-	public AudioClip finalTheme;
+	public AudioClip sceneTranquil;
+	public AudioClip sceneVibrant;
+	public AudioClip sceneEpic;
+	public AudioClip sceneIntrigue;
 	bool stopRepeat= true;
 	void OnEnable(){
 		StartMusic2.menuStarted+= StartMainTheme;
@@ -32,10 +33,10 @@ public class MusicManager : MonoBehaviour {
 		StartBackingTheme();
 	}
 	public void StartFinalTheme(){
-		AudioManager.instance.PlayMusic(finalTheme,0.5f);
+		AudioManager.instance.PlayMusic(sceneEpic,0.5f);
 	}
 	public void StartMainTheme(){
-		AudioManager.instance.PlayMusic(mainTheme,0.5f);
+		AudioManager.instance.PlayMusic(titleTheme,0.5f);
 	}
 
     public void StartMenuTheme()
@@ -45,12 +46,12 @@ public class MusicManager : MonoBehaviour {
 
 	public void StartEndTheme()
     {
-     	AudioManager.instance.PlayMusic(endTheme,0.5f);
+     	AudioManager.instance.PlayMusic(sceneTranquil,0.5f);
     }
 
 	public void StartBackingTheme()
     {
-     	AudioManager.instance.PlayMusic(backingTheme,0.5f);
+     	AudioManager.instance.PlayMusic(sceneVibrant,0.5f);
     }
 	void Update(){
 	

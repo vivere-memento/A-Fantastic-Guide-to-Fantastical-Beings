@@ -8,7 +8,7 @@ using System;
 
 public class GoToJapan : MonoBehaviour
 {
-    public static Action MovingToMain;
+    public GameObject IntroCont;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +23,7 @@ public class GoToJapan : MonoBehaviour
     }
     public void GoToNext(){
         AudioManager.instance.PlaySound2D("ButtonPress");
-        MovingToMain?.Invoke();
-        SceneManager.LoadScene("JapanMap");
+        IntroCont.SetActive(true);
     }
 
     // Update is called once per frame

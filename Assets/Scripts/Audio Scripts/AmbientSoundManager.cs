@@ -6,6 +6,7 @@ public class AmbientSoundManager : MonoBehaviour
 {
     public AudioClip ambientWind;
 	public AudioClip ambientRain;
+    public AudioClip ambientForest;
 	void Start(){
 		
 	}
