@@ -63,6 +63,7 @@ public class PauseMenu : MonoBehaviour
     {
         PlayButtonNoise();
         //ACTIVE HOW TO PLAY CANVAS
+        SceneManager.LoadScene("HowToPlay",LoadSceneMode.Additive);
     }
     public void Quit()
     {
