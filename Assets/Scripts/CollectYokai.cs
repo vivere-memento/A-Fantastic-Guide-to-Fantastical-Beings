@@ -95,8 +95,10 @@ public class CollectYokai : MonoBehaviour
             else if (yokai.name == "Kitsune") 
             { 
                 propBlock.SetActive(false); 
-                yokaiText.text = "Kitsune, are mystical foxes that can grow up to 9 tails and live for centuries.\nKitsune are highly intelligent, mischevious animals. As servants of the gods, Kitsune also have magical powers. \n\n"+
-                                 "STORY TEXT PENDING..."; 
+                yokaiText.text = "Kitsune are highly intelligent and mischevious foxes who have magic powers. "+
+                                 "In Japanese Myth, a regular fox and a Kitsune are actually the same creature! Kitsune grow in power as they age, and every 100 years they also grow another tail!.\n\n"+
+                                 "Kitsune are masters of disguises and illusions who love to play pranks on humans.\n"+
+                                 "In Japan, people say \"Moshi Moshi\" when they answer the phone. It is thought that the practice began as a way to expose a Kitsune pretending to be a person, as they find it hard to say \"Moshi Moshi\"!"; 
                 PlayManager.Instance.CaughtAYokai(PlayManager.QuestName.Kitsune); 
             } 
             /*else if (yokai.name == "Oniibii") 

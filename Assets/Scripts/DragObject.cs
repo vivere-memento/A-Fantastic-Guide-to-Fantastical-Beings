@@ -35,9 +35,7 @@ public class DragObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if ( ! EventSystem.current.IsPointerOverGameObject()){
+
             Debug.Log("Props dragged");
 
             oldPos = transform.position;
@@ -57,8 +55,8 @@ public class DragObject : MonoBehaviour
             {
                 isBeingHeld = false;
             }
-            }
-        }
+            
+        
     }
 
     private void OnMouseUp()
