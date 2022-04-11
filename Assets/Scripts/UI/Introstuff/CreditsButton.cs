@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CreditsButton : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class CreditsButton : MonoBehaviour
     }
 
     public void StartCredits(){
-        
+        SceneManager.LoadSceneAsync("Credits",LoadSceneMode.Additive);
     }
     // Update is called once per frame
     void Update()
