@@ -54,6 +54,8 @@ public class YokaiControl : MonoBehaviour
     private List<Yokai> yokaiList;
     private List<string> yokaiNameSequence;
 
+    public static int collectedQuest = 1;
+
     void Start() {
         // yokai sequence list
         yokaiNameSequence = new List<string>{ "YogenNoTori", "Daidarabotchi", "Onibi", "Raijuu", "Kitsune", "Tengu"};;

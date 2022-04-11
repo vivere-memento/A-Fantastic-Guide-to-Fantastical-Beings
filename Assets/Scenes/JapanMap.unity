@@ -1133,12 +1133,12 @@ GameObject:
   - component: {fileID: 341421697}
   - component: {fileID: 341421696}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: CollectAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!96 &341421696
 TrailRenderer:
   serializedVersion: 2
@@ -1314,8 +1314,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341421695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.45, y: -2.87, z: 0}
-  m_LocalScale: {x: 0.2813, y: 0.2813, z: 0.2813}
+  m_LocalPosition: {x: -2.55, y: -3.6, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -6512,12 +6512,48 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1255761130}
     - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster1
+      value: 
+      objectReference: {fileID: 792271463}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster2
+      value: 
+      objectReference: {fileID: 1672752297}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster3
+      value: 
+      objectReference: {fileID: 64230824}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster4
+      value: 
+      objectReference: {fileID: 419686910}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster5
+      value: 
+      objectReference: {fileID: 38258038}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: monster6
+      value: 
+      objectReference: {fileID: 555905998}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: JapanTitle
       value: 
       objectReference: {fileID: 373859924}
     - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: AnimationTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
       propertyPath: collectionBook
       value: 
       objectReference: {fileID: 2101389589}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: CollectionBookBtn
+      value: 
+      objectReference: {fileID: 45444107}
+    - target: {fileID: 3117631483095325719, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
+      propertyPath: CollectionAnimator
+      value: 
+      objectReference: {fileID: 341421695}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb19475b6c4ffb43bc6f2989f5c94b9, type: 3}
