@@ -3636,9 +3636,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BackToMap, Assembly-CSharp
-        m_MethodName: Back
+      - m_Target: {fileID: 1483142542}
+        m_TargetAssemblyTypeName: OKButton, Assembly-CSharp
+        m_MethodName: CreditMap
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3647,7 +3647,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &884884072
 MonoBehaviour:
   m_ObjectHideFlags: 0
