@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 56047532}
   - component: {fileID: 56047533}
   m_Layer: 0
-  m_Name: Intro
+  m_Name: Intro Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
